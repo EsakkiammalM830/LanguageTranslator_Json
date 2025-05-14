@@ -1,0 +1,3295 @@
+{
+  "language": "Language",
+  "city": "City",
+  "countryCode": "Country Code",
+  "ContactNumber": "Contact Number",
+  "Login": {
+    "headings": {
+      "loginTitle": "Login To PocketPIL!",
+      "forgotPwd": "Forgot Your Password?",
+      "DownloadPOPTitle": "Download the app!"
+    },
+    "labels": {
+      "emailPlaceholder": "Enter Your Registered Email Address",
+      "pwdPlaceholder": "Enter Your Password",
+      "forgotPwdLink": "Forgot Your Password?",
+      "newUserPrompt": "New To PocketPIL!",
+      "regLinkText": "Register Now",
+      "missingVerifLinkPrompt": "Not received verification link?",
+      "resendVerifLinkText": "Resend Verification Link",
+      "invalidCredMsg": "The Email address or Password you entered is incorrect. Please try again.",
+      "androidApp": "Android App",
+      "availablePlaystore": "App Store",
+      "scanQRText": "Scan the QR code to download the ",
+      "pocketpil":"PocketPIL app"
+    },
+    "buttons": {
+      "login": "Login"
+    },
+    "errors": {
+      "email": "Invalid Email",
+      "password": "Password is required",
+      "required": "Required",
+      "incorrectField": "The Email address or Password you entered is incorrect. Please try again.",
+      "emailValid": "Enter a valid email",
+      "requiredEmail": "Email is required",
+      "errAuth": "Error while fetching two factor authentication status",
+      "fetchErr": "Error while fetching data"
+    },
+    "messages": {
+      "otp": "OTP send successfully",
+      "otpContent": "OTP send successfully to registered email address"
+    }
+  },
+  "CustomerRegistration": {
+    "headings": {
+      "title": "Registration",
+      "userInfo": "User Information",
+      "companyInfo": "Company Information"
+    },
+    "labels": {
+      "companyEmail": "Company Email Address",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "country": "Country",
+      "city": "City",
+      "countryCode": "Country Code",
+      "contactNumber": "Contact Number",
+      "role": "Role",
+      "companyRegNo": "Company Registration Number",
+      "taxRefNp": "Company Tax Reference Number",
+      "companyName": "Company Name",
+      "companyAddress": "Company Address",
+      "zipCode": "Zipcode",
+      "charLeft": "characters left"
+    },
+    "buttons": {
+      "clear": "Clear",
+      "cancel": "Cancel",
+      "submit": "Submit"
+    },
+    "errors": {
+      "emailErr": "Invalid Email",
+      "required": "Required",
+      "contactNumber": "Please enter valid phone number",
+      "companyAddress": "Maximum 600 characters allowed",
+      "zipCode": "Maximum 10 characters allowed",
+      "compRegErr": "Maximum 40 characters allowed",
+      "alphNumErr": "Only alphanumeric and hyphen(-) are allowed",
+      "existsTitle": "Email exists",
+      "existsContent": "Company Email Address already exists",
+      "unsuccessReg": "Registration unsuccessful",
+      "unsuccessRegContent": "Please approach agency for further information"
+    },
+    "messages": {
+      "successRegTitle": "Registration Successful",
+      "successRegContent": "Thank you for registering with us. We have sent you a verification link on your email",
+      "successRegVerify": "Please verify to activate your account."
+    },
+    "dialogs": {
+      "title": "Cancel Registration?",
+      "confirmText": "Yes, Cancel",
+      "cancelText": "No, Continue",
+      "contentPara": "Are you sure you want to cancel the registration? All the changes you have made will be lost."
+    }
+  },
+  "ChangePassword": {
+    "labels": {
+      "currentPwd": "Current Password",
+      "newPwd": "New Password",
+      "reEnterPwd": "Re-Enter The New Password",
+      "pwdReq": "The password must contain:",
+      "minChars": "Minimum of 8 Characters",
+      "hasNumber": "Contains a number",
+      "hasSpecialChar": "Contains a special character",
+      "currPwd": "Enter your current password along with new password & confirm",
+      "changePwd": "to change your password.",
+      "changePassword": "Change Password"
+    },
+    "buttons": {
+      "confirm": "Confirm"
+    },
+    "errors": {
+      "currentPwdReq": "Current Password is required",
+      "pwdReq": "Password is required",
+      "pwdMinChars": "Must Contain 8 Characters",
+      "pwdNumber": "Password requires a number",
+      "pwdSymbol": "Password requires a symbol",
+      "confirmPwdReq": "Confirm Password is required",
+      "pwdMustMatch": "Must match 'New Password' field value",
+      "newshouldnotcurrent": "New password should not be same as current password"
+    },
+    "messages": {
+      "pwdUpdated": "Password Updated successfully",
+      "pwdUpdateMsg": "Your password has been updated successfully.",
+      "err": "Error"
+    }
+  },
+  "ChangeTOtpQRPage": {
+    "labels": {
+      "title": "TOTP (Microsoft/Google Authenticator)",
+      "downloadApp": "Download App",
+      "downloadAppTooltip": "Download the Microsoft Authenticator App from the App Store or Google Play Store.",
+      "scanQR": "Scan the QR Code",
+      "scanQRInstructions": "Use the Microsoft Authenticator App to scan the QR Code. This will connect the Microsoft Authenticator App with your account.",
+      "cantScanImage": "Can’t scan image?"
+    },
+    "buttons": {
+      "done": "Done"
+    },
+    "messages": {
+      "authHandlingErr": "Authentication Handling Error - "
+    }
+  },
+  "ChangeTwoFactorAuthentication": {
+    "labels": {
+      "title": "Two-factor Authentication",
+      "selectAuth": "You have already selected",
+      "selectedAuthMethod": " as your default Authentication Method for Login Please select the other option if you want to change Authentication Method",
+      "totp": "TOTP (Microsoft/Google Authenticator)",
+      "totpTooltip": "Download MS Authenticator App from App Store / Google Play",
+      "emailOtp": "Email OTP"
+    },
+    "buttons": {
+      "next": "Next"
+    },
+    "errors": {
+      "authMethodReq": "An authentication method is required",
+      "authHandlingErr": "Authentication Handling Error - "
+    }
+  },
+  "CreatePassword": {
+    "labels": {
+      "title": "Create Password",
+      "newPwd": "New Password",
+      "reEnterPwd": "Re-Enter The New Password",
+      "pwdReq": "The password must contain:",
+      "minChars": "Minimum of 8 Characters",
+      "hasNum": "Contains a number",
+      "hasSpecChar": "Contains a special character",
+      "createNewPwd": "Create a New Password."
+    },
+    "buttons": {
+      "submit": "Submit"
+    },
+    "errors": {
+      "pwdReq": "Password is required",
+      "pwdMinChars": "Must Contain 8 Characters",
+      "pwdHasNum": "Password requires a number",
+      "pwdHasSym": "Password requires a symbol",
+      "confPwdReq": "Confirm Password is required",
+      "pwdMustMatch": "Must match 'New Password' field value",
+      "invalidLink": "Invalid create password link",
+      "err": "Error"
+    },
+    "messages": {
+      "pwdCreated": "Password created successfully",
+      "pwdCreatedCont": "Your password has been created successfully. Please login to continue."
+    }
+  },
+  "CustomerProfile": {
+    "labels": {
+      "title": "Customer Profile",
+      "companyInfo": "Company Information",
+      "companyName": "Company Name",
+      "address": "Address",
+      "customerCode": "Customer Code",
+      "taxRefNo": "Tax Reference No.",
+      "companyRegNo": "Company Registration No.",
+      "myProfile": "My Profile",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "contactNo": "Contact No.",
+      "emailAddress": "Email Address",
+      "users": "Users",
+      "name": "Name",
+      "recentActivity": "Recent Activity",
+      "status": "Status",
+      "searchByName": "Search By Name",
+      "contactNumber": "Contact Number"
+    },
+    "buttons": {
+      "termsConditions": "Terms & conditions",
+      "changePassword": "Change Password",
+      "changeAuthMethod": "Change Authentication Method",
+      "reconnectAuthApp": "Reconnect with Authenticator App",
+      "activate": "Activate",
+      "deactivate": "Deactivate",
+      "active": "Active",
+      "Inactive": "Inactive"
+    },
+    "errors": {
+      "validPhone": "Please enter valid phone number",
+      "required": "Required",
+      "errCompanyData": "Error fetching Company data",
+      "errUserData": "Error fetching user data",
+      "errUpdateProfile": "Error occured in Update Profile",
+      "noRecords": "No records to show...",
+      "errTitle": "Error"
+    }
+  },
+  "EmailOtp": {
+    "labels": {
+      "title": "Email OTP",
+      "verificationCode": "Verification Code",
+      "checkEmail": "Please check your Registered Email ID, We have sent the code for verification.",
+      "notReceived": "Not received the code?",
+      "notValidate": "Not able to validate?",
+      "tryAuth": "Try with Microsoft/Google Authenticator"
+    },
+    "buttons": {
+      "resendCode": "Resend Code",
+      "validate": "Validate"
+    },
+    "errors": {
+      "otpResendSuccess": "OTP resend successfully to registered email address",
+      "resendOtpErr": "Resend OTP Error",
+      "authHandlingErr": "Authentication Handling Error",
+      "otpValidationErr": "Please input correct OTP or try login again.",
+      "authFailed": "Authentication Failed",
+      "authTryAgain": "Please go to login screen and try again.",
+      "otpValid": "OTP Validation Error"
+    },
+    "messages": {
+      "otpResend": "OTP resend successfully"
+    }
+  },
+  "EmailOtpInfo": {
+    "labels": {
+      "title": "Email OTP",
+      "info": "You have selected Email OTP as a default Verification Method, for Login. During the login, Verification Code will be sent on your registered Email ID"
+    },
+    "buttons": {
+      "goToLoginPage": "Go to Login Page"
+    }
+  },
+  "ForgotPassword": {
+    "labels": {
+      "title": "Forgot Password?",
+      "info": "Enter the Email Address associated with your myPIL account. We will send you an email with password reset link.",
+      "email": "Registered Email Address",
+      "emailSent": "Email has sent to your"
+    },
+    "buttons": {
+      "submit": "Submit"
+    },
+    "errors": {
+      "emailSent": "An Email has sent to your ",
+      "emailPwd": "with password reset link.",
+      "err": "Error",
+      "invalidEmail": "Invalid Email",
+      "emailSentErr": "Email sent"
+    }
+  },
+  "FindMyBookings": {
+    "labels": {
+      "fromDate": "Departure From Date",
+      "toDate": "Departure To Date",
+      "bkgNo": "Booking No.",
+      "portOfLoad": "Port Of Load",
+      "portOfDischarge": "Port Of Discharge",
+      "vessel": "Vessel",
+      "voyage": "Voyage",
+      "findBkgs": "Find My Bookings",
+      "searchBookingResults": "Search Booking Results",
+      "selected": "You have selected",
+      "of": "of",
+      "bookings": "Bookings",
+      "departure": "Departure",
+      "arrival": "Arrival",
+      "status": "Status",
+      "portofLoad": "Port of Load",
+      "portofDischarge": "Port of Discharge",
+      "nonStop": "Non Stop",
+      "cargo": "Cargo",
+      "showLess": "Show less",
+      "noRecordsToShow": "No records to show...",
+      "loadMoreBookings": "Load 10 More Bookings"
+    },
+    "buttons": {
+      "search": "Search",
+      "clear": "Clear",
+      "back": "Back",
+      "select": "Select"
+    },
+    "errors": {
+      "errorForFieldBlank": "All the fields can't be blank",
+      "errFetchingFindMybookings": "Error occurred in fetching Find My Bookings Results",
+      "errorForCities": "Error occurred while fetching cities list",
+      "errData": "Error while getting initial data",
+      "errPortList": "Error while getting port list",
+      "errPortDetails": "Error while getting port details",
+      "fromDateReq": "From Date is required when To Date is selected",
+      "toDateReq": "To Date is required when From Date is selected"
+    }
+  },
+  "ResendVerification": {
+    "labels": {
+      "title": "Resend Verification Link",
+      "info": "Please enter your Email ID used at the time of Registration, to receive the verification link.",
+      "email": "Registered Email Address",
+      "emailSent": "Email has been sent to your"
+    },
+    "buttons": {
+      "resend": "Resend"
+    },
+    "errors": {
+      "emailSent": "An Email has sent to your",
+      "emailPwd": "with password reset link.",
+      "err": "Error occurred in Resend Verifcation",
+      "invalidEmail": "Invalid Email",
+      "emailSentErr": "Email sent"
+    }
+  },
+  "ResetPassword": {
+    "labels": {
+      "title": "Reset Password?",
+      "info": "Enter a new password & confirm to change your password.",
+      "password": "New Password",
+      "confirmPassword": "Re-Enter The New Password",
+      "pwdContain": "The password must contain:",
+      "minChar": "Minimum of 8 Characters",
+      "conNumber": "Contains a number",
+      "conSpecialChar": "Contains a special character"
+    },
+    "buttons": {
+      "confirm": "Confirm"
+    },
+    "errors": {
+      "passwordResetSuccess": "Passowrd reset successfully.",
+      "passwordResetSuccessInfo": "Your password has been reset successfully. Please login to continue.",
+      "err": "Error",
+      "containLetters": "Must Contain 8 Characters",
+      "pwdNum": "Password requires a number",
+      "pwdSymb": "Password requires a symbol",
+      "pwdConf": "Confirm Password is required",
+      "pwdMatch": "Must match 'New Password' field value"
+    }
+  },
+  "Shipments": {
+    "labels": {
+      "title": "Shipments",
+      "currentTab": "Current",
+      "historyTab": "History",
+      "downloadButton": "Download",
+      "filterButton": "Filter",
+      "createBookingButton": "Create Booking",
+      "view": "View",
+      "showing": "Showing",
+      "of": "of",
+      "actionWithMe": "Action with me",
+      "dangerousGoods": "Dangerous Goods",
+      "reefer": "Reefer",
+      "loadMoreShipments": "Load More Shipments",
+      "noRecordsToShow": "No records to show...",
+      "currShip": "Current Shipments",
+      "allCurrShip": "All Current Shipments",
+      "pktPil": "PocketPIL Shipments",
+      "action": "Action With Me",
+      "inboundShip": "Inbound Shipment",
+      "outboundShip": "Outbound Shipment",
+      "clickDownload": "click to download the entire list.",
+      "seeHistory": "click to see history.",
+      "departure": "Departure Date"
+    },
+    "buttons": {
+      "confirm": "Confirm"
+    },
+    "errors": {
+      "downloadFailed": "Download Failed"
+    }
+  },
+  "TermsAndConditions": {
+    "labels": {
+      "title": "Terms & Conditions",
+      "introduction": "1. Introduction",
+      "personalData": "2. Personal Data",
+      "collectPersonalData": "3. Collection of Personal Data",
+      "consentCheckbox": "I have read and understood the terms and conditions document.",
+      "pilPrivacy": "We, Pacific International Lines Private Limited (“PIL”), respect your privacy and are committed to protecting your personal data.",
+      "pilGroup": "This privacy notice is issued on behalf of the PIL Group, which shall include PIL and its direct and indirect subsidiaries, and any reference to",
+      "privacyNotice": "in this privacy notice is a reference to the relevant company in the PIL Group responsible for processing your data.",
+      "privacyInfo": "This privacy notice will give you information on how PIL collects and processes your personal data through your use of this website, including any data you may provide through this website or use any of the PIL platforms, apps, and/or online portals (“Platforms”).",
+      "privacyData": "It is important that you read this privacy notice together with any other privacy notice we may provide on specific occasions when we are collecting or processing personal data about you, so that you are fully aware of how and why we are using your data. This privacy notice supplements the other notices and is not intended to override them.",
+      "accessWebsite": "In using and accessing this website and the Platforms, you confirm and warrant that you are above the age of minority. This website and the Platforms are not authorized for use for minors and we do not knowingly collect data relating to minors.",
+      "privacyAuth": "If you do not agree to this privacy notice or are not authorized to do so, please do not use this website and the Platforms.",
+      "personalInfo": "Personal data, or personal information, means any means information identifying a data subject or information relating to a data subject that we can identify (directly or indirectly) from that data alone or in combination with other data we possess or can reasonably access.",
+      "storeTransfer": "Depending on how you interact with the website and the Platforms, we may collect, use, store and transfer the following categories of personal data, as described below:",
+      "contactData": "1. Personal Contact Data. This may include your name, company name, postal address, email address, or phone number.",
+      "profileAccount": "2. Profile and Account Data. This may include your username, password, or security question and answer.",
+      "usageData": "3. Usage Data. This may include information about how you use our website, products and services. This information is captured using automated technologies such as cookies and web beacons.",
+      "technicalData": "4. Technical Data. This may include your internet protocol (IP) address, browser type and version, time zone setting and location, browser plug-in types and versions, operating system and platform or other technology on the devices you use to access this website and the Platforms. If you access the website and the Platforms via a mobile device such as a smartphone, the collected information will also include, where permitted, your phone’s unique device ID, advertising ID, geo-location, and other similar mobile device data.",
+      "marketingComData": "5. Marketing and Communications Data. This may include your preferences in receiving news or newsletters from us, reports and emails related to your shipments.",
+      "financialData": "6. Financial Data. This may include your bank account details, credit card details, or information in other forms of payment (if such are made available).",
+      "aggregatedData": "7. Aggregated Data. This may include statistical or demographic data for any purpose. Aggregated Data may be derived from your personal data but is not considered personal data as this data is anonymized and you cannot be identified from such data. However, if the Aggregated Data becomes personal data, we will use such personal data in accordance with this privacy notice.",
+      "collectData": "We may collect personal data from and about you, including without",
+      "limit": "limitation, through the following:",
+      "directInt": "Direct interactions.",
+      "relationService": "When you engage us for and in relation to any of our services,",
+      "writeVerbal": "whether in writing, verbally, through our website or",
+      "platformData": "Platforms, where you may provide us with your personal data by",
+      "fillingForm": "filling in forms.",
+      "interactStaff": "When you interact with our staff, service providers or other",
+      "telephone": "representatives. For example, through telephone calls,",
+      "letters": "letters, fax, in-person meetings, emails and/or other forms of",
+      "communication": "communication.",
+      "submitPersonal": "When you submit your personal data to us for any other reason",
+      "automateTech": "Automated technologies or inter"
+    },
+    "buttons": {
+      "back": "Back",
+      "reject": "Reject",
+      "accept": "Accept"
+    },
+    "messages": {
+      "registrationSuccessful": "Registration Successful",
+      "registrationMessage": "Thank you for registering with us. We have sent you a verification link on your ",
+      "emailVerify": "email john.doe@gmail.com. Please verify to activate your account."
+    }
+  },
+  "TOtpQRPage": {
+    "labels": {
+      "title": "TOTP (Microsoft/Google Authenticator)",
+      "downloadApp": "Download App",
+      "scanQRCode": "Scan the QR Code",
+      "scanQRCodeDescription": "Use the Microsoft Authenticator App to scan the QR Code. This will connect the microsoft Authenticator App with your account.",
+      "cantScanImage": "Can’t scan image?"
+    },
+    "buttons": {
+      "done": "Done"
+    },
+    "messages": {
+      "downloadApp": "Download the Microsoft Authenticator App from the App Store or Google Play Store."
+    }
+  },
+  "TwoFactorAuthentication": {
+    "labels": {
+      "title": "Two-factor Authentication",
+      "authDesc": "How do you want to setup your Account Authentication? The user's selected login method will be set as the default.",
+      "totp": "TOTP (Microsoft/Google Authenticator)",
+      "emailOtp": "Email OTP"
+    },
+    "buttons": {
+      "next": "Next"
+    },
+    "errors": {
+      "authMethodReq": "An authentication method is required"
+    },
+    "messages": {
+      "totp": "Download MS Authenticator App from App Store  Google Play"
+    }
+  },
+  "VerifyOTP": {
+    "labels": {
+      "title": "TOTP (Microsoft/Google Authenticator)",
+      "authDesc": "Please enter the TOTP generated on yourMicrosoft/ Google Authenticator App.",
+      "verificationCode": "Verification Code",
+      "noValidate": "Not able to validate?",
+      "emailOtp": "Try with Email OTP"
+    },
+    "buttons": {
+      "validate": "Validate"
+    },
+    "errors": {
+      "authFailed": "Authentication Failed",
+      "authHandlingErr": "Authentication Handling Error - ",
+      "otpValidationErr": "OTP Validation Error",
+      "InvalidOtp": "Please input correct OTP or try login again.",
+      "tryAgain": "Please go to login screen and try again."
+    }
+  },
+  "CustomerRegistrationApproval": {
+    "labels": {
+      "newCustomerReg": "New Customer Registration",
+      "customerCode": "Customer Code",
+      "compInfo": "Company Information",
+      "compName": "Company Name",
+      "address": "Address",
+      "taxRefNo": "Tax Reference No.",
+      "companyRegNo": "Company Registration No.",
+      "cusProfile": "Customer Profile",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "contactNo": "Contact No.",
+      "emailAddress": "Email Address",
+      "agencyOffice": "Agency Offices",
+      "portCode": "Port Code"
+    },
+    "buttons": {
+      "reject": "Reject",
+      "accept": "Accept"
+    },
+    "errors": {
+      "errorFetchingUserData": "Error fetching user data",
+      "errorUpdateProfile": "Error occured in Update Profile",
+      "errorBlock": "Registration not allowed: Company is Blocked/Deleted/Sanctioned",
+      "validCode": "Error while fetching company data, Please enter valid customer code",
+      "portCodeValid": "Port Code is required",
+      "errorReroute": "Error occured while rerouting",
+      "errorFetchingPortsData": "Error occured while fetching ports"
+    },
+    "messages": {
+      "successReg": "Successfully Registered",
+      "newCusRegSuccess": "New Customer Registration is successful.",
+      "successRerouteTitle": "Successfully Re-routed",
+      "successRerouteContent": "Customer Registration Approval request is succesfully re-routed to other agency"
+    }
+  },
+  "RejectDialogBox": {
+    "labels": {
+      "rejectRequest": "Reject Request",
+      "rejectReqNo": "Are you sure you want to Reject Request No.",
+      "rejectCusReg": "Are you sure you want to Reject the customer registration ?",
+      "actionPrompt": "This action cannot be undone.",
+      "comments": "Comments",
+      "notApplicable": "Not Applicable",
+      "charLeft": "characters left"
+    },
+    "buttons": {
+      "yes": "Yes",
+      "no": "No",
+      "cancel": "Cancel",
+      "reject": "Reject"
+    },
+    "errors": {
+      "rejectionSuccessful": "Rejection Successful",
+      "amendtReqForBkgNo": "Amendment request for Booking No.",
+      "successRej": "is successfully rejected.",
+      "newCusRegRejSuccess": "New Customer Registration rejection is successful.",
+      "errTaskReq": "Error while rejecting the task request",
+      "errBL": "BL Reprint request with request No.",
+      "errBLRej": "is successfully rejected."
+    }
+  },
+  "TaskListFilter": {
+    "labels": {
+      "filter": "Filter",
+      "fromDate": "From Date",
+      "toDate": "To Date",
+      "status": "Status",
+      "bookingNumber": "Booking Number",
+      "requestNumber": "Request Number",
+      "requestType": "Request Type",
+      "requestedBy": "Requested By",
+      "departure": "Departure Date"
+    },
+    "buttons": {
+      "cancel": "Cancel",
+      "apply": "Apply"
+    }
+  },
+  "TasksList": {
+    "labels": {
+      "reqNo": "Request No.",
+      "reqType": "Request Type",
+      "bkgNoStatus": "Booking No. & Status",
+      "compName": "Company Name",
+      "requByDate": "Requested by & Date",
+      "actions": "Actions",
+      "reqStatus": "Request Status",
+      "appByOn": "Approved By & On",
+      "rejReq": "Reject Request",
+      "uploadSigned": "Upload Signed Stationery Request Form."
+    },
+    "buttons": {
+      "review": "Review",
+      "upload": "Upload"
+    },
+    "errors": {
+      "errFetchTaskList": "Error occured while fetching tasks list data",
+      "reviewErr": "Review for task type",
+      "reviewErrPresent": "is not present.",
+      "downloadFailed": "Download Failed",
+      "errFetchingAgencyList": "Error occured while fetching Agency List data",
+      "err": "Error"
+    }
+  },
+  "UsersList": {
+    "labels": {
+      "name": "Name",
+      "role": "Role",
+      "cusCode": "Customer Code",
+      "createdDate": "Created Date",
+      "email": "Email",
+      "contactNo": "Contact No.",
+      "location": "Location",
+      "compName": "Company Name",
+      "compRegNo": "Company Reg. No.",
+      "adminOffice": "Admin Office",
+      "status": "Status",
+      "blAccess": "BL Access",
+      "blPrint": "BL Print",
+      "blSeries": "BL Capture Series",
+      "lastActive": "Last active",
+      "action": "Actions",
+      "locICon": "location Icon",
+      "BLprintIcon": "BL Print Icon",
+      "BLCaptureIcon": "BL Capture Series Icon"
+    },
+    "errors": {
+      "errFetchingUsersList": "Error occured while fetching users list data",
+      "errFetchingAgencyList": "Error occured while fetching Agency List data",
+      "errUpdatingStatus": "Error occured while updating status",
+      "dwnldFailed": "Download Failed"
+    }
+  },
+  "UsersListFilter": {
+    "labels": {
+      "filter": "Filter",
+      "fromDate": "From Date",
+      "toDate": "To Date",
+      "country": "Country",
+      "email": "Email",
+      "cusCode": "Customer Code",
+      "compRegNo": "Company Registration Number",
+      "officeCode": "Office Code",
+      "status": "Status"
+    },
+    "buttons": {
+      "cancel": "Cancel",
+      "apply": "Apply"
+    },
+    "errors": {
+      "invalidEmail": "Please enter valid email"
+    }
+  },
+  "BLPrintPdfViewer": {
+    "buttons": {
+      "print": "Print",
+      "reqStationary": "Request Stationery",
+      "close": "Close"
+    },
+    "errors": {
+      "errUpdPrintStatus": "Error while updating BL Print Status",
+      "errCheckStationaryAvailability": "Failed to check stationery availability",
+      "notEnoughStationary": "Not Enough Stationery",
+      "notEnoughStationaryDetails": "Kindly contact agency admin for further details."
+    },
+    "dialogs": {
+      "notEnoughStationary": "You do not have enough BL Stationery to print BL."
+    }
+  },
+  "StationaryRequsitionForm": {
+    "labels": {
+      "blStationaryRequisition": "BL Stationery Requisition",
+      "collectionDetails": "Collection Details",
+      "collectionCountry": "Collection Country",
+      "collectionAgencyOffice": "Collection Agency Office",
+      "collectionDate": "Collection Date",
+      "quantity": "Quantity",
+      "requiredField": "Indicates required field",
+      "enter": "Enter"
+    },
+    "buttons": {
+      "discard": "Discard",
+      "submit": "Submit"
+    },
+    "errors": {
+      "required": "Required",
+      "qtyNumber": "Quantity must be a number",
+      "qtyPositive": "Quantity must be greater than zero",
+      "qtyRequired": "Quantity is required",
+      "errRqNo": "Error occured while fetching service request number",
+      "errFetchingOffices": "Error occured while fetching agency offices.",
+      "errFetchingCountries": "Error occured while fetching agency countries",
+      "errReqStationary": "Error occured while requesting for stationery."
+    },
+    "messages": {
+      "stationaryReq": "Requisition for BL stationery has been sent successfully."
+    }
+  },
+  "ActionLog": {
+    "labels": {
+      "actionLog": "Action Log"
+    },
+    "buttons": {
+      "viewMore": "View More",
+      "viewLess": "View Less"
+    }
+  },
+  "BookingAmendmentSummary": {
+    "labels": {
+      "routeDetails": "Route Details",
+      "amended": "- Amended",
+      "oldDetails": "Old Details",
+      "amendedDetail": "Amended Detail",
+      "departureDate": "Departure Date",
+      "arrivalDate": "Arrival Date",
+      "vesselVoyage": "Vessel & Voyage",
+      "cargoDetails": "Cargo Details",
+      "containerTypeQty": "Container Type & Quantity",
+      "cargoType": "Cargo Type",
+      "estimatedWeight": "Estimated Weight"
+    }
+  },
+  "DangerReviewBooking": {
+    "labels": {
+      "dangerousGoods": "Dangerous Goods",
+      "containerNo": "Container No.",
+      "noOfCargos": "No. of Cargos",
+      "expandCargos": "Expand All Cargos",
+      "collapseCargos": "Collapse All Cargos"
+    }
+  },
+  "ReeferAmendTable": {
+    "labels": {
+      "reefer": "Reefer -",
+      "amended": "Amended",
+      "oldDetails": "Old Details",
+      "amendedDetails": "Amended Details"
+    },
+    "messages": {
+      "content": "All old Reefer details have been discarded. All ",
+      "reefer": "below Reefer details are new."
+    }
+  },
+  "ReeferReviewBooking": {
+    "labels": {
+      "reefer": "Reefer",
+      "reeferIcon": "Reefer Icon"
+    }
+  },
+  "RemarksSection": {
+    "labels": {
+      "remarksAndAttach": "Remarks & Attachments",
+      "remarks": "Remarks",
+      "attachments": "Attachments",
+      "freightSettlement": "Freight Settlement",
+      "freight": "Freight",
+      "prepaid": "Prepaid",
+      "collect": "Collect"
+    }
+  },
+  "RoutingAndCargoDetails": {
+    "labels": {
+      "contractNo": "Contract No.",
+      "routeDetails": "Route Details",
+      "placeOfReceipt": "Place of Receipt",
+      "portOfLoad": "Port of Load",
+      "departure": "Departure",
+      "portOfDischarge": "Port of Discharge",
+      "arrival": "Arrival",
+      "placeOfDelivery": "Place of Delivery",
+      "exVesselName": "Ex. Vessel Name",
+      "exVoyageNo": "Ex. Voyage No.",
+      "cargoDetails": "Cargo Details",
+      "quantity": "QUANTITY",
+      "gateCutOff": "Gate In Cut-off by",
+      "vgmCutOff": "VGM Cut-off by",
+      "docCutOff": "Documentation Cut-off by",
+      "estimatedWeight": "Estimated Weight",
+      "cargo": "Cargo",
+      "containerOperator": "Container Operator"
+    }
+  },
+  "DangerApplicationDialog": {
+    "labels": {
+      "dgAppForm": "DG Application form",
+      "uploadFilledDgAppForm": "Upload filled DG application form below",
+      "dropFiles": "Drag & Drop Your Files here",
+      "browseFile": "Browse file",
+      "fileSizeLimit": "1 File, each maximum size - 2mb",
+      "filledDgApp": "Filled DG Application",
+      "removeFile": "Remove this file to add a different file."
+    },
+    "buttons": {
+      "cancel": "Cancel",
+      "upload": "Upload",
+      "submit": "Submit"
+    },
+    "errors": {
+      "errUpload": "Error while uploading file",
+      "fileSize": "Maximum file size allowed is 2 Mb",
+      "uploadFile": "Please upload valid file",
+      "oneFile": "Only 1 File is allowed"
+    },
+    "messages": {
+      "upload": "Upload successful",
+      "dgForm": "DG application form uploaded successfully"
+    }
+  },
+  "DangerCopyContainerDialog": {
+    "labels": {
+      "copyContainer": "Copy Container",
+      "containersSelected": "Containers Selected",
+      "copyCargosFrom": "Copy cargos from",
+      "to": "to",
+      "toSelectedContainers": "selected containers. Please select the containers where you wish to",
+      "copy": "copy.",
+      "selectAll": "Select All"
+    },
+    "buttons": {
+      "cancel": "Cancel",
+      "copy": "Copy"
+    },
+    "errors": {
+      "selectContainer": "Please select atleast one container to copy cargos."
+    }
+  },
+  "DangerForm": {
+    "labels": {
+      "unNoUnSeq": "UN No / UN Seq.",
+      "properShippingName": "Proper Shipping Name",
+      "imdgClass": "IMDG Class-",
+      "packingGroup": "Packing Group-",
+      "technicalName": "Technical Name",
+      "grossWeight": "Gross Weight",
+      "netWeight": "Net Weight",
+      "flashPoint": "Flash Point",
+      "cargoStatus": "Cargo Status",
+      "marinePollutant": "Marine Pollutant",
+      "limitedQuantity": "Limited Quantity",
+      "packageInfo": "Package Information",
+      "outerPkgQty": "Outer Package Quantity",
+      "outerPkgDesc": "Outer Package Description",
+      "innerPkgQty": "Inner Package Quantity",
+      "innerPkgDesc": "Inner Package Description",
+      "contactInfo": "Contact Information",
+      "contactPerson": "Contact Person",
+      "countryCode": "Country Code",
+      "emergContactNo": "Emergency Contact No.",
+      "saveDraft": "Save the generated bookings as draft"
+    },
+    "buttons": {
+      "save": "Save",
+      "delete": "Delete",
+      "duplicate": "Duplicate"
+    },
+    "errors": {
+      "required": "Required",
+      "grossWeight": "Gross Weight must be greater than zero",
+      "grossWeightTypeError": "Gross Weight must be a number",
+      "netWeight": "Net weight cannot exceed gross weight",
+      "netWeightTypeError": "Net Weight  must be a number",
+      "netWghtZero": "Net weight must be greater than zero",
+      "noOnly": "must be number only",
+      "flashPointRange": "must be between ",
+      "flashPointExact": "value must be exactly ",
+      "positive": "Quantity must be greater than zero",
+      "phoneNo": "Please enter valid phone number",
+      "fetchUnoErr": "Error occured while fetching UN No details.",
+      "countryErr": "Error while fetching countries details"
+    }
+  },
+  "DangerFormTable": {
+    "headers": {
+      "unNo": "UN No.",
+      "unNoSeq": "UN NO. Seq.",
+      "imdgClass": "IMDG Class",
+      "packagingGroup": "Packaging Group",
+      "properShippingName": "Proper Shipping Name",
+      "flashPoint": "Flash Point",
+      "limitedQty": "Limited Qty."
+    }
+  },
+  "DangerGoods": {
+    "headers": {
+      "dangerousGoods": "Dangerous Goods",
+      "totalContainers": "Total Containers:",
+      "selectedContainer": "Selected Container:",
+      "viewing": "Viewing",
+      "cargos": "Cargos",
+      "reqField": "Indicates required field",
+      "containerNo": "CONTAINER NO.",
+      "cargoNo": "CARGO NO.",
+      "unNoUnSeq": "UN NO./UN SEQ.",
+      "shippingName": "Proper Shipping Name",
+      "attachments": "Attachments",
+      "fillDetails": "Fill in the details",
+      "uploadFilledDG": "Upload filled DG application form",
+      "copyCargo": "Creates a Duplicate Copy of this cargo."
+    },
+    "buttons": {
+      "dgAppForm": "DG Application Form",
+      "downloadDGAppForm": "Download DG Application Form",
+      "uploadDGAppForm": "Upload DG Application Form",
+      "copyContainer": "Copy Container",
+      "addNewCargo": "Add New Cargo",
+      "back": "Back",
+      "save": "Save",
+      "discard": "Discard",
+      "nextReview": "Next: Parties"
+    },
+    "errors": {
+      "errpackage": "Error occured while fetching package codes number",
+      "cargo": "cargo Saved",
+      "cargoSave": "cargo saved successfully.",
+      "emptyShip": "Empty proper shipping",
+      "propName": "Please select cargo with proper shipping name.",
+      "errBkg": "Error while saving booking data",
+      "firewall": "Firewall blocking",
+      "emptyCargos": "Some cargos are empty",
+      "fillCargos": "Please fill all the cargos in respective containers.",
+      "err": "Error",
+      "errForm": "Error while downloading DG Application Form"
+    },
+    "messages": {
+      "contSaved": "Danger Container Saved",
+      "saveSuccess": "Danger Container saved successfully."
+    },
+    "dialogs": {
+      "customDialogBox": "Duplicate Cargo",
+      "duplicate": "Duplicate",
+      "cancel": "Cancel",
+      "contentShipments": "Click 'Discard' to undo changes and go to Shipments page. Click Next to continue."
+    }
+  },
+  "Reefer": {
+    "labels": {
+      "reefer": "Reefer",
+      "reeferContainer": "Reefer Containers",
+      "commodity": "Commodity Name",
+      "ventilation": "Ventilation",
+      "nature": "Nature",
+      "humidity": "Humidity",
+      "commSelect": "Select Commodity",
+      "bkgrqst": "Your booking request has",
+      "selectCont": ". Select Container to fill Reefer details.",
+      "contNo": "CONTAINER NO.",
+      "contSuccess": "Container details entered successfully",
+      "menuOpen": "Open",
+      "menuCMH": "CMH"
+    },
+    "buttons": {
+      "confirmDetails": "Confirm Details",
+      "clearAll": "Clear All",
+      "copyContainer": "Copy Container",
+      "save": "Save",
+      "back": "Back",
+      "download": "Download",
+      "upload": "Upload",
+      "discard": "Discard",
+      "next": "Next: Parties",
+      "nextDanger": "Next: Dangerous Goods",
+      "contentShipments": "Click 'Discard' to undo changes and go to Shipments page. Click Next to continue."
+    },
+    "errors": {
+      "errComm": "Error while loading commodities data",
+      "errCommodity": "Error while loading commodity data",
+      "required": "Required",
+      "posNo": "Must be a positive number",
+      "percentError":"% should be less than 100 and greater than 0",
+      "cmhError":"CMH should be greater than 0 and less than 250",
+      "mustInt": "Must be an integer",
+      "ventNo": "Ventilation must be a number",
+      "ventLess": "ventilation cannot be less than 0",
+      "ventGreat": "ventilation should not be greater than 100",
+      "validNo": "Please enter a valid number",
+      "humLess": "Humidity cannot be less than 0",
+      "humGreat": "Humidity should not be greater than 100",
+      "errBkg": "Error while saving booking data",
+      "firewall": "Firewall blocking",
+      "errReefer": "Error while saving reefer data",
+      "containerEmpty": "Please fill details for all containers",
+      "emptyCopied": "Empty container can not be copied"
+    },
+    "messages": {
+      "confirm": "Please confirm the details before clicking on save ",
+      "bkgSaved": "Booking Saved",
+      "saveSuccess": "Reefer data saved successfully"
+    }
+  },
+  "ReviewBooking": {
+    "labels": {
+      "bkgAmendmentSummary": "Booking Amendment Summary",
+      "bkgSummary": "Booking Summary",
+      "multipleBkgSubmission": "Multiple Booking Submission",
+      "enterNoOfCopies": "Enter no. of copies below if you want to create duplicate bookings ",
+      "sameDetails": "with the same details ?",
+      "newMultipleBookingReqNo": "New Multiple Booking Request Numbers",
+      "noOfCopies": "No of copies",
+      "maximumCopies": "maximum copies upto "
+    },
+    "buttons": {
+      "backButton": "Back",
+      "saveButton": "Save",
+      "discardButton": "Discard",
+      "submitButton": "Submit",
+      "generateButton": "Generate",
+      "confirmButton": "Confirm"
+    },
+    "errors": {
+      "copyLimit": "Exceeding limit of copies",
+      "copyLimitAllowed": "Maximum 5 copies are allowed.",
+      "bkgCopyGenerationError": "Booking Copy Generation Error",
+      "copySuccessful": "Copy successful",
+      "savingErr": "Error while saving booking data",
+      "bkgSaved": "Booking Saved",
+      "firewallBlocking": "Firewall blocking",
+      "bookingAmended": "Booking Amended",
+      "errAmendingBkgData": "Error while amending booking data",
+      "successfulBkg": "Successful Booking -"
+    },
+    "messages": {
+      "createdBkgs": "Created bookings",
+      "fromSrc": "from source booking",
+      "saveSuccess": "Booking Information saved successfully",
+      "amendSuccess": "Booking has been amended successfully",
+      "bkgSuccess": "Booking has been submitted successfully with Booking No:",
+      "saveDraft": "Save the generated bookings as draft"
+    },
+    "terms": {
+      "line1": "By submitting this booking,",
+      "line2": "you acknowledge that you have read, understood, and agree to be bound by the booking terms and conditions found at our",
+      "line3": "website.",
+      "line4": "You further acknowledge that you have read, understood, and agree to PIL's",
+      "line5": "Privacy Notice.",
+      "line6": "If you do not agree to these terms, do not proceed with this Booking."
+    }
+  },
+  "BookingStepper": {
+    "headers": {
+      "bkg": "booking",
+      "sailing": "sailing",
+      "reefer": "reefer",
+      "dangerGoods": "dangerous-goods",
+      "parties": "parties",
+      "review": "review"
+    },
+    "labels": {
+      "discardChanges": "Discard Changes",
+      "unsavedChanges": "Unsaved Changes",
+      "newBooking": "New Booking",
+      "amendBooking": "Amend Booking",
+      "requiredField": "Indicates required field",
+      "notFound": "Not Found",
+      "changesLost": "You have unsaved changes that will be lost if you decide to ",
+      "continue": "continue. Are you sure you want to leave this page?",
+      "click": "Click on",
+      "navigate": "to navigate",
+      "amendments": "to respective pages for amendments.",
+      "discardData": "Are you sure you want to discard? This will delete all added data of",
+      "bkgReqNo": " Booking Request no.",
+      "pocketpil": "from PocketPIL.",
+      "action": "This action cannot be undone."
+    },
+    "buttons": {
+      "stayPage": "Stay On This Page",
+      "leavePage": "Leave This Page",
+      "confirmDiscard": "Confirm Discard",
+      "cancel": "Cancel"
+    },
+    "errors": {
+      "errBkg": "Error occured while generating Booking No.",
+      "errAmend": "Error occured while fetching amend request number",
+      "discard": "Discard Successful",
+      "bkgNo": "Booking No.",
+      "discardBkg": "has been discarded",
+      "errDiscard": "Error occured while discarding"
+    }
+  },
+  "Sailing": {
+    "labels": {
+      "select": "Select Sailing",
+      "weeksSchedule": "Showing 2 weeks sailing schedule",
+      "departDate": "Departing Date",
+      "arriveDate": "Arriving Date",
+      "vesselVoyage": "Vessel & Voyage",
+      "transitDays": "Transit Days",
+      "load1MoreWeek": "Load Schedule for 1 more week",
+      "routeDetails": "Route Details",
+      "portLoad": "Port of Load",
+      "departure": "Departure",
+      "portDischarge": "Port of Discharge",
+      "arrival": "Arrival",
+      "nonStop": "Non Stop",
+      "showLess": "Show less",
+      "gateCutOff": "Gate In Cut-off by",
+      "vgmCutOff": "VGM Cut-off by",
+      "docCutOff": "Documentation Cut-off by",
+      "circleUncheck": "circle check icon unselected"
+    },
+    "buttons": {
+      "back": "Back",
+      "save": "Save",
+      "discard": "Discard",
+      "nextReefer": "Next: Reefer",
+      "nextDangerGoods": "Next: Dangerous Goods",
+      "nextReview": "Next: Review"
+    },
+    "errors": {
+      "noSchedule": "No sailing schedule available for the selected route. Please go back and select different Date/Place",
+      "fetchError": "Error while fetching route details",
+      "saveError": "Error while saving booking data",
+      "firewallBlock": "Firewall blocking",
+      "cutOffDateError": "Error while fetching cut-off dates"
+    },
+    "messages": {
+      "sailing": "Sailing Information Saved",
+      "sailingInfo": "Sailing Information saved successfully"
+    }
+  },
+  "CancelDailog": {
+    "buttons": {
+      "cancelButton": "Yes, Cancel",
+      "continueButton": "No, Continue"
+    }
+  },
+  "CustomTable": {
+    "labels": {
+      "viewText": "View",
+      "noRecordsText": "No records to show...",
+      "userList": "Users List",
+      "showing": "Showing",
+      "of": "of",
+      "users": "Users"
+    },
+    "buttons": {
+      "filterButton": "Filter",
+      "loadMoreButton": "Load More",
+      "download": "Download"
+    }
+  },
+  "FileUploader": {
+    "labels": {
+      "dropText": "Drag & Drop Your Files here",
+      "orText": "or",
+      "browseFileText": "Browse file",
+      "fileLimitText": "3 Files, each maximum size - 10mb"
+    },
+    "buttons": {
+      "removeFileBtn": "Remove File"
+    },
+    "errors": {
+      "errUpload": "Error while uploading file",
+      "maxSize": "Maximum file size allowed is 10 Mb",
+      "validFile": "Please upload valid file",
+      "threeFiles": "Only 3 Files are allowed"
+    }
+  },
+  "IdleTimer": {
+    "labels": {
+      "sessionExpireWarning": "Your session is about to expire in",
+      "minute": "minute",
+      "sessionExpired": "Your session has expired. Please login again.",
+      "warning": "Warning!"
+    },
+    "buttons": {
+      "extendBtn": "Extend",
+      "logoutBtn": "Logout",
+      "loginBtn": "Login"
+    }
+  },
+  "TemperatureLabel": {
+    "labels": {
+      "temp": "Temperature"
+    }
+  },
+  "DetDem": {
+    "labels": {
+      "billableAmountWarning": "Billable amount on screen it is for information, for actual amount ",
+      "contact": "please contact local agency.",
+      "containersText": "Showing",
+      "containersTextOf": "of",
+      "containers": "Containers",
+      "pickedUpText": "Picked Up",
+      "notPickedUpText": "Not Picked Up",
+      "totalChargesText": "Total Charges"
+    },
+    "buttons": {
+      "backToShipmentsBtn": "Back To Shipments"
+    },
+    "errors": {
+      "errUser": "Error fetching user data"
+    }
+  },
+  "DetDemStepper": {
+    "labels": {
+      "blPrinted": "BL Printed",
+      "blDataCompleted": "BL Data completed. Please Accept to Confirm SI.",
+      "blDeliveryMethod": "BL Delivery Method",
+      "selectBlDeliveryMethod": "Select BL Delivery Method",
+      "amendSi": "Amend SI",
+      "revokeSi": "Revoke Shipment Instructions",
+      "amend": "Are you sure you want to Amend",
+      "revoke": "Are you sure you want to Revoke",
+      "status": "? The status of the",
+      "siDraft": "SI will be changed to SI Draft.",
+      "action": "This action cannot be undone.",
+      "billable": "Billable amount on screen it is for information, for",
+      "actualAmount": "actual amount please contact local agency.",
+      "bkgSummary": "Booking Summary",
+      "siSummary": "Shipments Instructions Summary",
+      "detdemInfo": "DET DEM Information"
+    },
+    "buttons": {
+      "amendBtn": "Amend",
+      "revokeBtn": "Revoke",
+      "cancelBtn": "Cancel"
+    },
+    "errors": {
+      "siAmendmentSuccessful": "SI Amendment Successful",
+      "siAmendmentFailed": "SI Amendment Failed",
+      "siRevokedSuccessful": "SI Revoked Successful",
+      "siRevokedFailed": "SI Revoke Failed",
+      "siAcceptedSuccessfully": "SI Accepted Successfully",
+      "siAcceptFailed": "SI Accept Failed",
+      "si": "SI for",
+      "siDraftAmend": "has been changed to SI draft for amendment.",
+      "errSI": "Error occured while amending the SI.",
+      "siDraft": "has been changed to SI draft.",
+      "siRevoke": "Error occured while revoking the SI.",
+      "siAccept": "has been accepted successfully.",
+      "siAcceptErr": "Error occured while accepting the SI."
+    }
+  },
+  "DashboardNavbarSidebar": {
+    "labels": {
+      "searchPlaceholder": "Search by Booking no. or booking request no.",
+      "amendBooking": "Amend Booking",
+      "searchService": "Search for Service Request",
+      "searchReqNo": "Search for Request No.",
+      "searchInvoice": "Search by Invoice no. or booking no."
+    },
+    "buttons": {
+      "drawerOpenBtn": "open drawer",
+      "searchBtn": "Search",
+      "avatarBtn": "User Profile"
+    },
+    "errors": {
+      "bkgNo": "Booking Not Found",
+      "searchBkg": "The searched Booking No.",
+      "exist": "does not exist",
+      "errService": "Request Number Not Found",
+      "reqmovehistry": "Request already closed and moved to History",
+      "error": "Error"
+    }
+  },
+  "UserProfileCard": {
+    "buttons": {
+      "profileBtn": "Profile",
+      "logoutBtn": "Logout"
+    }
+  },
+  "CreateServiceRequest": {
+    "labels": {
+      "pageTitle": "Create New Service Request",
+      "blServices": "BL Services",
+      "shipmentServices": "Shipment Services",
+      "otherServices": "Other Services"
+    },
+    "buttons": {
+      "reprintBL": "Reprint BL",
+      "blStationaryRequest": "BL Stationery Request",
+      "updateBlStationary": "Update BL Stationery",
+      "blPrintReport": "BL Print control report",
+      "eBL": "eBL",
+      "telexRelease": "Telex Release",
+      "mergeBooking": "Merge Booking",
+      "splitBkg": "Spilt Booking",
+      "cancelBkg": "Cancel Booking",
+      "bookAppointment": "Book an Appointment",
+      "uploadDocuments": "Upload Documents",
+      "viewServiceRequest": "View Service Request"
+    }
+  },
+  "BookingSummary": {
+    "labels": {
+      "pageTitle": "Booking Summary",
+      "bkgAmendmentSummary": "Booking Amendment Summary",
+      "bkgCancelSubmit": "Booking Cancellation Submitted",
+      "bkgAmendSubmit": "Booking Amendment Submitted",
+      "newBkg": "New Booking",
+      "bkgConfirmed": "Booking Confirmed",
+      "bkgCancel": "Booking Cancelled",
+      "bkgSubmit": "Booking Submitted",
+      "bkgReject": "Booking Rejected",
+      "bkgIssued": "Booking Issued"
+    },
+    "buttons": {
+      "backToShipmentsButton": "Back To Shipments",
+      "backButton": "Back",
+      "nextButton": "Next",
+      "amendButton": "Amend",
+      "rejectButton": "Reject",
+      "approveButton": "Approve",
+      "backToTaskListButton": "Back To Task List"
+    },
+    "errors": {
+      "bkgNo": "Booking Not Found",
+      "searchBkg": "The searched Booking No.",
+      "exist": "does not exist",
+      "localRqst": "Approach The Local Agency To Request Amendment",
+      "dangerGoods": "The booking you have selected for amendment have Dangerous Goods please follow up with the agency for amendment.",
+      "approved": "Successfully Approved",
+      "amendNo": "Amendment booking request for Booking No.",
+      "success": "is successfully approved.",
+      "isRejected": "is successfully rejected.",
+      "approveRqst": "Error while approving amendment request",
+      "rejected": "Successfully Rejected",
+      "error": "Error"
+    }
+  },
+  "CopyBookingDialog": {
+    "labels": {
+      "dialogTitle": "Copy Booking",
+      "dialogContent": "Please specify the number of copies you would like to create."
+    },
+    "buttons": {
+      "cancelBtn": "Cancel",
+      "copyBtn": "Copy"
+    },
+    "errors": {
+      "maxCopyErr": "Maximum",
+      "copyErr": "copies can be created",
+      "cpySuccess": "Copy successful",
+      "createBkg": "Created bookings",
+      "srcBkg": "from source booking",
+      "errBkg": "Error occured while copying booking"
+    }
+  },
+  "FilterDrawer": {
+    "labels": {
+      "drawerTitle": "Filters",
+      "filterByDepartureDate": "Filter shipments by departure date:",
+      "fromDate": "From Date",
+      "toDate": "To Date",
+      "status": "Status",
+      "bkgNumbers": "BOOKING NUMBERS",
+      "bkgNo": "Booking Number",
+      "bkgReqNo": "Booking Request Number",
+      "locations": "LOCATIONS",
+      "portOfLoad": "Port of Load",
+      "portOfDischarge": "Port of Discharge",
+      "vessel": "VESSEL",
+      "vesselName": "Vessel Name",
+      "voyage": "Voyage",
+      "poNumber": "PO Reference"
+    },
+    "buttons": {
+      "cancelBtn": "Cancel",
+      "applyBtn": "Apply"
+    }
+  },
+  "SortDrawer": {
+    "labels": {
+      "drawerTitle": "Sort",
+      "sortInstruction": "The shipment column headings can be moved up and down using the",
+      "handle": "handles",
+      "order": "to set sort order.",
+      "bkgNo": "Booking No.",
+      "bkgReqNo": "Booking Request No.",
+      "dateofDep": "Date of Departure",
+      "placeofReceipt": "Place of Receipt",
+      "placeofDelivery": "Place of Delivery",
+      "portofLoad": "Port of Load",
+      "portofDischarge": "Port of Discharge",
+      "vesselName": "Vessel name",
+      "voyage": "Voyage",
+      "nextCutoffDate": "Next Cutoff date",
+      "status": "Status"
+    },
+    "buttons": {
+      "cancelBtn": "Cancel",
+      "applyBtn": "Apply"
+    }
+  },
+  "SSOLoginRedirect": {
+    "labels": {
+      "loadingMessage": "SSO Login Page loading"
+    }
+  },
+  "SSORedirect": {
+    "labels": {
+      "loadingMessage": "SSO Page loading"
+    }
+  },
+  "BLandReviewFooter": {
+    "buttons": {
+      "backBtn": "Back",
+      "submitBtn": "Submit"
+    },
+    "errors": {
+      "errShip": "Error while submitting Shipping Information",
+      "firewall": "Firewall blocking"
+    },
+    "messages": {
+      "shipSuccess": "Successful Shipping Information Submission -",
+      "shipSuccBkg": "Shipping Information has been submitted successfully with Booking No:"
+    }
+  },
+  "BLSIReview": {
+    "labels": {
+      "review": "Review SI",
+      "parties": "Parties & Shipping Information",
+      "particulars": "PARTICULARS AS DECLARED BY SHIPPER - BUT WITHOUT REPRESENTATION AND",
+      "notations": "NOTATION AND NOT ACKNOWLEDGED BY CARRIER",
+      "billNo": "Bill of Lading No.",
+      "booking": "Booking No.",
+      "export": "Export Reference",
+      "preCarriage": "Pre-carriage by",
+      "receipt": "Place of Receipt by",
+      "voyageNo": "Vessel/Voyage Number",
+      "loadPort": "Port of Loading",
+      "discharge": "Port of Discharge",
+      "delivery": "Place of Delivery",
+      "BLsNo": "Number of original B/Ls",
+      "value": "Merchant declared value",
+      "charges": "Freight & Charges",
+      "type": "BLType",
+      "containers": "Total number of containers...",
+      "signed": "Signed for the Carrier",
+      "marks": "Nos. Marks & Nos.",
+      "qtyPkg": "Quantity/Number of Packages",
+      "desc": "Description of Goods",
+      "grsWght": "Gross Weight",
+      "measure": "Measurement",
+      "dateOfIssue": "Placed & Date of Issue:",
+      "boardDate": "Shipped on Board Date:",
+      "orgBill": "Original BL",
+      "seaBill": "SeaWay Bill",
+      "prpaid": "Prepaid",
+      "collect": "Collect",
+      "shipper": "Shipper",
+      "consignee": "Consignee",
+      "notify": "Notify",
+      "seeClause": "(see clause 7(3) & 32(3))"
+    }
+  },
+  "BLViewTable": {
+    "headers": {
+      "containerNos": "Container Nos.",
+      "sealNos": "Seal Nos",
+      "containerSizeType": "Container Size & Type.",
+      "qty": "Qty",
+      "packageType": "Package Type",
+      "weight": "Weight",
+      "measure": "Measure"
+    },
+    "labels": {
+      "containerManifest": "Container Manifest",
+      "billNo": "Bill of Lading No.",
+      "booking": "Booking No.",
+      "export": "Export Reference",
+      "signed": "Signed for the Carrier"
+    }
+  },
+  "SIContainerDetailForm": {
+    "labels": {
+      "containerNo": "Container No",
+      "containerOperator": "Container Operator",
+      "sealNo": "Seal No",
+      "weight": "Weight",
+      "measure": "Measure",
+      "vgm": "VGM",
+      "package": "Package",
+      "quantity": "Quantity",
+      "type": "Type"
+    },
+    "buttons": {
+      "confirmDetails": "Confirm Details",
+      "saveDetails": "Save Details",
+      "clear": "Clear",
+      "copy": "Copy"
+    },
+    "errors": {
+      "vgmMethod": "Please refer to PIL for VGM Submission Method",
+      "validNo": "Please Enter Valid container number",
+      "errLoad": "Error while loading Container No",
+      "emptyCont": "Empty container can not be copied",
+      "contNo": "Container can not have same container No",
+      "contList": "Error while getting container type list",
+      "required": "Required",
+      "positiveInt": "Must be a positive number",
+      "integer": "Must be an integer",
+      "typeErr": "Please enter a valid number",
+      "weightNos": "Weight must be a valid decimal number",
+      "measureNos": "Measure must be a valid decimal number",
+      "measureGreaterZero": "Measure must be greater than zero",
+      "contrOprtr": "Maximum 3 characters allowed",
+      "validateUnqieContainerNumber": "Containers can not have same container No",
+      "validateCargoWeight": "Weight should be is less than or equal to container capacity",
+      "maxNos": "Maximum 4 numbers are allowed",
+      "validWeight": "Weight must be greater than zero"
+    }
+  },
+  "SIContainerDetails": {
+    "labels": {
+      "containerNo": "CONTAINER NO.",
+      "view": "View",
+      "allContainers": "All Containers",
+      "danger": "Danger",
+      "reefer": "Reefer",
+      "saved": "Saved",
+      "of": "of",
+      "containerDetails": "Container Details"
+    },
+    "buttons": {
+      "back": "Back",
+      "save": "Save",
+      "next": "Next: Container Manifest",
+      "upload": "Upload",
+      "download": "Download"
+    },
+    "errors": {
+      "containerEmpty": "Please fill details for all containers",
+      "reqFields": "Please fill the required details",
+      "errorSavingContainerDetails": "Error while saving Container Details data",
+      "firewallBlocking": "Firewall blocking",
+      "errSavingContainersData": "Error while saving containers data",
+      "errData": "Error while saving Container data",
+      "contSaved": "Containers Saved",
+      "contDetails": "Container Details data saved successfully",
+      "dwnldFailed": "Download Failed"
+    }
+  },
+  "SIContainerDetailsCopy": {
+    "labels": {
+      "copyContainer": "Copy Container",
+      "container": "Containers",
+      "select": "Selected",
+      "copyContainerDetails": "Copy container details from Container No.",
+      "toSelectedContainers": "to selected containers. Please select the containers where you wish to ",
+      "copy": "copy.",
+      "selectAll": "Select All"
+    },
+    "buttons": {
+      "cancel": "Cancel",
+      "copy": "Copy"
+    },
+    "errors": {
+      "selectAtLeastOneContainer": "Please select atleast one container to copy."
+    }
+  },
+  "SIContainerDetailsExcel": {
+    "errors": {
+      "errorUploading": "Error while uploading"
+    }
+  },
+  "SIManifest": {
+    "labels": {
+      "containerManifest": "Container Manifest",
+      "view": "View",
+      "containerSNo": "CONTAINER S.NO.",
+      "containerNo": "CONTAINER NO.",
+      "commoditySNo": "Commodity S.No.",
+      "nextShippingInformation": "Next: Shipping Information",
+      "duplicateCargo": "Duplicate Cargo",
+      "copyCargo": "Creates a Duplicate Copy of this cargo."
+    },
+    "buttons": {
+      "copyContainer": "Copy Container",
+      "addCommodity": "Add Commodity",
+      "back": "Back",
+      "save": "Save",
+      "duplicate": "Duplicate",
+      "cancel": "Cancel"
+    },
+    "errors": {
+      "commoditiesEmpty": "Some commodities are empty",
+      "fillCommodities": "Please fill all the commodities in respective containers.",
+      "errSavingContManifest": "Error while saving Container Manifest",
+      "firewallBlocking": "Firewall blocking",
+      "commoditySave": "Commodity Saved",
+      "commoditySaveSuccess": "Commodity saved successfully.",
+      "manifestSaved": "Container Manifest Saved",
+      "manifestSavedSuccess": "Container Manifest saved successfully."
+    }
+  },
+  "SIManifestCopyDialog": {
+    "labels": {
+      "copyContainer": "Copy Container",
+      "containersOf": "of",
+      "containersSelected": "containers selected",
+      "copyCommodities": "Copy commodities from ",
+      "to": "to",
+      "copyCommoditiesCont": "selected containers. Please select the containers where you wish to ",
+      "copy": "copy.",
+      "containerNo": "CONTAINER NO. ",
+      "selectAll": "Select All",
+      "container": "container"
+    },
+    "buttons": {
+      "cancel": "Cancel",
+      "copy": "Copy"
+    },
+    "errors": {
+      "selectContainer": "Please select at least one container to copy commodities."
+    }
+  },
+  "SIManifestForm": {
+    "labels": {
+      "harmonizedTariffSchedule": "Harmonized Tariff Schedule",
+      "harmonizedSystem": "Harmonized System",
+      "ncmCode": "NCM Code",
+      "wood": "Wood",
+      "process": "Process",
+      "packageType": "Package Type",
+      "pkgQty": "Package Quantity",
+      "weight": "Weight",
+      "measure": "Measure",
+      "marks": "Marks",
+      "descOfGoods": "Description of Goods",
+      "treated": "Treated",
+      "otherTreatmentRemarks": "Other Treatment Remarks",
+      "goodsNom": "Goods Nomination"
+    },
+    "buttons": {
+      "save": "Save",
+      "clear": "Clear",
+      "delete": "Delete",
+      "duplicate": "Duplicate"
+    },
+    "errors": {
+      "harmonizedTariff": "Harmonized tariff not found, Please enter valid Code!",
+      "harmonizedSystem": "Harmonized System not found, Please enter valid Code!",
+      "ncmCode": "NCM code not found, Please enter valid Code!",
+      "fetchErr": "Error while fetching data"
+    }
+  },
+  "ContainerDetailsTable": {
+    "labels": {
+      "containerDetails": "Container Details"
+    }
+  },
+  "PartiesInformationTable": {
+    "headers": {
+      "customerCode": "Customer Code",
+      "countryCode": "Country code",
+      "name": "Name",
+      "address": "Addresss",
+      "streetPOBox": "Street/PO Box",
+      "cityState": "City/State",
+      "zipCode": "Zip Code",
+      "emailAddress": "Email Address",
+      "shipper": "Shipper",
+      "consignee": "Consignee",
+      "notifyParty": "Notify Party",
+      "alsoNotifyParty": "Also Notify Party"
+    },
+    "labels": {
+      "partiesInfo": "Parties Information"
+    }
+  },
+  "SIReview": {
+    "headers": {
+      "marksAndDescription": "Marks & Description",
+      "packageQty": "Package Quantity",
+      "packageType": "Package Type",
+      "weight": "Weight",
+      "measure": "Measure",
+      "marksAndNumbers": "Marks & Numbers",
+      "goodDescription": "Good Description",
+      "shipmentInstRemarks": "Shipment Instructions Remarks",
+      "attachments": "Attachments",
+      "blType": "BL Type",
+      "freight": "Freight"
+    },
+    "labels": {
+      "partiesInfo": "Parties Information",
+      "shippingInfo": "Shipping Information",
+      "remarksAndAttachments": "Remarks & Attachments",
+      "blIssuanceInfo": "BL Issuance Information",
+      "freightSettlement": "Freight Settlement",
+      "orgBill": "Original BL",
+      "seaBill": "SeaWay Bill",
+      "prpaid": "Prepaid",
+      "collect": "Collect"
+    }
+  },
+  "SIAmendStepper": {
+    "labels": {
+      "stepper": "Booking Summary",
+      "stepperInst": "Shipments Instructions Summary",
+      "siStatus": "SI Submitted",
+      "siAcceptance": "SI Acceptance",
+      "blView": "BL View",
+      "blDeliveryMethod": "BL Delivery Method",
+      "selectBlDeliveryMethod": "Select BL Delivery Method",
+      "blDataCompleted": "BL Data completed. Please Accept to Confirm SI.",
+      "notFound": "Not Found",
+      "amendSI": "Amend SI",
+      "amend": "Are you sure you want to Amend",
+      "status": "The status of the",
+      "siDraft": "SI will be changed to SI Draft.",
+      "action": "This action cannot be undone.",
+      "revokeSI": "Revoke Shipment Instructions",
+      "revoke": "Are you sure you want to Revoke"
+    },
+    "buttons": {
+      "formViewBtn": "Form View",
+      "blViewBtn": "BL View",
+      "downloadBtn": "Download",
+      "amendBtn": "Amend",
+      "revokeBtn": "Revoke",
+      "cancelBtn": "Cancel",
+      "acceptBtn": "Accept"
+    },
+    "errors": {
+      "siAmendment": "SI Amendment Failed",
+      "siRevoke": "SI Revoke Failed",
+      "siAccept": "SI Accept Failed"
+    },
+    "messages": {
+      "siamend": "SI Amendment Successful",
+      "siFor": "SI for",
+      "siDraftAmend": "has been changed to SI draft for amendment.",
+      "siRevoke": "SI Revoked Successful",
+      "si": "has been changed to SI draft.",
+      "siAccept": "SI Accepted Successfully",
+      "acceptSuccess": "has been accepted successfully.",
+      "siAmendConfirmation": "We confirm that we have received and hereby accept the terms and ",
+      "pilConditions": "conditions of Pacific International Lines (Private) Limited’s ",
+      "billLanding": "(\"PIL\") bill of lading, which can also be found at PIL’s website at ",
+      "servantsAgents": "We further agree to indemnify and hold PIL, its servants and agents ",
+      "harmless": "harmless in respect of any liability, loss, damage or expense of ",
+      "naturePIL": "whatsoever nature which PIL, its servants or agents may sustain ",
+      "arisingRelation": "arising out of or in relation to our request to release the shipment ",
+      "consignee": "to the named consignee without presentation of the original bill of ",
+      "lading": "lading at destination."
+    }
+  },
+  "SISummaryBLView": {
+    "errors": {
+      "fetchPdfErr": "Error occured while fetching pdf."
+    }
+  },
+  "SISummaryPage": {
+    "labels": {
+      "shipmentInstSum": "Shipment Instruction Summary",
+      "shippingInfo": "Shipping Information",
+      "marksAndDesc": "Marks & Description",
+      "pkgQty": "Package Quantity",
+      "pkgType": "Package Type",
+      "weight": "Weight",
+      "measure": "Measure",
+      "marksAndNos": "Marks & Numbers",
+      "goodDesc": "Good Description",
+      "remarksAndAttachments": "Remarks & Attachments",
+      "shipmentInstRemarks": "Shipment Instructions Remarks",
+      "attachments": "Attachments",
+      "blIssuanceInfo": "BL Issuance Information",
+      "blType": "BL Type",
+      "freightSettlement": "Freight Settlement",
+      "freight": "Freight",
+      "orgBill": "Original BL",
+      "seaBill": "SeaWay Bill",
+      "prpaid": "Prepaid",
+      "collect": "Collect",
+      "poNumber": "PO Number"
+    },
+    "buttons": {
+      "backToShipments": "Back To Shipments",
+      "revoke": "Revoke",
+      "amend": "Amend",
+      "accept": "Accept"
+    },
+    "errors": {
+      "fetchShipmentDataErr": "Error occured while fetching shipment data"
+    }
+  },
+  "SISummaryPageFooter": {
+    "buttons": {
+      "backToShipments": "Back To Shipments",
+      "revoke": "Revoke",
+      "amend": "Amend",
+      "accept": "Accept"
+    }
+  },
+  "SIShippingInformation": {
+    "labels": {
+      "shippingInfo": "Shipping Information",
+      "marksAndDesc": "Marks & Description",
+      "packageQty": "Package Quantity",
+      "packageType": "Package Type",
+      "weight": "Weight",
+      "measure": "Measure",
+      "marksAndNos": "Marks & Numbers",
+      "descOfGoods": "Description of Goods",
+      "remarksAndAttachments": "Remarks & Attachments",
+      "shippingInstRemarks": "Shipping Instruction Remarks",
+      "blIssuanceInfo": "BL issuance Information",
+      "blType": "BL Type",
+      "freightSettlement": "Freight Settlement",
+      "charLeft": "characters left",
+      "poNumber": "PO Number"
+    },
+    "buttons": {
+      "back": "Back",
+      "save": "Save",
+      "clearAll": "Clear All",
+      "nextReview": "Next: Review"
+    },
+    "errors": {
+      "errShip": "Error while saving Shipping information",
+      "firewall": "Firewall blocking"
+    },
+    "messages": {
+      "shipInfo": "Shipping information Saved",
+      "shipInfoSaved": "Shipping information saved successfully."
+    }
+  },
+  "SIStepper": {
+    "labels": {
+      "bkgSummary": "booking-summary",
+      "parties": "parties",
+      "containerDetails": "container-details",
+      "containerManifest": "container-manifest",
+      "shippingInfo": "shipping-information",
+      "review": "review",
+      "submitSI": "Submit SI",
+      "changesLost": "You have unsaved changes that will be lost if you decide to ",
+      "leavePage": "continue. Are you sure you want to leave this page?",
+      "click": "Click on",
+      "to": "to",
+      "navigate": "navigate to respective pages for amendments.",
+      "deleteData": "Are you sure you want to discard? This will delete all added data of",
+      "action": "This action cannot be undone.",
+      "notFound": "Not Found"
+    },
+    "buttons": {
+      "formView": "Form View",
+      "blView": "BL View",
+      "confirmDiscard": "Confirm Discard",
+      "cancel": "Cancel",
+      "stayPage": "Stay On This Page",
+      "leavePage": "Leave This Page",
+      "discard": "Discard Changes",
+      "unsaved": "Unsaved Changes",
+      "siTemplate": "Save SI Template",
+      "copysi": "Copy SI",
+      "loadsi": "Load SI Template"
+    },
+    "errors": {
+      "fetchingContainerPkgNo": "Error occured while fetching container package number",
+      "fetchingSIData": "Error while fetching SI Data"
+    }
+  },
+  "validate": {
+    "labels": {
+      "shipperName": "name",
+      "shipperAdd": "address",
+      "shipperStreet": "street",
+      "shipperCity": "city",
+      "shipperZipCode": "zipCode",
+      "shipperEmail": "email",
+      "consigneeName": "name",
+      "consigneeAdd": "address",
+      "consigneeStreet": "street",
+      "consigneeCity": "city",
+      "consigneeZipCode": "zipCode",
+      "consigneeEmail": "email",
+      "notifyPartyName": "name",
+      "notifyPartyAdd": "address",
+      "notifyPartyStreet": "street",
+      "notifyPartyCity": "city",
+      "notifyPartyZipCode": "zipCode",
+      "notifyPartyEmail": "email",
+      "containerNo": "containerNo",
+      "sealNo": "sealNo",
+      "weight": "weight",
+      "measure": "measure",
+      "quatity": "quatity",
+      "typeCode": "code",
+      "typeDesc": "desc",
+      "cntrMfDesc": "cntrMfDesc",
+      "process": "process",
+      "wpmTrtCode": "wpmTrtCode",
+      "wood": "wood",
+      "ncmNo": "ncmNo",
+      "descriptionOfGoods": "descriptionOfGoods",
+      "blType": "blType"
+    },
+    "errors": {
+      "required": "required",
+      "invalidEmail": "Invalid email",
+      "max50Chars": "Maximum 50 characters allowed",
+      "max100Chars": "Maximum 100 characters allowed",
+      "weightNos": "Weight must contain only numbers",
+      "measureNos": "Measure must contain only numbers",
+      "positiveInt": "Must be a positive number",
+      "integer": "Must be an integer",
+      "typeErr": "Please enter a valid number",
+      "validateCargoWeight": "Cargo Weight should be is less than or equal to Tare weight (TW) + Maximum cargo weight",
+      "processReq": "Process is required when wood is selected",
+      "treatedReq": "Treated is required when wood is selected",
+      "ncmNoReq": "required for country Brazil",
+      "maxNos": "Maximum 4 numbers are allowed"
+    }
+  },
+  "ReeferCopyContainerDialog": {
+    "labels": {
+      "dialogTitle": "Copy Container",
+      "ContainersOf": "of",
+      "container": "Containers",
+      "selected": "Selected",
+      "copyContainerDetails": "Copy container details from Container No.",
+      "copyContainerSelect": "to selected containers. Please select the containers where you wish to ",
+      "copy": "copy.",
+      "containerNo": "CONTAINER NO.",
+      "selectAll": "Select All"
+    },
+    "buttons": {
+      "cancel": "Cancel",
+      "copy": "Copy"
+    },
+    "errors": {
+      "selectContainer": "Please select atleast one container to copy."
+    }
+  },
+  "CreateBooking": {
+    "labels": {
+      "routeDetails": "Route Details",
+      "placeOfReceipt": "Place of Receipt",
+      "portOfLoad": "Port of Load",
+      "departure": "Departure",
+      "portOfDischarge": "Port of Discharge",
+      "arrival": "Arrival",
+      "placeOfDelivery": "Place of Delivery",
+      "contractNo": "Contract No.",
+      "exVesselName": "Ex. Vessel Name",
+      "exVoyageNo": "Ex. Voyage No.",
+      "cargoDetails": "Cargo Details",
+      "sailing": "Sailing Date",
+      "requiresTempControl": "Requires temperature control",
+      "dangerousGoods": "Dangerous goods",
+      "emptyContainer": "Empty container",
+      "container": "Container",
+      "quantity": "Quantity",
+      "cargo": "Cargo",
+      "estimatedWeight": "Estimated Weight",
+      "enterWeight": "Enter Weight *",
+      "enterContainerOperator": "Enter Container Operator",
+      "unit": "Unit",
+      "totalCargoWeight": "Total Cargo Weight",
+      "enterPortOfLoad": "Enter Port of Load",
+      "enterPortOfDischarge": "Enter Port of Discharge",
+      "enterContractNo": "Enter Contract No.",
+      "selectTypeOfContainer": "Select Type of Container",
+      "selectTypeOfCargo": "Select Type of Cargo",
+      "enter": "Enter",
+      "freight": "Freight",
+      "freightSettlement": "Freight Settlement",
+      "remarks": "Remark & Attachments",
+      "bkgRemarks": "Booking Remarks",
+      "charLeft": "Characters left",
+      "prepaid": "Prepaid",
+      "collect": "Collect",
+      "poNumber": "PO Reference",
+      "containerOperator": "Container Operator"
+    },
+    "buttons": {
+      "addContainer": "Add Container",
+      "save": "Save",
+      "discard": "Discard",
+      "nextSelectSailing": "Next: Select Sailing"
+    },
+    "errors": {
+      "contractNo": "Contract no. is invalid, contact Agency for assistance",
+      "weightGreat": "Estimated weight must be greater than zero",
+      "errContract": "Error while getting contract details",
+      "validContractNo": "Please enter a valid contract number",
+      "errBkgDetails": "Error while getting booking details",
+      "errPortDetails": "Error while getting port details",
+      "errPortList": "Error while getting port list",
+      "errConList": "Error while getting container type list",
+      "errCargo": "Error while getting cargo type list",
+      "errData": "Error while getting initial data",
+      "errBkgData": "Error while saving booking data",
+      "firewall": "Firewall blocking",
+      "bkgSaved": "Booking Saved",
+      "bkgSaveSucc": "Booking data saved successfully",
+      "alreadySelected": "is already selected"
+    }
+  },
+  "ShipmentTableRow": {
+    "labels": {
+      "cancelDialogText1": "Are you sure you want to cancel the Booking No.",
+      "cancelDialogText2": "Please provide reason for cancellation of booking",
+      "reasonForCancellation": "Reason for Cancellation",
+      "comments": "Comments",
+      "charactersLeft": "characters left",
+      "discardChanges": "Discard Changes",
+      "confirmDiscard": "Confirm Discard",
+      "cancel": "Cancel",
+      "discardPrompt": "Are you sure you want to discard? This will delete all added data of ",
+      "bkgNo": "Booking Request no.",
+      "pktPIL": "from PocketPIL.",
+      "action": "This action cannot be undone.",
+      "amend": "Amend",
+      "viewAmend": "View Summary",
+      "copy": "Copy",
+      "reviewAccept": "Review & Accept",
+      "downloadBLDraft": "Download BL Draft",
+      "deleteBooking": "Delete Booking",
+      "printBL": "Print BL",
+      "requestCancellation": "Request Cancellation",
+      "select": "Select",
+      "portOfLoad": "Port of Load",
+      "departure": "Departure",
+      "portDischarge": "Port of Discharge",
+      "arrival": "Arrival",
+      "showLess": "Show less",
+      "gateCutOff": "Gate In Cut-off by",
+      "vgmCutOff": "VGM Cut-off by",
+      "docCutOff": "Documentation Cut-off by",
+      "cargo": "Cargo",
+      "updateSeq": "Update Stationery Sequence",
+      "close": "Close",
+      "cancelSubmit": "Cancellation Submitted",
+      "amendSubmit": "Amendment Submitted",
+      "amendRqst": "Amendment Request No. is",
+      "updateBL": "Update BL stationery and start sequence",
+      "dgSubmit": "DG Declaration Submitted",
+      "dgPending": "DG Declaration Pending",
+      "cancelReq": "Cancellation Request No. is",
+      "dgDeclare": "DG Declaration"
+    },
+    "buttons": {
+      "no": "No",
+      "yes": "Yes"
+    },
+    "errors": {
+      "localAgency": "Approach The Local Agency To Request Amendment",
+      "amendDanger": "The booking you have selected for amendment have Dangerous Goods please follow up with the agency for amendment.",
+      "cancleRqst": "Cancel Request Successful",
+      "bkgNo": "Booking No. ",
+      "cancel": "has been cancelled",
+      "delete": "has been deleted",
+      "cancelErr": "Error occured in cancel request",
+      "blPrint": "BL Print Error",
+      "blPrintAllowed": "BL print is not allowed.",
+      "admin": "kindly check with Admin for further information.",
+      "fetchpdf": "Error occured while fetching pdf.",
+      "deleteSucc": "Delete Successful",
+      "errDelete": "Error occured in delete request",
+      "updateStat": "Update Stationery"
+    }
+  },
+  "SIParties": {
+    "labels": {
+      "partiesInfo": "Parties Information",
+      "shipper": "Shipper",
+      "customerCode": "Customer Code",
+      "countryCode": "Country Code",
+      "shipperName": "Shipper Name",
+      "address": "Address",
+      "streetPOBox": "Street / PO Box",
+      "cityState": "City / State",
+      "zipCode": "Zip Code",
+      "emailAdd": "Email address",
+      "consignee": "Consignee",
+      "consigneeName": "Consignee Name",
+      "notifyParty": "Notify Party",
+      "sameAsConsignee": "Same as Consignee",
+      "notifyPartyName": "Notify Party Name",
+      "removeAlsoNotifyParty": "Remove : Also Notify party",
+      "addAlsoNotifyParty": "Add : Also Notify party"
+    },
+    "buttons": {
+      "back": "Back",
+      "save": "Save",
+      "clearAll": "Clear All",
+      "nextContainerDetails": "Next: Container Details"
+    },
+    "errors": {
+      "InvalidCode": "Customer Code is Invalid, you may leave blank to proceed",
+      "CodeNotFound": "Customer Code not found, you may leave blank to proceed",
+      "errParties": "Error while submitting parties information",
+      "firewall": "Firewall blocking",
+      "required": "Required",
+      "max50Chars": "Maximum 50 characters allowed",
+      "max100Chars": "Maximum 100 characters allowed",
+      "email": "Invalid Email"
+    },
+    "messages": {
+      "nominatedAgentMessage": "Nominated Agent's View",
+      "success": "Successfully Submitted",
+      "partiesInfo": "Parties information submitted successfully"
+    }
+  },
+  "ContainerManifestTable": {
+    "labels": {
+      "contManifest": "Container Manifest",
+      "containerNo": "Container No.",
+      "conManifestNo": "No. of container Manifest"
+    },
+    "buttons": {
+      "collapseContainer": "Collapse All Container Manifest",
+      "expandContainer": "Expand All Container Manifest"
+    }
+  },
+  "CopySISearch": {
+    "labels": {
+      "copySI": "Copy SI",
+      "findBooking": "Find a booking to Copy SI using the below search criteria",
+      "bookingNo": "Booking No.",
+      "shipperName": "Shipper Name",
+      "consigneeName": "Consignee Name",
+      "npName": "Notify Party Name",
+      "searchBookingResults": "Search Booking Results",
+      "showing": "Showing",
+      "of": "of",
+      "resultsSI": "results. Select a booking to copy its SI",
+      "details": "details (Shipper, Consignee & Notify party and M&D) to",
+      "alsoNpName": "Also Notify Party Name",
+      "loadMoreBkgs": "Load 10 More Bookings",
+      "noRecordsToShow": "No records to show...",
+      "circleUncheck": "circle check icon unselected"
+    },
+    "buttons": {
+      "search": "Search",
+      "clear": "Clear",
+      "discard": "Discard",
+      "copySI": "Copy SI"
+    },
+    "errors": {
+      "error": "Error"
+    }
+  },
+  "CopySIView": {
+    "labels": {
+      "viewSI": "View SI",
+      "siSummary": "Shipment Instruction Summary",
+      "siInfo": "Shipping Information",
+      "marksDesc": "Marks & Description",
+      "pkgQty": "Package Quantity",
+      "pkgType": "Package Type",
+      "weight": "Weight",
+      "measure": "Measure",
+      "marksNos": "Marks & Numbers",
+      "goodsDesc": "Good Description",
+      "remarksAttach": "Remarks & Attachments",
+      "siRemarks": "Shipment Instructions Remarks",
+      "attachments": "Attachments",
+      "blIssuanceInfo": "BL Issuance Information",
+      "blType": "BL Type",
+      "freightSettlement": "Freight Settlement",
+      "freight": "Freight",
+      "originalBL": "Original BL",
+      "seawayBill": "SeaWay Bill",
+      "prepaid": "Prepaid",
+      "collect": "Collect"
+    },
+    "buttons": {
+      "backToSearchResults": "Back to search results"
+    },
+    "errors": {
+      "errShipData": "Error occured while fetching shipment data"
+    }
+  },
+  "CopySIBooking": {
+    "labels": {
+      "copySI": "Copy SI",
+      "siSummary": "Shipment Instruction Summary",
+      "infoVerify": "Please verify the information before proceeding.",
+      "copySIBkg": "Are you sure you want to Copy SI from the selected booking",
+      "toBkg": "to this booking",
+      "dataOverwrite": "Data will be overridden in Parties Information & Shipping ",
+      "siPage": "Information page",
+      "action": "This action cannot be undone."
+    },
+    "buttons": {
+      "backToSearchResults": "Back to search results",
+      "discard": "Discard",
+      "copySI": "Copy SI",
+      "yesCopy": "Yes, Copy",
+      "cancel": "Cancel"
+    },
+    "errors": {
+      "errShipData": "Error occured while fetching shipment data",
+      "siCopied": "SI Copied Sucessfully",
+      "siBkgNo": "SI successfully copied from booking no.",
+      "errSiData": "Error while fetching SI Data",
+      "error": "Error"
+    }
+  },
+  "BLReprint": {
+    "labels": {
+      "blReprint": "BL Reprint",
+      "reason": "Reason",
+      "comments": "Comments",
+      "select": "Select",
+      "bkgNo": "Booking No.",
+      "batchNo": "Batch No",
+      "sqcNoStartEnd": "Sequence No. Start-End",
+      "noOfPages": "No of Pages",
+      "printedBy": "Printed By & Date"
+    },
+    "buttons": {
+      "discard": "Discard",
+      "submit": "Submit"
+    },
+    "errors": {
+      "blHistoryData": "Error occured while fetching BL History data",
+      "reqNo": "Error occured while fetching service request number",
+      "blReprintReq": "Error occured while submitting BL Reprint Request",
+      "successSubmit": "Successfully Submitted",
+      "reprintBkgNo": "BL Reprint request for Booking No.",
+      "isSuccess": "is successfully submitted.",
+      "charLeft": "characters left",
+      "notFound": "Data not found",
+      "blHistory": "BL Reprint History not found for booking no."
+    }
+  },
+  "BLReprintTable": {
+    "labels": {
+      "statSeq": "The below BL Print Stationery Sequence is marked as VOID"
+    }
+  },
+  "BLPrintControlReportFilter": {
+    "labels": {
+      "blReprint": "BL Print Control Report",
+      "searchBatch": "Search for a Batch",
+      "requisitionFromDate": "Requisition From Date",
+      "requisitionToDate": "Requisition To Date",
+      "companyName": "Company Name",
+      "sequenceNo": "Sequence Number"
+    },
+    "buttons": {
+      "search": "Search",
+      "clear": "Clear"
+    },
+    "errors": {
+      "errCompNames": "Error while getting company names",
+      "errGetResults": "Error while getting results"
+    }
+  },
+  "CustomBookingSearch": {
+    "labels": {
+      "bkgNofind": "Enter or Find the Booking Number(s) for this request",
+      "bookingNo": "Booking Number",
+      "bkgNos": "Booking Number(s)",
+      "knowBookingNo": "I know the booking number",
+      "knowBkgNos": "I know the booking numbers",
+      "findBookings": "Find my Booking",
+      "findBkgs": "Find my Bookings",
+      "notKnowBkg": "I do not know my booking numbers",
+      "info": "info."
+    },
+    "errors": {
+      "errBkgNo": "Error occured while validating Booking Number",
+      "splitSearch": "Find the booking you want to split using the below search.",
+      "bkgMerge": "Only bookings with same Location and Voyage Details can be merged."
+    }
+  },
+  "CustomHeader": {
+    "labels": {
+      "reqField": "Indicates required field",
+      "oneReqField": "At least one field is ",
+      "required": "required"
+    }
+  },
+  "ControlReportSearchResults": {
+    "headers": {
+      "batchNo": "Batch No.",
+      "seqNo": "Sequence No. Start-End",
+      "remainingCount": "Remaining Count",
+      "statReqDate": "Stationery Requisition Date",
+      "companyName": "Company Name",
+      "seqDate": "Sequence End Date",
+      "status": "Status"
+    },
+    "labels": {
+      "searchResults": "Search Results",
+      "noRecords": "No records to show..."
+    },
+    "errors": {
+      "downloadFailed": "Download Failed"
+    }
+  },
+  "ServiceRequestTable": {
+    "labels": {
+      "serviceReq": "Service Requests",
+      "view": "View",
+      "showing": "Showing",
+      "of": "of",
+      "pilAction": "Action with me - Print out, sign and submit at PIL agency",
+      "blStationary": "office to procure BL stationery",
+      "signedPDF": "Signed PDF uplaoded by the Agency",
+      "loadMore": "Load More",
+      "noRecords": "No records to show..."
+    },
+    "buttons": {
+      "filter": "Filter",
+      "download": "Download",
+      "newServiceReq": "New Service Request"
+    },
+    "errors": {
+      "errfetchReq": "Error fetching service requests",
+      "downloadfailed": "Download Failed"
+    }
+  },
+  "ShippingInformation": {
+    "labels": {
+      "siInfo": "Shipping Information",
+      "marksDesc": "Marks & Description",
+      "pkgQty": "Package Quantity",
+      "pkgType": "Package Type",
+      "weight": "Weight",
+      "measure": "Measure",
+      "marksNos": "Marks & Numbers",
+      "goodDesc": "Good Description"
+    }
+  },
+  "CheckOutQRCode": {
+    "labels": {
+      "scanQRCodeText": "Scan the QR Code to proceed with the payment.",
+      "paymentReferences": " Bill / Payment References",
+      "totalSelectedInvoices": "Total amount for 5 selected Invoices",
+      "totalInLocalCurrency": "Total in Local Currency",
+      "totalAmount": "Total",
+      "QRValidSessionText": "This QR Code is valid only for this session."
+    },
+    "errors": {
+      "errfetchReq": "Error while proceeding with checkout"
+    }
+  },
+  "sidebarConstants": {
+    "labels": {
+      "schedule": "Schedule",
+      "shipments": "Shipments",
+      "trackTrace": "Track & Trace",
+      "srvcRqst": "Service Requests",
+      "contact": "Contact Us",
+      "todoList": "To Do List",
+      "userList": "Users List",
+      "appointment": "Appointment",
+      "blontrol": "BL Print Control",
+      "bulletinBoard": "Bulletin Board"
+    }
+  },
+  "shipmentConstants": {
+    "labels": {
+      "bkgRqstNo": "Booking",
+      "rqstDepDate": "Departure",
+      "rqstArrDate": "Arrival",
+      "vslName": "Vessel & Voyage",
+      "createdDate": "Booking Date",
+      "status": "Status",
+      "allCurrShip": "All Current Shipments",
+      "pocketPilShip": "PocketPIL Shipments",
+      "action": "Action With Me",
+      "inboundShip": "Inbound Shipment",
+      "outboundShip": "Outbound Shipment",
+      "dielectric": "Dielectric",
+      "bromide": "Bromide",
+      "others": "Others"
+    }
+  },
+  "taskList": {
+    "labels": {
+      "taskList": "Tasks List",
+      "openRqst": "Open Requests",
+      "history": "History",
+      "allReq": "ALL_REQ",
+      "reqType": "Request Type",
+      "officeCode": "Office Code",
+      "pendingApprovals": "Pending Approvals",
+      "Requests": "Requests"
+    }
+  },
+  "ServiceRequestConstants": {
+    "headers": {
+      "serviceReq": "Service Requests",
+      "statorderHistory": "Stationery Order History",
+      "blPrintHistory": "BL Print History",
+      "reqNo": "Request No.",
+      "bkgNo": "Booking No.",
+      "reqType": "Request Type",
+      "requestedBy": "Requested By",
+      "reqDate": "Request Date",
+      "serviceReqStatus": "Service Request Status",
+      "reqByDate": "Requested By & Date",
+      "batchNo": "Batch No",
+      "statReqStatus": "Stationery Request Status",
+      "blReqAprove": "BL Requistion Approved Form",
+      "viewStationery": "View Stationery Acknowledgement Receipt & Date",
+      "seqNo": "Sequence No. Start-End",
+      "blSeriesNo": "BL Series No",
+      "noOfPages": "No of Pages",
+      "printedBy": "Printed by & Date",
+      "submit": "Submitted",
+      "cancel": "Cancelled",
+      "approved": "Approved",
+      "rejected": "Rejected"
+    }
+  },
+  "ServiceRequestTableRow": {
+    "labels": {
+      "cancelService": "Cancel Service Request",
+      "submit": "SUBMITTED"
+    },
+    "buttons": {
+      "cancelBtn": "Cancel",
+      "cancelRqst": "Cancel Request",
+      "confirm": "Confirm Discard"
+    },
+    "errors": {
+      "errDeleteReq": "Error occured in delete request"
+    },
+    "messages": {
+      "cancelSuccess": "Cancel Successful",
+      "rqstNo": "Request No.",
+      "deleted": "has been deleted",
+      "cancelRqst": "Are you sure you want to cancel request? This will cancel",
+      "serviceRqst": "service request",
+      "action": "This action cannot be undone."
+    }
+  },
+  "reviewConstants": {
+    "headers": {
+      "sNo": "S. No.",
+      "unNoUnSeq": "UN No / UN Seq.",
+      "properShippingName": "Proper Shipping Name",
+      "packingGroup": "Packing Group",
+      "technicalName": "Technical Name",
+      "imdgClass": "IMDG Class",
+      "grossWeight": "Gross Weight",
+      "netWeight": "Net Weight",
+      "flashPoint": "Flashpoint",
+      "cargoStatus": "Cargo Status",
+      "marinePollutant": "Marine Pollutant",
+      "limitedQuantity": "Limited Quantity",
+      "outerPkgQty": "Outer Package Quantity",
+      "outerPkgDesc": "Outer Package Description",
+      "innerPkgQty": "Inner Package Quantity",
+      "innerPkgDesc": "Inner Package Description",
+      "contact": "Contact Person",
+      "emergencyContact": "Emergency Contact No.",
+      "containerNo": "Container No.",
+      "typeContainer": "Type of container",
+      "commodity": "Commodity Name",
+      "temp": "Temperature",
+      "ventilation": "Ventilation",
+      "nature": "Nature",
+      "humidity": "Humidity"
+    }
+  },
+  "ShipmentJourneyLeg": {
+    "labels": {
+      "days": "Days"
+    }
+  },
+  "siReviewConstants": {
+    "lables": {
+      "sNo": "S.No.",
+      "typeContainer": "Type of container",
+      "containerNo": "Container No",
+      "containerOp": "Container Operator",
+      "sealNo": "Seal No",
+      "weight": "Weight",
+      "measure": "Measure",
+      "vgm": "VGM",
+      "pkgQty": "Package Quantity",
+      "pkgType": "Package Type",
+      "commodity": "Commodity.No.",
+      "trafficSchedule": "Harmonized traffic Schedule",
+      "system": "Harmonized System",
+      "ncmCode": "NCM Code",
+      "treated": "Treated"
+    }
+  },
+  "ServiceRequestFilter": {
+    "labels": {
+      "filters": "Filters",
+      "filterReq": "Filter Service Request by date:",
+      "fromDate": "From Date",
+      "toDate": "To Date",
+      "status": "Status",
+      "bkgNos": "BOOKING NUMBERS",
+      "rqstNo": "Request Number",
+      "bkgNo": "Booking Number",
+      "batchNo": "Batch Number",
+      "requested": "Requested",
+      "rqstType": "Request Type",
+      "rqstedBy": "Requested By",
+      "printedBy": "Printed By",
+      "reqDate": "Requested Date"
+    },
+    "buttons": {
+      "cancel": "Cancel",
+      "apply": "Apply"
+    }
+  },
+  "ControlReportBatchDetails": {
+    "labels": {
+      "blReport": "BL Print Control Report",
+      "blBatch": "BL Print Control Report for Batch",
+      "sNo": "S.No.",
+      "bkgNo": "Booking No.",
+      "blSeries": "BL Series No.",
+      "sqcNoStartEnd": "Sequence No. Start-End",
+      "pageCount": "Page Count",
+      "status": "Status",
+      "printedBy": "Printed By & Date"
+    },
+    "buttons": {
+      "download": "Download"
+    },
+    "errors": {
+      "errResults": "Error while getting results",
+      "dwnldFailed": "Download Failed"
+    }
+  },
+  "ViewBLReprint": {
+    "labels": {
+      "blReprint": "BL Reprint",
+      "selectedBkgs": "Selected Bookings",
+      "reason": "Reason",
+      "backToTasksList": "Back to Tasks List",
+      "backToServiceRequest": "Back to Service Request"
+    },
+    "buttons": {
+      "reject": "Reject",
+      "approve": "Approve"
+    },
+    "errors": {
+      "errorFetchingData": "Error occured while fetching BL Reprint Request Data",
+      "errorApproving": "Error while approving BL Reprint request",
+      "successApproved": "Successfully Approved",
+      "blBkgNo": "BL Reprint request for Booking No.",
+      "isSuccess": "is successfully"
+    }
+  },
+  "usersList": {
+    "labels": {
+      "userList": "Users List",
+      "agency": "All Agency",
+      "active": "Active",
+      "inactive": "Inactive"
+    }
+  },
+  "BLAccess": {
+    "labels": {
+      "blAccess": "BL Access",
+      "blDetails": "BL Access Details",
+      "blPrint": "BL Print",
+      "blCapture": "BL Capture Series",
+      "bkgAgent": "Booking Agent",
+      "userRole": "User Customer Role",
+      "userCustomer": "User Customer Code",
+      "customerRole": "Customer Role",
+      "customerCode": "Customer Code",
+      "managerApproval": "Manager Approved",
+      "type": "Type",
+      "cusDetails": "Customer Details",
+      "name": "Name",
+      "role": "Role",
+      "email": "Email",
+      "contactNo": "Contact No",
+      "companyDetails": "Company Details",
+      "companyName": "Company Name",
+      "companyReg": "Company Reg No",
+      "address": "Address",
+      "status": "Status"
+    },
+    "errors": {
+      "errFetching": "Error while fetching roles",
+      "errFetchOffice": "Error while fetching office list",
+      "errFetchUser": "Error while fetching user data",
+      "validCusCode": "Please enter valid customer code",
+      "blAccessType": "Please select BL Access type",
+      "errBlCapture": "Either of BL Print or BL Capture Series is mandatory",
+      "errBlDetails": "Error while saving BL Access Details",
+      "blAccessSaved": "BL Access Saved",
+      "blSuccess": "BL Access Details saved successfully"
+    },
+    "buttons": {
+      "cancel": "Cancel",
+      "save": "Save"
+    }
+  },
+  "constant": {
+    "labels": {
+      "cusDetails": "Customer Details",
+      "companyDetails": "Company Details",
+      "admin": "Admin Office",
+      "manager": "Manager Approved",
+      "name": "Name",
+      "role": "Role",
+      "email": "Email",
+      "contact": "Contact No.",
+      "companyName": "Company Name",
+      "companyRegNo": "Company Reg. No.",
+      "address": "Address",
+      "type": "Type"
+    }
+  },
+  "booking": {
+    "labels": {
+      "required": "Required",
+      "qtyNumber": "Quantity must be a number",
+      "qtyGreat": "Quantity must be greater than zero",
+      "qtyReq": "Quantity is required",
+      "estWeight": "Estimated weight must be equal to or greater than zero",
+      "estWeightError": "Estimated weight must be Number",
+      "estWeightReq": "Estimated weight is required",
+      "estCargoWeight": "Estimated Weight should be is less than or equal to Total Cargo Weight",
+      "estDecimal": "Estimated weight must have 18 digits or less before the decimal point and 3 digits or less after the decimal point",
+      "containerOperatorMin": "Container Operator must be at least 2 characters",
+      "containerOperatorMax": "Container Operator can be at most 3 characters",
+      "containerOperatorVal": "Container Operator must contain only alphabets"
+    },
+    "buttons": {
+      "backTaskList": "Back to Tasks List"
+    }
+  },
+  "CancelBooking": {
+    "labels": {
+      "cancelBkg": "Cancel Booking",
+      "cancelBkgPrompt": "Are you sure you want to cancel the Booking No.",
+      "discardBkg": "Discard Booking",
+      "discardBkgPrompt": "Are you sure you want to discard the Booking No.",
+      "cancelReason": "Please provide the reason of cancelling the booking",
+      "placeholder": "Select",
+      "cancellationReason": "Reason for Cancellation",
+      "comments": "Comments",
+      "charactersLeft": "Characters left"
+    },
+    "buttons": {
+      "proceed": "Yes, Proceed",
+      "cancel": "No, Cancel",
+      "submit": "Submit",
+      "discard": "Discard"
+    },
+    "errors": {
+      "errCancel": "Error while fetching cancellation data",
+      "errFetchService": "Error occured while fetching service request number",
+      "errCancelReason": "Error while fetching cancellation reason"
+    },
+    "messages": {
+      "submitSuccess": "Successfully Submitted",
+      "cancelRqst": "Cancellation request for BL No.",
+      "isSubmit": "is submitted successfully."
+    }
+  },
+
+  "ViewCancelBooking": {
+    "labels": {
+      "cancelBkg": "Cancel Booking",
+      "selectedBkg": " Selected Booking",
+      "rqstCancellation": " Requested Cancellation",
+      "reason": "Reason"
+    },
+    "buttons": {
+      "backToTasksList": "Back to Tasks List",
+      "backToServiceRequest": "Back to Service Request",
+      "reject": "Reject",
+      "approve": "Approve"
+    },
+    "errors": {
+      "error": "Error"
+    },
+    "messages": {
+      "approveSuccess": "Successfully Approved",
+      "cancelRqst": "Cancel request for Booking No.",
+      "isSuccess": "is successfully approved.",
+      "rejectSuccess": "Successfully Rejected",
+      "isRejected": "is successfully rejected.",
+      "approved": "APPROVED",
+      "mergeBkgApprove": "Request On Merge booking Approved",
+      "mergeBkgReject": "Request On Merge booking Rejected"
+    }
+  },
+  "MergeBooking": {
+    "labels": {
+      "mergeBkg": "Merge Booking",
+      "mergeSelect": "You are submitting request to merge the selected",
+      "bookings": "bookings.",
+      "masterBkg": "Select the Master Booking to merge the selected bookings and proceed.",
+      "poNumber": "PO Reference"
+    },
+    "buttons": {
+      "submit": "Submit",
+      "discard": "Discard",
+      "proceed": "Yes, Proceed",
+      "cancel": "Cancel"
+    },
+    "errors": {
+      "errServiceRqst": "Error occured while fetching service request number",
+      "bkgListErr": "Merge request requires min 2 booking numbers to submit",
+      "error": "Error"
+    },
+    "messages": {
+      "mergeSubmit": "Merge Request Submitted",
+      "merge": "Merge request",
+      "isSubmit": "is successfully submitted"
+    }
+  },
+  "ViewMergeBooking": {
+    "labels": {
+      "mergeBookingHeader": "Merge Booking",
+      "requestSubmitted": "Request submitted to merge",
+      "bookings": "bookings",
+      "masterBkg": "Master Booking",
+      "poNumber": "PO Reference"
+    },
+    "buttons": {
+      "backToTasksList": "Back to Tasks List",
+      "backToServiceRequest": "Back to Service Request",
+      "reject": "Reject",
+      "approve": "Approve"
+    },
+    "errors": {
+      "errFetchRqst": "Error while fetching request details",
+      "err": "Error"
+    },
+    "messages": {
+      "approved": "APPROVED",
+      "mergeApproved": "Request On Merge booking Approved",
+      "mergeReject": "Request On Merge booking Rejected",
+      "successApproved": "Successfully Approved",
+      "mergeBkgRqst": "Merge Booking request for Booking No.",
+      "isSuccess": "is successfully approved.",
+      "rejected": "Successfully Rejected",
+      "isRejected": "is successfully rejected."
+    }
+  },
+  "SplitBooking": {
+    "labels": {
+      "splitBkg": "Split Booking"
+    },
+    "buttons": {
+      "nextSplit": "Next: Split Container",
+      "discard": "Discard"
+    },
+    "errors": {
+      "errServiceRqst": "Error occured while fetching service request number",
+      "oneContainer": "This Booking Having only 1 Container",
+      "twoMoreContainers": "To proceed next, you need to have 2 or more containers",
+      "errSplitBkg": "Error occured while fetching Split Booking Request",
+      "singleContainerError": "This Booking Having only 1 Container"
+    }
+  },
+  "SplitBookingContainer": {
+    "labels": {
+      "splitBkg": "Split Booking",
+      "booking": "Booking",
+      "specifyBkgs": "Specify the number of bookings to split the Booking number",
+      "containerSplit": "Container Split",
+      "selectCont": "Select the container and update quantity for all the split ",
+      "bookings": "bookings",
+      "beforeSplit": "Before Split",
+      "afterSplit": "After Split",
+      "remaining": "Remaining",
+      "splitQty": "Split quantity",
+      "placeholder": "Enter",
+      "minimum": "minimum 2",
+      "splitInfo": "Split Info.",
+      "submitInfo": "Submit Info."
+    },
+    "buttons": {
+      "split": "Split",
+      "discard": "Discard",
+      "submit": "Submit",
+      "yesProceed": "Yes, Proceed",
+      "noCancel": "No, Cancel"
+    },
+    "errors": {
+      "deleteSplit": "Delete Split",
+      "removeBkgNo": "This will Remove booking no",
+      "proceed": "Do you want to procced?",
+      "splitRqstFor": "You are submitting the Split Request for ",
+      "splitBkgInto": "This will split the booking into",
+      "separateBkg": "seperate bookings.",
+      "sureProceed": "Are you sure want to proceed ?",
+      "booking": "Booking - ",
+      "zeroBkg": "has Zero quantity. Container Quantity should be more than zero for each bookings.",
+      "splitRequested": "Split Requested",
+      "splitRqst": "Split request ",
+      "isSubmit": "is submitted successfully.",
+      "errSplitRqst": "Error occured while submitting split request"
+    }
+  },
+  "SplitBookingView": {
+    "labels": {
+      "splitBkg": "Split Booking",
+      "containerSplit": "Container Split",
+      "beforeSplit": "Before Split",
+      "afterSplit": "After Split",
+      "hidden": "hidden",
+      "visible": "visible",
+      "backToTasksList": "Back to Tasks List",
+      "backToServiceRequest": "Back to Service Request"
+    },
+    "buttons": {
+      "reject": "Reject",
+      "approve": "Approve"
+    },
+    "errors": {
+      "error": "Error",
+      "errFetchSplit": "Error occured while fetching Split Booking Request Data"
+    },
+    "messages": {
+      "approved": "APPROVED",
+      "mergeApproved": "Request On Split booking Approved",
+      "mergeReject": "Request On Split booking Rejected",
+      "successApproved": "Successfully Approved",
+      "splitBkgRqstNo": "Split Booking request for Booking No.",
+      "isSuccess": "is successfully approved.",
+      "successRejected": "Successfully Rejected",
+      "isReject": "is successfully rejected."
+    }
+  },
+  "TelexRelease": {
+    "labels": {
+      "telexRelease": "Telex Release",
+      "warning": "Warning",
+      "telexRqstd": "You have Requested Telex Release for "
+    },
+    "buttons": {
+      "yesSubmit": "Yes, Submit",
+      "noCancel": "No, Cancel",
+      "accept": "Accept",
+      "cancel": "Cancel"
+    },
+    "errors": {
+      "error": "Error",
+      "errFetchService": "Error occured while fetching service request number"
+    },
+    "messages": {
+      "submitSuccess": "Successfully Submitted",
+      "telextRelease": "Telex Release for BL No.",
+      "isSubmit": "is successfully submitted",
+      "telexReleaseConfirmation": "We confirm that we have received and hereby accept the terms and ",
+      "pilConditions": "conditions of Pacific International Lines (Private) Limited’s ",
+      "billLanding": "(\"PIL\") bill of lading, which can also be found at PIL’s website at ",
+      "servantsAgents": "We further agree to indemnify and hold PIL, its servants and agents ",
+      "harmless": "harmless in respect of any liability, loss, damage or expense of ",
+      "naturePIL": "whatsoever nature which PIL, its servants or agents may sustain ",
+      "arisingRelation": "arising out of or in relation to our request to release the shipment ",
+      "consignee": "to the named consignee without presentation of the original bill of ",
+      "lading": "lading at destination."
+    }
+  },
+  "ViewTelexRelease": {
+    "labels": {
+      "telexRelease": "Telex Release",
+      "selectedBkgs": "Selected Bookings",
+      "blStatus": "BL Status",
+      "backToTasksList": "Back to Tasks List",
+      "backToServiceRequest": "Back to Service Request"
+    },
+    "buttons": {
+      "reject": "Reject",
+      "approve": "Approve"
+    },
+    "errors": {
+      "error": "Error",
+      "errRqstDetails": "Error while fetching request details"
+    },
+    "messages": {
+      "approved": "APPROVED",
+      "mergeBkgApprove": "Request On Telex Release Approved",
+      "mergeBkgReject": "Request On Telex Release Rejected",
+      "successApproved": "Successfully Approved",
+      "telexRqst": "Telex release request for Booking No.",
+      "isSuccess": "is successfully approved.",
+      "successRejected": "Successfully Rejected",
+      "isReject": "is successfully rejected."
+    }
+  },
+  "StationaryOrderHistoryRow": {
+    "labels": {
+      "cancelServiceRqst": "Cancel Service Request",
+      "areYouSure": "Are you sure you want to cancel request? This will cancel ",
+      "serviceRqst": "service request.",
+      "action": "This action cannot be undone.",
+      "submit": "SUBMITTED"
+    },
+    "buttons": {
+      "confirmDiscard": "Confirm Discard",
+      "cancel": "Cancel",
+      "cancelRequest": "Cancel request"
+    },
+    "errors": {
+      "errDeleteRqst": "Error occured in delete request",
+      "errDownloadRqst": "Error occured in download request"
+    },
+    "messages": {
+      "cancelSuccess": "Cancel Successful",
+      "rqstNo": "Request No. ",
+      "hasDeleted": "has been deleted"
+    }
+  },
+  "DGDeclaration": {
+    "labels": {
+      "dgDeclare": "DG Declaration",
+      "shipDeclare": "Shipping Declaration",
+      "nameOfDeclarant": "Name of Declarant",
+      "designation": "Designation",
+      "dateOfDeclaration": "Date of Declaration",
+      "country": "Country",
+      "placeOfDeclaration": "Place of Declaration",
+      "pkgCertificate": "Container Packing Certificate Declaration",
+      "nameOfCompany": "Name of Company",
+      "dangerCargo": "Dangerous Cargo Detail",
+      "containerDetails": "Container Details",
+      "containerNo": "Container No.",
+      "cargoDetails": "Cargo Details (S.No. & UN No.:)",
+      "declarationTextOne": "Thereby declare that the goods described above have ",
+      "packed": "been packed/loaded into the container identified",
+      "accordance": "above in accordance with the applicable provisions.",
+      "signed": "MUST BE COMPLETED AND SIGNED FOR ALL CONTAINER LOADS",
+      "personPkg": "BY PERSON RESPONSIBLE FOR PACKING/LOADING",
+      "declarationTextTwo": "I hereby declare that the contents of this",
+      "consignment": "consignment are fully and accurately describe above",
+      "shippingName": "by the Proper Shipping Name, and are classified,",
+      "packedLabel": "packed, marked and labeled/placarded and are in all",
+      "transport": "respect in proper condition for transport according",
+      "applicable": "to the applicable international and national",
+      "gvtRegulations": "government regulations."
+    },
+    "buttons": {
+      "backToShipments": "Back To Shipments",
+      "submit": "Submit"
+    },
+    "errors": {
+      "errDangerCargo": "Error in fetching Dangerous Cargo Detail",
+      "errGetcountryRqst": "Error in fetching getcountry request",
+      "errGetcityRqst": "Error in fetching getCity request",
+      "dgSuccess": "DG Declaration Successfully Submitted",
+      "dgSuccessBkgNo": "DG Declaration Successfully submitted for booking no.",
+      "errDGDeclration": "Error submitting DG Declaration"
+    }
+  },
+  "ShippingDeclaration": {
+    "labels": {
+      "nameOfCompany": "Name of Company",
+      "nameOfDeclarant": "Name of Declarant",
+      "designation": "Designation",
+      "dateOfDeclaration": "Date of Declaration",
+      "placeOfDeclaration": "Place of Declaration",
+      "country": "Country"
+    }
+  },
+  "ViewDGDeclaration": {
+    "labels": {
+      "dgDeclaration": "DG Declaration",
+      "shippingdeclare": "Shipping Declaration",
+      "ctfDeclare": "Container Packing Certificate Declaration",
+      "dangerCargo": "Dangerous Cargo Detail",
+      "containerDetails": "Container Details",
+      "containerNo": "Container No.",
+      "cargoDetails": "Cargo Details (S.No. & UN No.:)",
+      "declare": "Thereby declare that the goods described above have been",
+      "packed": "packed/loaded into the container identified above in",
+      "accordance": "accordance with the applicable provisions. MUST BE",
+      "complete": "COMPLETED AND SIGNED FOR ALL CONTAINER LOADS BY PERSON",
+      "responsible": "RESPONSIBLE FOR PACKING/LOADING",
+      "declareContents": "I hereby declare that the contents of this consignment are",
+      "accurate": "fully and accurately describe above by the Proper Shipping",
+      "packedClass": "Name, and are classified, packed, marked and",
+      "placard": "labeled/placarded and are in all respect in proper",
+      "transport": "condition for transport according to the applicable",
+      "govtRegulations": "international and national government regulations."
+    },
+    "buttons": {
+      "backSrvcRqst": "Back to Service Request"
+    },
+    "errors": {
+      "errdgDeclare": "Error in fetching DG Declaration",
+      "errDangerCargo": "Error in fetching Dangerous Cargo Detail",
+      "errFetchGetcountry": "Error in fetching getcountry request",
+      "errFetchGetcity": "Error in fetching getCity request"
+    }
+  },
+  "LoadSITemplate": {
+    "labels": {
+      "templateName": "Template Name",
+      "description": "Description",
+      "savedBy": "Saved by",
+      "savedOn": "Saved on",
+      "deleteTemplate": "Delete Template",
+      "alltemplates": "All SI Templates"
+    },
+    "buttons": {
+      "apply": "Apply",
+      "backToParties": "Back To Parties",
+      "yesProceed": "Yes, Proceed",
+      "noCancel": "No, Cancel"
+    },
+    "errors": {
+      "errSITemplate": "Error in fetching SI Templates",
+      "errDeleteTemplate": "Error while deleting SI Template"
+    },
+    "messages": {
+      "delete": "Deleted",
+      "hasDeleted": "has been deleted successfully.",
+      "deleteTemplate": "Delete Template",
+      "deleteConfirm": "Do you want to delete SI Template: "
+    }
+  },
+  "SaveSITemplate": {
+    "labels": {
+      "templateName": "Template Name",
+      "templateDesc": "Template description",
+      "saveSITemplate": "Save SI Template",
+      "templateExistsWarning": "This template name already exists. Saving this template will ",
+      "overwirte": "overwrite existing template.",
+      "charLeft": "characters left",
+      "saveBkgNo": "Are you sure you want to Save the Booking No.",
+      "action": "This action cannot be undone."
+    },
+    "buttons": {
+      "yes": "Yes",
+      "no": "No",
+      "cancel": "Cancel",
+      "save": "Save"
+    },
+    "errors": {
+      "errSaveTemplate": "Error while saving SI Template",
+      "errCheckTemplate": "Error while checking template status"
+    },
+    "messages": {
+      "siSaved": "SI Template Saved Successfully",
+      "templateSaved": "SI Template has been Saved from"
+    }
+  },
+  "LoadSITemplateFilter": {
+    "labels": {
+      "filter": "Filter",
+      "filterTemplateDate": "Filter templates by saved on date:",
+      "fromDate": "From Date",
+      "toDate": "To Date",
+      "templateName": "Template Name",
+      "description": "Description",
+      "savedBy": "Saved by"
+    },
+    "buttons": {
+      "cancel": "Cancel",
+      "apply": "Apply"
+    }
+  },
+  "ViewSITemplate": {
+    "labels": {
+      "viewTemplate": "View Template",
+      "shipInstSummary": "Shipment Instruction Summary",
+      "backToSITemplates": "Back To SI Templates"
+    },
+    "buttons": {
+      "applyTemplate": "Apply Template"
+    },
+    "errors": {
+      "errApplyTemplate": "Error while applying template"
+    }
+  },
+  "BLStationaryApproval": {
+    "labels": {
+      "blStatReq": "BL Stationery Requisition",
+      "approvalDetails": "Approval Details",
+      "printCountry": "Print Country",
+      "collectionDate": "Collection Date",
+      "printAgencyOffice": "Print Agency Office",
+      "approvedQuantity": "Approved Quantity",
+      "acknowledgeBy": "Acknowledge by",
+      "acknowledgersEmail": "Acknowledger's Email",
+      "blStationerySequence": "BL Stationery Sequence",
+      "batchNo": "Batch No",
+      "collectionDetails": "Collection Details",
+      "collectionCountry": "Collection Country",
+      "collectionAgencyOffice": "Collection Agency Office",
+      "quantity": "Quantity",
+      "sequenceNoFrom": "Sequence No. From",
+      "sequenceNoTo": "Sequence No. To",
+      "total": "Total"
+    },
+    "buttons": {
+      "addSqc": "Add Another Sequence",
+      "backToTasksList": "Back To Tasks List",
+      "discard": "Discard",
+      "reRoute": "Re-route to Other Agency",
+      "approve": "Approve"
+    },
+    "errors": {
+      "required": "Required",
+      "qtyInteger": "Quantity must be a number",
+      "qtyGreaterZero": "Quantity must be greater than zero",
+      "qtyRequired": "Quantity is required",
+      "qtytotal": "quantity must be equal to total",
+      "validEmail": "Enter a valid email",
+      "emailRequired": "Email is required",
+      "sqcNoPositive": "sequenceNoFrom must be a positive number",
+      "sqcNoRequired": "sequenceNoFrom is required",
+      "sqcNoTo": "sequenceNoTo must be greater than or equal to sequenceNoFrom",
+      "sqcNoToRequired": "sequenceNoTo is required",
+      "error": "Error",
+      "errAgencyOffices": "Error occured while fetching agency offices.",
+      "errAgencyCountries": "Error occured while fetching agency countries.",
+      "errFetchCollection": "Error occured while fetching collection details.",
+      "seriesNoPositive": "seriesNumTo must be a positive number"
+    },
+    "messages": {
+      "successApproved": "Successfully Approved",
+      "blApproved": "BL Stationery Requisition Form is successfully approved",
+      "blReRouted": "BL Stationery Requisition Request is succesfully re-routed to other agency"
+    }
+  },
+  "BLRequisitionFileUploadDialog": {
+    "labels": {
+      "uploadBlReqForm": "Upload BL Stationery Requisition Form",
+      "uploadSignedBl": "Upload Signed BL Stationery Requisition Form submitted by the ",
+      "customer": "customer",
+      "attachment": "Attachment",
+      "removeFile": "Remove this file to add a different file.",
+      "fileSizeLimit": "1 File, each maximum size - 2mb"
+    },
+    "buttons": {
+      "cancel": "Cancel",
+      "upload": "Upload"
+    },
+    "errors": {
+      "maxFile": "Maximum file size allowed is 2 Mb",
+      "validFile": "Please upload valid file",
+      "oneFile": "Only 1 File is allowed",
+      "errUploadFile": "Error while uploading file",
+      "errBlReqForm": "Error while saving BL Requisition Form"
+    },
+    "messages": {
+      "uploadSuccessful": " Upload successful",
+      "blUploadSuccess": "BL Requisition Form  Upload successful",
+      "successUpload": "Successfully uploaded",
+      "signedBLStationary": "Signed BL Stationery Requisition Form is successfully uploaded."
+    }
+  },
+  "SiTemplate": {
+    "labels": {
+      "loadSITemplates": "Load SI Templates",
+      "allSITemplates": "All SI Templates",
+      "siTemplates": "SI Templates",
+      "fromDate": "From Date",
+      "toDate": "To Date",
+      "templateName": "Template Name",
+      "description": "Description",
+      "savedBy": "Saved By"
+    }
+  },
+  "PartiesInformation": {
+    "labels": {
+      "partiesInfo": "Parties Information",
+      "bkgParty": "Booking Party",
+      "cusCode": "Customer Code",
+      "cusName": "Customer Name",
+      "shipper": "Shipper",
+      "partyType": "Party Type",
+      "nominatedAgent": "Nominated Agent",
+      "consignee": "Consignee"
+    },
+    "buttons": {
+      "addPartyType": "Click to add Party Type",
+      "back": "Back",
+      "save": "Save",
+      "discard": "Discard",
+      "skip": "Skip",
+      "nextReview": "Next: Review"
+    },
+    "errors": {
+      "cusInvalidCode": "Customer Code is Invalid, you may leave blank to proceed",
+      "cusNotFound": "Customer Code not found, you may leave blank to proceed",
+      "cusName": "Customer Name is required",
+      "errPartiesInfo": "Error while submitting parties information",
+      "firewallBlock": "Firewall blocking",
+      "selectPartyType": "Select party type from dropdown to add"
+    },
+    "messages": {
+      "success": "Successfully Submitted",
+      "partiesSubmitSuccess": "Parties information submitted successfully"
+    }
+  },
+  "UpdateBLStationary": {
+    "labels": {
+      "updateBL": "Update BL Stationeries",
+      "newSequence": "You cannot start a new sequence now since the current sequence",
+      "stationeryLeft": "has stationeries left to print. New sequence can be started only",
+      "currSeqEnd": "after the current sequence has ended.",
+      "warning": "Warning",
+      "pages": "Pages",
+      "to": "to",
+      "lost": "will be lost. Are you sure",
+      "proceedSequence": "you want to proceed with start sequence?",
+      "updateBLUsed": "Update BL Stationery Used",
+      "requisitionFromDate": "Requisition From Date",
+      "requisitionToDate": "Requisition To Date",
+      "batchNo": "Batch No.",
+      "runningSeries": "Running Series",
+      "noOfStationery": "Total No. of stationery available",
+      "startingNo": "Starting No.",
+      "closingNo": "Closing No.",
+      "noOfStationeryUsed": "Total No. of stationery used"
+    },
+    "buttons": {
+      "close": "Close",
+      "proceed": "Proceed",
+      "startSequence": "Start Sequence",
+      "back": "Back",
+      "cancel": "Cancel"
+    },
+    "errors": {
+      "required": "Required",
+      "rangeSeries": "startingNo must be in range of running series",
+      "reqToDateGreater": "requisitionToDate must be greater than requisitionFromDate",
+      "errFetchRequest": "Error while fetching request details",
+      "errUpdateSequence": "Error while updating sequence",
+      "error": "Error"
+    },
+    "messages": {
+      "success": "Success",
+      "blSequenceUpdated": "BL Stationery sequence updated successfully"
+    }
+  },
+  "ViewBLStationaryRequest": {
+    "labels": {
+      "blStationaryRequisition": "BL Stationery Requisition",
+      "collectionDetails": "Collection Details",
+      "collectionCountry": "Collection Country",
+      "collectionAgencyOffice": "Collection Agency Office",
+      "collectionDate": "Collection Date",
+      "quantity": "Quantity",
+      "approvalDetails": "Approval Details",
+      "batchNo": "Batch No.",
+      "sequenceStartNo": "Sequence Start No.",
+      "sequenceEndNo": "Sequence End No.",
+      "attachment": "Attachment"
+    },
+    "buttons": {
+      "backToService": "Back to Service Request"
+    },
+    "errors": {
+      "errFetchRequest": "Error while fetching request details",
+      "errDownloadRqst": "Error occured in download request"
+    }
+  },
+  "SITemplates": {
+    "labels": {
+      "loadTemplate": "Load SI Templates",
+      "siTemplates": "SI Templates"
+    }
+  },
+  "ApplyTemplateDialog": {
+    "labels": {
+      "applyTemplate": "Apply Template",
+      "templatePrompt": "Are you sure you want to apply the selected template",
+      "toBkg": "to this booking",
+      "dataOverwrite": "Some data will be overwritten.",
+      "action": "This action cannot be undone."
+    },
+    "buttons": {
+      "apply": "Yes, Apply",
+      "cancel": "No, Cancel"
+    },
+    "errors": {
+      "templateCode": "template code is null",
+      "errTemplate": "Error while applying template"
+    },
+    "messages": {
+      "siTemplate": "SI Template Applied Successfully",
+      "templateApplied": "SI Template has been applied from",
+      "selectTemplate": "Please select another template to apply."
+    }
+  },
+  "SIAmend": {
+    "labels": {
+      "prepaid": "Prepaid",
+      "collect": "Collect",
+      "original": "Original BL",
+      "seaway": "SeaWay Bill"
+    }
+  },
+  "DragAndDrop": {
+    "labels": {
+      "dragDrop": "Drag & Drop Your Files here",
+      "browseFile": "Browse file"
+    }
+  }
+}

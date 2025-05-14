@@ -1,0 +1,3294 @@
+{
+  "language": "语言",
+  "Login": {
+    "headings": {
+      "loginTitle": " 登录 PocketPIL!",
+      "forgotPwd": "忘记密码？",
+      "DownloadPOPTitle": "在此处下载应用程序"
+    },
+    "labels": {
+      "emailPlaceholder": "输入您的注册电子邮箱",
+      "pwdPlaceholder": "输入密码",
+      "forgotPwdLink": "忘记密码？",
+      "newUserPrompt": "还没注册PocketPIL？",
+      "regLinkText": "马上注册",
+      "missingVerifLinkPrompt": "尚未收到验证链接？",
+      "resendVerifLinkText": "再次发送验证链接",
+      "invalidCredMsg": "您输入的电子邮件地址或密码不正确。请重新输入。",
+      "androidApp": "在Andriod应用程序上下载",
+      "availablePlaystore": "可在 playStore 上购买",
+      "scanQRText": "扫描二维码即可下载  ",
+      "pocketpil": "PocketPIL 应用程序"
+    },
+    "buttons": {
+      "login": "登录"
+    },
+    "errors": {
+      "email": "无效的电子邮件",
+      "password": "必须输入密码",
+      "required": "必要",
+      "incorrectField": "您输入的电子邮件地址或密码不正确。请重新输入。",
+      "emailValid": "请输入有效的电子邮件",
+      "requiredEmail": "须输入电子邮箱",
+      "errAuth": " 获取双重身份验证时出错",
+      "fetchErr": "获取数据时出错"
+    },
+    "messages": {
+      "otp": "一次性验证码成功发送",
+      "otpContent": " 一次性验证码已成功发送至注册邮箱"
+    }
+  },
+  "CustomerRegistration": {
+    "headings": {
+      "title": "注册",
+      "userInfo": "用户信息",
+      "companyInfo": "企业信息"
+    },
+    "labels": {
+      "companyEmail": " 企业电子邮箱",
+      "firstName": "名称",
+      "lastName": "姓氏",
+      "country": "国家",
+      "city": "城市",
+      "countryCode": "国家代码",
+      "contactNumber": "联系电话",
+      "role": "职位",
+      "companyRegNo": "企业注册号",
+      "taxRefNp": "企业税号",
+      "companyName": "公司名称",
+      "companyAddress": "公司地址",
+      "zipCode": "邮政编码",
+      "charLeft": "剩余字符"
+    },
+    "buttons": {
+      "clear": "清理",
+      "cancel": "取消",
+      "submit": "提交"
+    },
+    "errors": {
+      "emailErr": "无效的电子邮件",
+      "required": "必填",
+      "contactNumber": "请输入有效的电话号码",
+      "companyAddress": "最多允许600个字符",
+      "zipCode": "最多允许10个字符",
+      "compRegErr": "最多允许20个字符",
+      "alphNumErr": "只允许字母数字和连字符(-)",
+      "existsTitle": "电子邮件已存在",
+      "existsContent": "公司电子邮件地址已存在",
+      "unsuccessReg": "注册失败",
+      "unsuccessRegContent": "请向机构查询更多信息"
+    },
+    "messages": {
+      "successRegTitle": "注册成功",
+      "successRegContent": "感谢您注册。我们已将验证链接发送至您的电子邮箱",
+      "successRegVerify": "请验证以激活您的帐户"
+    },
+    "dialogs": {
+      "title": "取消注册？",
+      "confirmText": "是的，取消。",
+      "cancelText": "否，继续。",
+      "contentPara": "确定要取消注册吗？您所填的信息都将丢失。"
+    }
+  },
+  "ChangePassword": {
+    "labels": {
+      "currentPwd": "当前密码",
+      "newPwd": "新密码",
+      "reEnterPwd": "重新输入新密码",
+      "pwdReq": "密码必须包含:",
+      "minChars": "最少8个字符",
+      "hasNumber": "包含一个数字",
+      "hasSpecialChar": "包含一个特殊字符",
+      "currPwd": "输入您的当前密码以及新密码和确认",
+      "changePwd": "更改您的密码。",
+      "changePassword": "更改密码"
+    },
+    "buttons": {
+      "confirm": "确认"
+    },
+    "errors": {
+      "currentPwdReq": "填写当前密码",
+      "pwdReq": "填写密码",
+      "pwdMinChars": "必须包含8个字符",
+      "pwdNumber": "密码须包含一个数字",
+      "pwdSymbol": "密码须包含一个符号",
+      "confirmPwdReq": "再次确认密码",
+      "pwdMustMatch": "必须与'新密码'设置要求匹配",
+      "newshouldnotcurrent": "新密码不应与当前密码相同"
+    },
+    "messages": {
+      "pwdUpdated": "密码更新成功",
+      "pwdUpdateMsg": "您的密码已成功更新。",
+      "err": "错误"
+    }
+  },
+  "ChangeTOtpQRPage": {
+    "labels": {
+      "title": "一次性临时密码 (微软/谷歌身份验证器)",
+      "downloadApp": "下载应用",
+      "downloadAppTooltip": "从苹果商店或谷歌商店下载微软验证应用程序",
+      "scanQR": "扫描二维码",
+      "scanQRInstructions": "使用微软验证应用程序扫描二维码。将您的帐户与“微软验证”进行关联。",
+      "cantScanImage": "无法扫描?"
+    },
+    "buttons": {
+      "done": "完成"
+    },
+    "messages": {
+      "authHandlingErr": "身份验证错误 - "
+    }
+  },
+  "ChangeTwoFactorAuthentication": {
+    "labels": {
+      "title": "双重身份验证",
+      "selectAuth": "您已经选择",
+      "selectedAuthMethod": "XX是您默认的登录身份验证方法。 如果您想更改身份验证方法，请选择其他选项。",
+      "totp": "一次性临时密码(苹果/谷歌身份验证应用程序)",
+      "totpTooltip": "从苹果商店/谷歌商店下载微软验证应用程序",
+      "emailOtp": "邮箱一次性密码验证"
+    },
+    "buttons": {
+      "next": "下一页"
+    },
+    "errors": {
+      "authMethodReq": "须选择验证方法",
+      "authHandlingErr": "身份验证错误 - "
+    }
+  },
+  "CreatePassword": {
+    "labels": {
+      "title": "创建密码",
+      "newPwd": "新密码",
+      "reEnterPwd": "重新输入新密码",
+      "pwdReq": "密码必须包含:",
+      "minChars": "最少 8 个字符",
+      "hasNum": "包含一个数字",
+      "hasSpecChar": "包含一个特殊字符",
+      "createNewPwd": "创建新密码。"
+    },
+    "buttons": {
+      "submit": "提交"
+    },
+    "errors": {
+      "pwdReq": "必须输入密码",
+      "pwdMinChars": "必须包含 8 个字符",
+      "pwdHasNum": "密码需要一个数字",
+      "pwdHasSym": "密码需要一个符号",
+      "confPwdReq": "需要密码确认",
+      "pwdMustMatch": "必须与'新密码'设置要求匹配",
+      "invalidLink": "创建密码链接无效",
+      "err": "错误"
+    },
+    "messages": {
+      "pwdCreated": "密码创建成功",
+      "pwdCreatedCont": "您的密码已创建成功。请登录以继续。"
+    }
+  },
+  "CustomerProfile": {
+    "labels": {
+      "title": "客户资料",
+      "companyInfo": "企业信息",
+      "companyName": "公司名称",
+      "address": "地址",
+      "customerCode": "客户代码",
+      "taxRefNo": "税务登记号",
+      "companyRegNo": "公司注册编号",
+      "myProfile": "我的档案",
+      "firstName": "名称",
+      "lastName": "姓氏",
+      "contactNo": "联系电话",
+      "emailAddress": "电子邮件地址",
+      "users": "用户",
+      "name": "姓名",
+      "recentActivity": "近期活跃度",
+      "status": "状态",
+      "searchByName": "按名称搜索",
+      "contactNumber": "联系电话"
+    },
+    "buttons": {
+      "termsConditions": "条款与细则",
+      "changePassword": "更改密码",
+      "changeAuthMethod": "更改验证方法",
+      "reconnectAuthApp": "重新连接身份验证应用程序",
+      "activate": "激活",
+      "deactivate": "停用",
+      "active": "活跃",
+      "Inactive": "不活跃"
+    },
+    "errors": {
+      "validPhone": "请输入有效的电话号码",
+      "required": "必填",
+      "errCompanyData": "获取企业资料时出错",
+      "errUserData": "获取用户资料时出错",
+      "errUpdateProfile": "更新资料时出错",
+      "noRecords": "无记录...",
+      "errTitle": "错误"
+    }
+  },
+  "EmailOtp": {
+    "labels": {
+      "title": "邮箱 OTP",
+      "verificationCode": "验证码",
+      "checkEmail": "验证码已发送，请检查您的注册电子邮箱。",
+      "notReceived": "未收到验证码?",
+      "notValidate": "无法验证?",
+      "tryAuth": "请尝试使用软验/谷歌身份验证应用程序"
+    },
+    "buttons": {
+      "resendCode": "重新发送验证码",
+      "validate": "进行验证"
+    },
+    "errors": {
+      "otpResendSuccess": "成功向注册的电子邮件地址重新发送OTP",
+      "resendOtpErr": "重新发送 OTP 错误",
+      "authHandlingErr": "身份验证处理出错",
+      "otpValidationErr": "请输入正确的 OTP 或尝试重新登录。",
+      "authFailed": "验证失败。请转到登录页面重新尝试。",
+      "authTryAgain": "请转到登录屏幕并重试",
+      "otpValid": "一次性验证码错误"
+    },
+    "messages": {
+      "otpResend": "重新发送一次性验证码成功"
+    }
+  },
+  "EmailOtpInfo": {
+    "labels": {
+      "title": "电子邮箱 OTP",
+      "info": "您已选择电子邮件 OTP作为登录的默认验证方法。 登录时，验证码将发送到您注册的电子邮件 ID 上。"
+    },
+    "buttons": {
+      "goToLoginPage": "前往登录页面"
+    }
+  },
+  "ForgotPassword": {
+    "labels": {
+      "title": "忘记密码?",
+      "info": "输入与您PocketPIL账户相关联的电子邮箱。 我们将向您发送一封带有密码重置链接的电子邮件。",
+      "email": "注册邮箱地址",
+      "emailSent": "电子邮件已发送至给您"
+    },
+    "buttons": {
+      "submit": "提交"
+    },
+    "errors": {
+      "emailSent": "一封电子邮件已发送到您的",
+      "emailPwd": "带有密码重置链接。",
+      "err": "错误",
+      "invalidEmail": "无效的邮箱",
+      "emailSentErr": "邮件已发送"
+    }
+  },
+  "FindMyBookings": {
+    "labels": {
+      "fromDate": "开始日期",
+      "toDate": "结束日期",
+      "bkgNo": "预订编号",
+      "portOfLoad": "装货港",
+      "portOfDischarge": "卸货港",
+      "vessel": "船舶",
+      "voyage": "航程",
+      "findBkgs": "查找我的预订",
+      "searchBookingResults": "搜索预订结果",
+      "selected": "您已选择",
+      "of": "的",
+      "bookings": "预订",
+      "departure": "出发",
+      "arrival": "到达",
+      "status": "状态",
+      "portofLoad": "装货港",
+      "portofDischarge": "卸货港",
+      "nonStop": "直达",
+      "cargo": "货物",
+      "showLess": "显示更少",
+      "noRecordsToShow": "无记录显示...",
+      "loadMoreBookings": "加载更多预订"
+    },
+    "buttons": {
+      "search": "搜索",
+      "clear": "清除",
+      "back": "返回",
+      "select": "选择"
+    },
+    "errors": {
+      "errorForFieldBlank": "所有栏位不能为空",
+      "errFetchingFindMybookings": "查找我的预订结果时发生错误",
+      "errorForCities": "获取城市列表时发生错误",
+      "errData": "获取初始数据时发生错误",
+      "errPortList": "获取港口列表时发生错误",
+      "errPortDetails": "获取港口详细信息时发生错误",
+      "fromDateReq": "选择结束日期时需要起始日期",
+      "toDateReq": "选择起始日期时需要结束日期"
+    }
+  },
+  "ResendVerification": {
+    "labels": {
+      "title": "重新发送验证链接",
+      "info": "请输入您在注册时使用的电子邮件ID，以接收验证链接。",
+      "email": "已登陆的邮箱地址",
+      "emailSent": "邮件已发送至您的邮箱"
+    },
+    "buttons": {
+      "resend": "再发送"
+    },
+    "errors": {
+      "emailSent": "一封电子邮件已发送到您的",
+      "emailPwd": "带有密码重置链接。",
+      "err": "重新发送验证时出现错误",
+      "invalidEmail": "无效的电子邮件",
+      "emailSentErr": "邮件已发送"
+    }
+  },
+  "ResetPassword": {
+    "labels": {
+      "title": "重设密码?",
+      "info": "更改密码请输入新密码并确认",
+      "password": "新密码",
+      "confirmPassword": "重新输入新密码",
+      "pwdContain": "密码必须含有:",
+      "minChar": "至少 8 个字符",
+      "conNumber": "需有一个数字",
+      "conSpecialChar": "需含有特殊字符"
+    },
+    "buttons": {
+      "confirm": "确认"
+    },
+    "errors": {
+      "passwordResetSuccess": "密码重新设置成功",
+      "passwordResetSuccessInfo": "您的密码已重设，请继续登录。",
+      "err": "错误",
+      "containLetters": "必须包含8个字符",
+      "pwdNum": "密码需要一个数字",
+      "pwdSymb": "密码需要一个符号",
+      "pwdConf": "需要确认密码",
+      "pwdMatch": "必须与'新密码'设置要求匹配"
+    }
+  },
+  "Shipments": {
+    "labels": {
+      "title": "货物运输",
+      "currentTab": "现行",
+      "historyTab": "历史记录",
+      "downloadButton": "下载",
+      "filterButton": "筛选",
+      "createBookingButton": "创建预订",
+      "view": "浏览",
+      "showing": "显示",
+      "of": "之",
+      "actionWithMe": "与我一起操作",
+      "dangerousGoods": "危险货物",
+      "reefer": "冷藏箱",
+      "loadMoreShipments": "载入更多运输",
+      "noRecordsToShow": "无记录可显示...",
+      "currShip": "当前货运",
+      "allCurrShip": "所有当前货运",
+      "pktPil": "PocketPIL货运",
+      "action": "与我一起行动",
+      "inboundShip": "入境货运",
+      "outboundShip": "出境货运",
+      "clickDownload": "点击下载整个列表",
+      "seeHistory": "点击查看历史",
+      "departure": "出发日期"
+    },
+    "buttons": {
+      "confirm": "确认"
+    },
+    "errors": {
+      "downloadFailed": "下载失败"
+    }
+  },
+  "TermsAndConditions": {
+    "labels": {
+      "title": "条款与细则",
+      "introduction": "1. 前言",
+      "personalData": "2. 个人信息",
+      "collectPersonalData": "3. 个人数据的收集",
+      "consentCheckbox": "我已阅读并理解条款和细则文件。",
+      "pilPrivacy": "我们，太平船务私人有限公司（简称“太平船务”），尊重您的隐私并致力于保护您的个人信息。",
+      "pilGroup": "本隐私通知以太平船务集团名义发布，包括太平船务及其直接和间接的子公司，以及任何适用公司",
+      "privacyNotice": "在本隐私通知适用于太平船务集团负责处理您信息的相关公司",
+      "privacyInfo": "本隐私通知将向您提供有关太平船务如何通过此网站或任何太平船务应用程序和/或在线门户（“平台”）收集和处理您个人数据的信息。",
+      "privacyData": "当我们正在收集或处理关于您的个人信息时，阅读本隐私通知以及我们可能提供的任何其他隐私通知非常重要，以便您完全了解我们如何且为何使用您的信息。本隐私通知作为其他通知的补充，而不是覆盖它们。",
+      "accessWebsite": "在使用和访问此网站和平台时，请确保证您已超过法定年龄。此网站和平台不适用于未成年人，我们并非故意收集与未成年人相关的数据。",
+      "privacyAuth": "如果您不同意本隐私通知或未经允许，请不要使用此网站和平台。",
+      "personalInfo": "个人数据或个人信息，是指任何可以识别数据主体的信息，或是与数据主体相关的信息。我们可以通过该信息，或将该信息和其他已有或合理获取的信息相结合，直接或间接识别数据主体。",
+      "storeTransfer": "根据您与网站和平台的互动，我们可能会收集、使用、存储和转移以下类别的个人信息，具体如下：",
+      "contactData": "1. 个人联系信息。这可能包括您的姓名、公司名称、邮编、电子邮箱或电话号码。",
+      "profileAccount": "2. 个人资料和账户信息。这可能包括您的用户名、密码或安全问题及答案。",
+      "usageData": "3.使用信息。这可能包括您如何使用我们的网站、产品和服务的信息。这些信息是通过浏览器cookies、网络信标等自动化技术获取。",
+      "technicalData": "4.技术信息。这可能包括您的互联网协议（IP）地址、浏览器类型和版本、时区设置和位置、浏览器插件类型和版本、操作系统和平台或您用于访问此网站和平台的设备上的其他技术。如果您通过智能手机等移动设备访问网站和平台，在允许的情况下还将收集包括您手机的设备唯一标识、广告标识、地理位置以及其他类似的移动设备数据。",
+      "marketingComData": "5. 市场营销和通讯信息。这可能包括接收我们的新闻或信息通讯、与您货物相关的报告和电子邮件。",
+      "financialData": "6. 财务信息。这可能包括您的银行账户信息、信用卡信息或其他可用的支付信息。",
+      "aggregatedData": "7.汇总信息。这可能包括任何目的的统计或人口统计数据。汇总信息可能源自您的个人信息，但不被视为个人信息，因为这些信息是匿名的，不会识别出您。然而，如果汇总信息成为个人信息，我们将按照本隐私通知使用这些个人信息。",
+      "collectData": "我们可能会收集关于您的个人数据，包括但不限于",
+      "limit": "通过以下方式：",
+      "directInt": "直接互动。",
+      "relationService": "当您聘请我们提供任何服务时，",
+      "writeVerbal": "无论是书面，口头，通过我们的网站或",
+      "platformData": "平台，您可能会通过填写表格提供您的个人数据，",
+      "fillingForm": "填写表格。",
+      "interactStaff": "当您与我们的员工，服务提供商或其他",
+      "telephone": "代表交流。例如，通过电话，",
+      "letters": "信件，传真，面对面会议，电子邮件和/或其他形式的",
+      "communication": "沟通。",
+      "submitPersonal": "当您因任何其他原因向我们提交个人数据时",
+      "automateTech": "自动化技术或交互"
+    },
+    "buttons": {
+      "back": "返回",
+      "reject": "拒绝",
+      "accept": "接受"
+    },
+    "messages": {
+      "registrationSuccessful": "注册成功",
+      "registrationMessage": "感谢您注册我们的服务。我们已经向您的",
+      "emailVerify": "感谢您的注册。我们已向您的电子邮箱john.doe@gmail.com 发送了验证链接。请验证以激活您的帐户。"
+    }
+  },
+  "TOtpQRPage": {
+    "labels": {
+      "title": "一次性临时密码(微软/谷歌身份验证器)",
+      "downloadApp": "下载应用",
+      "scanQRCode": "扫描二维码",
+      "scanQRCodeDescription": "使用微软验证应用程序扫描二维码。将您的帐户与“微软验证”进行关联。",
+      "cantScanImage": "无法扫描图像？"
+    },
+    "buttons": {
+      "done": "完成"
+    },
+    "messages": {
+      "downloadApp": "从苹果商店或谷歌商店下载微软身份验证器应用程序。"
+    }
+  },
+  "TwoFactorAuthentication": {
+    "labels": {
+      "title": "双重身份验证",
+      "authDesc": "您想如何设置账户验证？用户选择的登录方式将被设置为默认方式。",
+      "totp": "一次性临时密码(微软/谷歌身份验证器)",
+      "emailOtp": "电子邮箱OTP"
+    },
+    "buttons": {
+      "next": "下一页"
+    },
+    "errors": {
+      "authMethodReq": "需要选择一种认证方法"
+    },
+    "messages": {
+      "totp": "从苹果商店或谷歌商店下载微软身份验证器应用程序。"
+    }
+  },
+  "VerifyOTP": {
+    "labels": {
+      "title": "一次性临时密码(微软/谷歌身份验证器)",
+      "authDesc": "请输入微软/谷歌身份验证器的一次性密码",
+      "verificationCode": "验证码",
+      "noValidate": "无法验证？",
+      "emailOtp": "尝试使用电子邮箱一次性密码"
+    },
+    "buttons": {
+      "validate": "验证"
+    },
+    "errors": {
+      "authFailed": "身份验证失败",
+      "authHandlingErr": "验证处理错误 -",
+      "otpValidationErr": "一次性密码验证错误",
+      "InvalidOtp": "请输入正确的一次性验证码或尝试重新登录。",
+      "tryAgain": "请登录并再试一次。"
+    }
+  },
+  "CustomerRegistrationApproval": {
+    "labels": {
+      "newCustomerReg": "新客户注册",
+      "customerCode": "客户代码",
+      "compInfo": "企业信息",
+      "compName": "企业名称",
+      "address": "地址",
+      "taxRefNo": "税务登记号",
+      "companyRegNo": "公司登记号",
+      "cusProfile": "客户信息",
+      "firstName": "名称",
+      "lastName": "姓氏",
+      "contactNo": "联系电话",
+      "emailAddress": "电子邮箱",
+      "agencyOffice": "代理办事处",
+      "portCode": "港口代码"
+    },
+    "buttons": {
+      "backToTaskList": "返回任务列表",
+      "reject": "拒绝",
+      "accept": "接受"
+    },
+    "errors": {
+      "errorFetchingUserData": "获取用户数据时出错",
+      "errorUpdateProfile": "更新信息时出错",
+      "errorBlock": "不允许注册：企业已被禁止/删除/制裁",
+      "validCode": "获取公司数据时出错，请输入有效的客户代码",
+      "portCodeValid": "港口代码是必需的",
+      "errorReroute": "重新路由时发生错误",
+      "errorFetchingPortsData": "获取港口时发生错误"
+    },
+    "messages": {
+      "successReg": "注册成功",
+      "newCusRegSuccess": "新客户注册成功。",
+      "successRerouteTitle": "成功重新路由",
+      "successRerouteContent": "客户注册审批请求已成功转发至其他机构"
+    }
+  },
+  "RejectDialogBox": {
+    "labels": {
+      "rejectRequest": "驳回请求",
+      "rejectReqNo": "您确定要拒绝这个请求编号？",
+      "rejectCusReg": "您确定要拒绝客户注册吗？",
+      "actionPrompt": "该操作无法撤销。",
+      "comments": "意见评论",
+      "notApplicable": "不适用",
+      "charLeft": "字符剩余"
+    },
+    "buttons": {
+      "yes": "是",
+      "no": "否",
+      "cancel": "取消",
+      "reject": "拒绝"
+    },
+    "errors": {
+      "rejectionSuccessful": "成功拒绝",
+      "amendtReqForBkgNo": "申请修改预订号.",
+      "successRej": "已被成功拒绝。",
+      "newCusRegRejSuccess": "新客户注册被成功拒绝。",
+      "errTaskReq": "拒绝任务请求时出错",
+      "errBL": "带有请求号的提单重印请求。",
+      "errBLRej": "已成功拒绝。"
+    }
+  },
+  "TaskListFilter": {
+    "labels": {
+      "filter": "筛选",
+      "fromDate": "开始日期",
+      "toDate": "结束日期",
+      "status": "状态",
+      "bookingNumber": "订舱号",
+      "requestNumber": "依编号",
+      "requestType": "依类别",
+      "requestedBy": "依照 ",
+      "departure": "出发日期"
+    },
+    "buttons": {
+      "cancel": "取消",
+      "apply": "应用"
+    }
+  },
+  "TasksList": {
+    "labels": {
+      "reqNo": "请求编号.",
+      "reqType": "请求类型",
+      "bkgNoStatus": "预订编号 & 状态",
+      "compName": "公司名称",
+      "requByDate": "依日期请求",
+      "actions": "操作",
+      "reqStatus": "请求状态",
+      "appByOn": "由谁&在 批准",
+      "rejReq": "拒绝请求",
+      "uploadSigned": "上传已签名的文具请求表格。"
+    },
+    "buttons": {
+      "review": "审核",
+      "upload": "上传"
+    },
+    "errors": {
+      "errFetchTaskList": "获取任务列表信息时出错",
+      "reviewErr": "针对任务类型进行审核",
+      "reviewErrPresent": "不存在。",
+      "downloadFailed": "下载失败",
+      "errFetchingAgencyList": "获取代理列表信息时出错",
+      "err": "错误"
+    }
+  },
+  "UsersList": {
+    "labels": {
+      "name": "名称",
+      "role": "职位",
+      "cusCode": "客户代码",
+      "createdDate": "创建日期",
+      "email": "电子邮箱",
+      "contactNo": "联系电话",
+      "location": "地址",
+      "compName": "公司名称",
+      "compRegNo": "公司登记号",
+      "adminOffice": "行政办公室",
+      "status": "状态",
+      "blAccess": "提单存取",
+      "blPrint": " 打印提单",
+      "blSeries": "提单截取号",
+      "lastActive": "最后活动",
+      "action": "行动",
+      "locICon": "位置图标",
+      "BLprintIcon": "BL 打印图标",
+      "BLCaptureIcon": "BL 捕捉系列图标"
+    },
+    "errors": {
+      "errFetchingUsersList": "获取用户列表信息时出错",
+      "errFetchingAgencyList": "获取代理列表信息时出错",
+      "errUpdatingStatus": "更新状态时出错",
+      "dwnldFailed": "下载失败"
+    }
+  },
+  "UsersListFilter": {
+    "labels": {
+      "filter": "筛选",
+      "fromDate": "开始日期",
+      "toDate": "结束日期",
+      "country": "国家",
+      "email": "邮箱",
+      "cusCode": "客户代码",
+      "compRegNo": "公司登记号",
+      "officeCode": "办公室代码",
+      "status": "状态"
+    },
+    "buttons": {
+      "cancel": "取消",
+      "apply": "应用"
+    },
+    "errors": {
+      "invalidEmail": "请输入有效的邮箱地址"
+    }
+  },
+  "BLPrintPdfViewer": {
+    "buttons": {
+      "print": "打印",
+      "reqStationary": "申请提单纸",
+      "close": "关闭"
+    },
+    "errors": {
+      "errUpdPrintStatus": "更新提单打印状态时出错",
+      "errCheckStationaryAvailability": "无法检查纸张的可用性",
+      "notEnoughStationary": "纸张不足",
+      "notEnoughStationaryDetails": "如需了解更多详情，请联系代理行政人员。"
+    },
+    "dialogs": {
+      "notEnoughStationary": "您没有足够的提单纸来打印提单。"
+    }
+  },
+  "StationaryRequsitionForm": {
+    "labels": {
+      "blStationaryRequisition": "提单纸张订购需求",
+      "collectionDetails": "收货详细资料",
+      "collectionCountry": "收货国家",
+      "collectionAgencyOffice": "收货代理",
+      "collectionDate": "收货日期",
+      "quantity": "数量",
+      "requiredField": "*表示必填项",
+      "enter": "输入"
+    },
+    "buttons": {
+      "discard": "放弃",
+      "submit": "提交"
+    },
+    "errors": {
+      "required": "必要",
+      "qtyNumber": "数量必须为数字",
+      "qtyPositive": "数量必须大于零",
+      "qtyRequired": "必须填写数量",
+      "errRqNo": "获取服务请求号时出错",
+      "errFetchingOffices": "获取代理办事处时出错",
+      "errFetchingCountries": "获取代理国家/地区时出错",
+      "errReqStationary": "请求纸张时出错。"
+    },
+    "messages": {
+      "stationaryReq": "成功发送提单纸张申请。"
+    }
+  },
+  "ActionLog": {
+    "labels": {
+      "actionLog": "操作日志"
+    },
+    "buttons": {
+      "viewMore": "查看详情",
+      "viewLess": "查看更少"
+    }
+  },
+  "BookingAmendmentSummary": {
+    "labels": {
+      "routeDetails": "航线详情",
+      "amended": "- 已修改",
+      "oldDetails": "原有信息",
+      "amendedDetail": "已修改信息",
+      "departureDate": "发送日期",
+      "arrivalDate": "抵达日期",
+      "vesselVoyage": "船舶&航次",
+      "cargoDetails": "货物详情",
+      "containerTypeQty": "集装箱类型 & 数量",
+      "cargoType": "货物种类",
+      "estimatedWeight": "预估重量"
+    }
+  },
+  "DangerReviewBooking": {
+    "labels": {
+      "dangerousGoods": "危险物品",
+      "containerNo": "集装箱号",
+      "noOfCargos": "货物数量",
+      "expandCargos": "展示所有货物",
+      "collapseCargos": "收起所有货物"
+    }
+  },
+  "ReeferAmendTable": {
+    "labels": {
+      "reefer": "冷藏箱 -",
+      "amended": "已修改",
+      "oldDetails": "原有信息",
+      "amendedDetails": "已修改信息"
+    },
+    "messages": {
+      "content": "原有冷藏箱信息已全部放弃。以下均为新的冷藏箱信息。",
+      "reefer": "以下的冷藏箱详情都是新的。"
+    }
+  },
+  "ReeferReviewBooking": {
+    "labels": {
+      "reefer": "冷链",
+      "reeferIcon": "冷藏箱图标"
+    }
+  },
+  "RemarksSection": {
+    "labels": {
+      "remarksAndAttach": "标注及附件",
+      "remarks": "备注",
+      "attachments": "附件 ",
+      "freightSettlement": "运输方式",
+      "freight": "货运",
+      "prepaid": "预付",
+      "collect": "到付"
+    }
+  },
+  "RoutingAndCargoDetails": {
+    "labels": {
+      "contractNo": "合同编码",
+      "routeDetails": "路径",
+      "placeOfReceipt": "收件地点",
+      "portOfLoad": "装载港",
+      "departure": "出发",
+      "portOfDischarge": "卸货港",
+      "arrival": "抵达",
+      "placeOfDelivery": "交货地点",
+      "exVesselName": "前班船舶名称",
+      "exVoyageNo": "前班航次编号",
+      "cargoDetails": "货物信息",
+      "quantity": "数量",
+      "gateCutOff": "重箱进港截止时间",
+      "vgmCutOff": "货物重量验证（VGM）截止时间",
+      "docCutOff": "文件结关时间",
+      "estimatedWeight": "估计重量",
+      "cargo": "货物",
+      "containerOperator": "集装箱运营商"
+    }
+  },
+  "DangerApplicationDialog": {
+    "labels": {
+      "dgAppForm": "危险货物申请表",
+      "uploadFilledDgAppForm": "以下请提交填写完成的危险货物申请表",
+      "dropFiles": "将您的文件拖放至此处",
+      "browseFile": "浏览文件",
+      "fileSizeLimit": "限 1 个文件，每个文件最大为 2MB",
+      "filledDgApp": "已填写的危险货物联运表",
+      "removeFile": "删除此文件以添加其他文件。"
+    },
+    "buttons": {
+      "cancel": "取消",
+      "upload": "上传",
+      "submit": "提交"
+    },
+    "errors": {
+      "errUpload": "上传文件时出错",
+      "fileSize": "允许的最大文件大小为2 Mb",
+      "uploadFile": "请上传有效文件",
+      "oneFile": "只允许1个文件"
+    },
+    "messages": {
+      "upload": "上传成功",
+      "dgForm": "危险货物申请表上传成功"
+    }
+  },
+  "DangerCopyContainerDialog": {
+    "labels": {
+      "copyContainer": "复制集装箱",
+      "containersSelected": "集装箱选取",
+      "copyCargosFrom": "将货物复制自",
+      "to": "到",
+      "toSelectedContainers": "选择的容器。请选择您希望",
+      "copy": "复制。",
+      "selectAll": "全选"
+    },
+    "buttons": {
+      "cancel": "取消",
+      "copy": "复制"
+    },
+    "errors": {
+      "selectContainer": "请选择至少一个集装箱来复制货物。"
+    }
+  },
+  "DangerForm": {
+    "labels": {
+      "unNoUnSeq": "联合国编号（UN No）/ 序列号（UN Seq.）",
+      "properShippingName": "正式运输名称",
+      "imdgClass": "国际海运危险货物类别-",
+      "packingGroup": "包装类别-",
+      "technicalName": "技术名称",
+      "grossWeight": "毛重",
+      "netWeight": "净重",
+      "flashPoint": "闪点",
+      "cargoStatus": "货物状态",
+      "marinePollutant": "海洋污染物",
+      "limitedQuantity": "数量限制",
+      "packageInfo": "包装信息",
+      "outerPkgQty": "外包装数量",
+      "outerPkgDesc": "外包装描述",
+      "innerPkgQty": "内包装数量",
+      "innerPkgDesc": "内包装描述",
+      "contactInfo": "联系信息",
+      "contactPerson": "联系人",
+      "countryCode": "国家代码",
+      "emergContactNo": "紧急联系电话",
+      "saveDraft": "保存订舱草稿"
+    },
+    "buttons": {
+      "save": "储存",
+      "delete": "删除",
+      "duplicate": "复制"
+    },
+    "errors": {
+      "required": "必要",
+      "grossWeight": "毛重需大于零",
+      "grossWeightTypeError": "毛重需为数字",
+      "netWeight": "净重不能超过毛重",
+      "netWeightTypeError": "净重需为数字",
+      "netWghtZero": "净重必须大于零",
+      "noOnly": "必需只能为数字",
+      "flashPointRange": "必须介于 ",
+      "flashPointExact": "数值必须精确",
+      "positive": "数量必须大于零",
+      "phoneNo": "请输入有效的电话号码",
+      "fetchUnoErr": "获取联合国号码详情时发生错误。",
+      "countryErr": "获取国家详情时发生错误"
+    }
+  },
+  "DangerFormTable": {
+    "headers": {
+      "unNo": "联合国编号",
+      "unNoSeq": "联合国编码 / 副危险号",
+      "imdgClass": "国际海运危险货物类别",
+      "packagingGroup": "包装类别",
+      "properShippingName": "正式运输名称",
+      "flashPoint": "挥发点",
+      "limitedQty": "限定数量"
+    }
+  },
+  "DangerGoods": {
+    "headers": {
+      "dangerousGoods": "危险物品",
+      "totalContainers": "集装箱总数:",
+      "selectedContainer": "被选择的集装箱:",
+      "viewing": "查看",
+      "cargos": "货物",
+      "reqField": "表示必填项",
+      "containerNo": "集装箱号",
+      "cargoNo": "货物号",
+      "unNoUnSeq": "联合国编码 / 联合国副危险号",
+      "shippingName": "正式运输名称",
+      "attachments": "附件",
+      "fillDetails": "填写详细信息",
+      "uploadFilledDG": "上传填写的DG申请表",
+      "copyCargo": "创建该货物的复本。"
+    },
+    "buttons": {
+      "dgAppForm": "危险货物联运表",
+      "downloadDGAppForm": "下载 危险货物联运表",
+      "uploadDGAppForm": "上传 危险货物联运表",
+      "copyContainer": "复制集装箱",
+      "addNewCargo": "添加新货物",
+      "back": "返回",
+      "save": "储存",
+      "discard": "放弃",
+      "nextReview": "下一个：派对"
+    },
+    "errors": {
+      "errpackage": "获取包装代码编号时发生错误",
+      "cargo": "货物已保存",
+      "cargoSave": "货物保存成功。",
+      "emptyShip": "清空正式运输",
+      "propName": "请选择具有适当运输名称的货物。",
+      "errBkg": "保存预订数据时出错",
+      "firewall": "防火墙阻挡",
+      "emptyCargos": "一些货物是空的",
+      "fillCargos": "请在各自的容器中填充所有货物。",
+      "err": "错误",
+      "errForm": "下载DG申请表时出错"
+    },
+    "messages": {
+      "contSaved": "危险货柜已保存",
+      "saveSuccess": "危险货柜保存成功。"
+    },
+    "dialogs": {
+      "customDialogBox": "重复货物",
+      "duplicate": "复制",
+      "cancel": "取消",
+      "contentShipments": "点击'放弃'撤消更改并转到货物运输页面 。点击下一步继续。"
+    }
+  },
+  "Reefer": {
+    "labels": {
+      "reefer": "冷藏",
+      "reeferContainer": "冷藏集装箱",
+      "commodity": "商品名称",
+      "ventilation": "通风",
+      "nature": "特性",
+      "humidity": "湿度",
+      "commSelect": "选择商品",
+      "bkgrqst": "您的订舱请求有",
+      "selectCont": "。选择容器以填写冷藏细节。",
+      "contNo": "集装箱号。",
+      "contSuccess": "容器详细信息输入成功",
+      "menuOpen": "打开",
+      "menuCMH":"立方米/小时"
+    },
+    "buttons": {
+      "confirmDetails": "确认详细信息",
+      "clearAll": "全部清除",
+      "copyContainer": "复制集装箱",
+      "save": "保存",
+      "back": "返回",
+      "download": "下载",
+      "upload": "上传",
+      "discard": "放弃",
+      "next": "下一步：各方信息",
+      "nextDanger": "下一步：危险品",
+      "contentShipments": "点击'放弃'撤消更改并转到货物运输页面。点击下一步继续。"
+    },
+    "errors": {
+      "errComm": "加载商品数据时出错",
+      "errCommodity": "加载商品数据时出错",
+      "required": "必需的",
+      "posNo": "必须是正数",
+      "mustInt": "必须是整数",
+      "ventNo": "通风必须是一个数字",
+      "ventLess": "通风不能小于0",
+      "ventGreat": "通风不应大于100",
+      "percentError": "% 应小于 100 且大于 0",
+      "cmhError": "CMH 应大于 0 且小于 250",
+      "validNo": "请输入有效的数字",
+      "humLess": "湿度不能小于0",
+      "humGreat": "湿度不应大于100",
+      "errBkg": "保存预订数据时出错",
+      "firewall": "防火墙阻挡",
+      "errReefer": "保存冷藏数据时出错",
+      "containerEmpty": "请填写所有集装箱的详细信息",
+      "emptyCopied": "空的容器不能被复制"
+    },
+    "messages": {
+      "confirm": "请在点击保存之前确认详细信息 ",
+      "bkgSaved": "预订已保存",
+      "saveSuccess": "冷藏数据成功保存"
+    }
+  },
+  "ReviewBooking": {
+    "labels": {
+      "bkgAmendmentSummary": "订舱修改汇总",
+      "bkgSummary": "订舱明细",
+      "multipleBkgSubmission": "多项订单提交",
+      "enterNoOfCopies": "若您想重复订舱，请输入数量",
+      "sameDetails": "具有相同的详细信息？",
+      "newMultipleBookingReqNo": "新增多个订舱数量",
+      "noOfCopies": "份数",
+      "maximumCopies": "最大份数"
+    },
+    "buttons": {
+      "backButton": "返回",
+      "saveButton": "保存",
+      "discardButton": "放弃",
+      "submitButton": "提交",
+      "generateButton": "生成",
+      "confirmButton": "确认"
+    },
+    "errors": {
+      "copyLimit": "超过份数限制",
+      "copyLimitAllowed": "最多允许生成5份",
+      "bkgCopyGenerationError": "复制订舱时出错",
+      "copySuccessful": "复制成功",
+      "savingErr": "保存订舱数据时出错",
+      "bkgSaved": "预订已保存",
+      "firewallBlocking": "防火墙拦截",
+      "bookingAmended": "订舱已修改",
+      "errAmendingBkgData": "修改订舱信息时出错",
+      "successfulBkg": "订舱成功 -"
+    },
+    "messages": {
+      "createdBkgs": "订舱",
+      "fromSrc": "来自源订舱",
+      "saveSuccess": "订舱信息成功保存",
+      "amendSuccess": "订舱已成功修改",
+      "bkgSuccess": "订舱已成功提交，订单号为：",
+      "saveDraft": "保存订舱草稿"
+    },
+    "terms": {
+      "line1": "提交此预订",
+      "line2": "您确认您已阅读、理解并同意遵守我们的预订条款和条件",
+      "line3": "网站",
+      "line4": "您进一步确认您已阅读、理解并同意 PIL 的",
+      "line5": "私声明",
+      "line6": "如果您不同意这些条款，请不要继续预订。"
+    }
+  },
+  "BookingStepper": {
+    "headers": {
+      "bkg": "订舱",
+      "sailing": "船期",
+      "reefer": "冷藏",
+      "dangerGoods": "危险品",
+      "parties": "各方信息",
+      "review": "预览"
+    },
+    "labels": {
+      "discardChanges": "放弃更改",
+      "unsavedChanges": "未保存的更改",
+      "newBooking": "新预订",
+      "amendBooking": "修正预订",
+      "requiredField": "表示必填栏位",
+      "notFound": "未找到",
+      "changesLost": "如果您决定，您有未保存的更改将会丢失",
+      "continue": "继续。您确定要离开此页面吗？",
+      "click": "点击",
+      "navigate": "导航",
+      "amendments": "到相应的页面进行修改。",
+      "discardData": "您确定要丢弃吗？这将删除所有添加的数据",
+      "bkgReqNo": "预订请求号。",
+      "pocketpil": "来自PocketPIL。",
+      "action": "此操作无法撤销。"
+    },
+    "buttons": {
+      "stayPage": "停留在本页面",
+      "leavePage": "离开本页面",
+      "confirmDiscard": "确认弃置",
+      "cancel": "取消"
+    },
+    "errors": {
+      "errBkg": "生成订舱号时出错。",
+      "errAmend": "生成修改后的订舱号时出错。",
+      "discard": "放弃成功",
+      "bkgNo": "订舱号",
+      "discardBkg": "已放弃",
+      "errDiscard": "放弃时出错"
+    }
+  },
+  "Sailing": {
+    "labels": {
+      "select": "选择船舶班期",
+      "weeksSchedule": "显示 2 周船舶班期表",
+      "departDate": "出发日期",
+      "arriveDate": "抵达日期",
+      "vesselVoyage": "船舶&航次",
+      "transitDays": "中转天数",
+      "load1MoreWeek": "加载多一周班期表",
+      "routeDetails": "航线详情",
+      "portLoad": "装货港",
+      "departure": "出发",
+      "portDischarge": "卸货港",
+      "arrival": "抵达",
+      "nonStop": "无停靠",
+      "showLess": "显示较少",
+      "gateCutOff": "重箱进港截止时间",
+      "vgmCutOff": "货物重量验证（VGM）截止时间",
+      "docCutOff": "文件结关时间",
+      "circleUncheck": "圈选图标未被选择"
+    },
+    "buttons": {
+      "back": "返回",
+      "save": "保存",
+      "discard": "放弃",
+      "nextReefer": "下一步：冷藏车",
+      "nextDangerGoods": "下一步：危险品",
+      "nextReview": "下一步：各方信息"
+    },
+    "errors": {
+      "noSchedule": "没有所选航线的船舶班期表。请返回并选择不同的日期/地点",
+      "fetchError": "获取路线详细信息时出错",
+      "saveError": "保存预订数据时出错",
+      "firewallBlock": "防火墙阻止",
+      "cutOffDateError": "获取截止日期时出错"
+    },
+    "messages": {
+      "sailing": "航行班期信息已保存",
+      "sailingInfo": "航行班期信息保存成功"
+    }
+  },
+  "CancelDailog": {
+    "buttons": {
+      "cancelButton": "是，取消",
+      "continueButton": "否，继续"
+    }
+  },
+  "CustomTable": {
+    "labels": {
+      "viewText": "浏览",
+      "noRecordsText": "无记录可显示...",
+      "userList": "用户列表",
+      "showing": "显示",
+      "of": "的",
+      "users": "用户"
+    },
+    "buttons": {
+      "filterButton": "筛选",
+      "loadMoreButton": "载入更多",
+      "download": "下载"
+    }
+  },
+  "FileUploader": {
+    "labels": {
+      "dropText": "将文件拖放至此处",
+      "orText": "或者",
+      "browseFileText": "浏览文件",
+      "fileLimitText": "限 3 个文件，每个文件的最大容量为 10MB"
+    },
+    "buttons": {
+      "removeFileBtn": "移除文件"
+    },
+    "errors": {
+      "errUpload": "上传文件时出错",
+      "maxSize": "允许的最大文件大小为10 Mb",
+      "validFile": "请上传有效的文件",
+      "threeFiles": "只允许3个文件"
+    }
+  },
+  "IdleTimer": {
+    "labels": {
+      "sessionExpireWarning": "您的会话将在",
+      "minute": "分钟后过期",
+      "sessionExpired": "您的会话已过期。请重新登录。",
+      "warning": "警告！"
+    },
+    "buttons": {
+      "extendBtn": "延长",
+      "logoutBtn": "退出",
+      "loginBtn": "登录"
+    }
+  },
+  "TemperatureLabel": {
+    "labels": {
+      "temp": "温度"
+    }
+  },
+  "DetDem": {
+    "labels": {
+      "billableAmountWarning": "屏幕上的计费金额仅供参考，实际金额",
+      "contact": "请联系当地代理。",
+      "containersText": "显示",
+      "containersTextOf": "之",
+      "containers": "集装箱",
+      "pickedUpText": "被领取",
+      "notPickedUpText": "未领取",
+      "totalChargesText": "总费用"
+    },
+    "buttons": {
+      "backToShipmentsBtn": "返回货物运输？发货页面"
+    },
+    "errors": {
+      "errUser": "获取用户数据时出错"
+    }
+  },
+  "DetDemStepper": {
+    "labels": {
+      "blPrinted": "提单已打印",
+      "blDataCompleted": "提单信息已完成。请确认提单补料（SI）。",
+      "blDeliveryMethod": "提单发送方式",
+      "selectBlDeliveryMethod": "选择提单发送方式",
+      "amendSi": "修正提单补料",
+      "revokeSi": "撤销装运指示",
+      "amend": "您确定要修改吗",
+      "revoke": "您确定要撤销吗",
+      "status": "？提单补料的状态将被改为草稿。",
+      "siDraft": "SI将被更改为SI草稿。",
+      "action": "此操作无法撤销。",
+      "billable": "屏幕上的计费金额仅供参考，对于",
+      "actualAmount": "实际金额请联系当地代理。",
+      "bkgSummary": "预订摘要",
+      "siSummary": "装运指令摘要",
+      "detdemInfo": "DET DEM信息"
+    },
+    "buttons": {
+      "amendBtn": "修正",
+      "revokeBtn": "撤销",
+      "cancelBtn": "取消"
+    },
+    "errors": {
+      "siAmendmentSuccessful": "提单补料 修正成功",
+      "siAmendmentFailed": "提单补料 修正失败",
+      "siRevokedSuccessful": "提单补料 撤销成功",
+      "siRevokedFailed": "提单补料 撤销失败",
+      "siAcceptedSuccessfully": "提单补料 接受成功",
+      "siAcceptFailed": "提单补料 接受失败",
+      "si": "SI为",
+      "siDraftAmend": "已被修改为提单补料草稿以进行修改。",
+      "errSI": "修改提单补料时出错。",
+      "siDraft": "已被修改为提单补料草稿。",
+      "siRevoke": "撤销提单补料时出错。",
+      "siAccept": "已确认成功。",
+      "siAcceptErr": "确认提单补料时出错。"
+    }
+  },
+  "DashboardNavbarSidebar": {
+    "labels": {
+      "searchPlaceholder": "通过预订编号或预订申请编号进行搜索。",
+      "amendBooking": "修改预订",
+      "searchService": "搜索服务请求",
+      "searchReqNo": "搜索请求号",
+      "searchInvoice": "按发票号或预订号搜索"
+    },
+    "buttons": {
+      "drawerOpenBtn": "打开栏目",
+      "searchBtn": "搜索",
+      "avatarBtn": "用户信息"
+    },
+    "errors": {
+      "bkgNo": "找不到预订",
+      "searchBkg": "搜索的预订号。",
+      "exist": "不存在",
+      "errService": "找不到订舱申请编号",
+      "reqmovehistry": "请求已关闭并移至历史记录",
+      "error": "错误"
+    }
+  },
+  "UserProfileCard": {
+    "buttons": {
+      "profileBtn": "简介",
+      "logoutBtn": "注销"
+    }
+  },
+  "CreateServiceRequest": {
+    "labels": {
+      "pageTitle": "创建新的服务请求",
+      "blServices": "提单服务",
+      "shipmentServices": "船运服务",
+      "otherServices": "其他服务"
+    },
+    "buttons": {
+      "reprintBL": "重新打印提单",
+      "blStationaryRequest": "空白提单申请",
+      "updateBlStationary": "更新提单库存",
+      "blPrintReport": "电放申请",
+      "eBL": "电子提单",
+      "telexRelease": "提单打印报告",
+      "mergeBooking": "合单",
+      "splitBkg": "分单",
+      "cancelBkg": "取消订舱",
+      "bookAppointment": "预约",
+      "uploadDocuments": "上传文件",
+      "viewServiceRequest": "查看服务请求"
+    }
+  },
+  "BookingSummary": {
+    "labels": {
+      "pageTitle": "预订汇总",
+      "bkgAmendmentSummary": "预订修正汇总",
+      "bkgCancelSubmit": "已提交预订取消",
+      "bkgAmendSubmit": "已提交预订修改",
+      "newBkg": "新预订",
+      "bkgConfirmed": "预订已确认",
+      "bkgCancel": "预订已取消",
+      "bkgSubmit": "预订已提交",
+      "bkgReject": "预订已拒绝",
+      "bkgIssued": "预订已发出"
+    },
+    "buttons": {
+      "backToShipmentsButton": "返回货物运输",
+      "backButton": "返回",
+      "nextButton": "下一页",
+      "amendButton": "修正",
+      "rejectButton": "拒绝",
+      "approveButton": "批准",
+      "backToTaskListButton": "回到任务清单"
+    },
+    "errors": {
+      "bkgNo": "找不到预订",
+      "searchBkg": "搜索的预订号。",
+      "exist": "不存在",
+      "localRqst": "联系当地代理进行修改",
+      "dangerGoods": "您选择修改的订舱含有危险货物，请与代理联系进行修改。",
+      "approved": "成功批准",
+      "amendNo": "预订编号的修改预订请求。",
+      "success": "已成功批准。",
+      "isRejected": "已成功拒绝。",
+      "approveRqst": "批准修改请求时出错",
+      "rejected": "成功拒绝",
+      "error": "错误"
+    }
+  },
+  "CopyBookingDialog": {
+    "labels": {
+      "dialogTitle": "复制订舱",
+      "dialogContent": "请注明您的复制份数。"
+    },
+    "buttons": {
+      "cancelBtn": "取消",
+      "copyBtn": "复制"
+    },
+    "errors": {
+      "maxCopyErr": "最大",
+      "copyErr": "副本可以被创建",
+      "cpySuccess": "复制成功",
+      "createBkg": "已创建的订舱",
+      "srcBkg": "来自源订舱",
+      "errBkg": "复制订舱时出错"
+    }
+  },
+  "FilterDrawer": {
+    "labels": {
+      "drawerTitle": "筛选",
+      "filterByDepartureDate": "按出发日期筛选货运:",
+      "fromDate": "开始日期",
+      "toDate": "结束日期",
+      "status": "状态",
+      "bkgNumbers": "预订编号",
+      "bkgNo": "预订编号",
+      "bkgReqNo": "预订申请编号",
+      "locations": "地点",
+      "portOfLoad": "装载港",
+      "portOfDischarge": "卸货港",
+      "vessel": "船舶",
+      "vesselName": "船舶名称",
+      "voyage": "航程",
+      "poNumber": "PO 参考"
+    },
+    "buttons": {
+      "cancelBtn": "取消",
+      "applyBtn": "应用"
+    }
+  },
+  "SortDrawer": {
+    "labels": {
+      "drawerTitle": "排序",
+      "sortInstruction": "可以使用",
+      "handle": "手柄",
+      "order": "来设置出货列标题的排序顺序。",
+      "bkgNo": "预订编号",
+      "bkgReqNo": "预订申请编号",
+      "dateofDep": "出发日期",
+      "placeofReceipt": "收件地点",
+      "placeofDelivery": "交货地点",
+      "portofLoad": "装载港",
+      "portofDischarge": "卸货港",
+      "vesselName": "船舶名称",
+      "voyage": "航次",
+      "nextCutoffDate": "下一个截止日期",
+      "status": "状态"
+    },
+    "buttons": {
+      "cancelBtn": "取消",
+      "applyBtn": "应用"
+    }
+  },
+  "SSOLoginRedirect": {
+    "labels": {
+      "loadingMessage": "加载 SSO 登录页面"
+    }
+  },
+  "SSORedirect": {
+    "labels": {
+      "loadingMessage": "SSO 页面加载"
+    }
+  },
+  "BLandReviewFooter": {
+    "buttons": {
+      "backBtn": "返回",
+      "submitBtn": "提交"
+    },
+    "errors": {
+      "errShip": "提交运输信息时出错",
+      "firewall": "防火墙拦截"
+    },
+    "messages": {
+      "shipSuccess": "成功提交运输信息 -",
+      "shipSuccBkg": "运输信息已成功提交，订舱号为："
+    }
+  },
+  "BLSIReview": {
+    "labels": {
+      "review": "审阅 提单补料",
+      "parties": "缔约方 & 运输信息",
+      "particulars": "由托运人声明的细节 - 但没有代表性和",
+      "notations": "注释，并且未被承运人确认",
+      "billNo": "提单号",
+      "booking": "订舱号",
+      "export": "出口运单号",
+      "preCarriage": "前段运输",
+      "receipt": "收货地点",
+      "voyageNo": "船只/航次编号",
+      "loadPort": "装货港",
+      "discharge": "卸货港",
+      "delivery": "交货地点",
+      "BLsNo": "正本提单数量",
+      "value": "商户申报价值",
+      "charges": "运费与附加费",
+      "type": "提单类型",
+      "containers": "集装箱总数...",
+      "signed": "提单签发人签字",
+      "marks": "编号、标记和编号。",
+      "qtyPkg": "数量/包装数量",
+      "desc": "货物描述",
+      "grsWght": "毛重",
+      "measure": "测量",
+      "dateOfIssue": "签发地点&日期：",
+      "boardDate": "装船日期：",
+      "orgBill": "原始提单",
+      "seaBill": "海运提单",
+      "prpaid": "预付",
+      "collect": "到付",
+      "shipper": "发货人",
+      "consignee": "收货人",
+      "notify": "通知",
+      "seeClause": "见条款7(3)和32(3)"
+    }
+  },
+  "BLViewTable": {
+    "headers": {
+      "containerNos": "集装箱编号",
+      "sealNos": "铅封号",
+      "containerSizeType": "集装箱 尺寸 & 类型",
+      "qty": "数量",
+      "packageType": "包装类型",
+      "weight": "重量",
+      "measure": "尺寸测量"
+    },
+    "labels": {
+      "containerManifest": "集装箱载货清单",
+      "billNo": "提单号",
+      "booking": "订舱号",
+      "export": "出口运单号",
+      "signed": "提单签发人签字"
+    }
+  },
+  "SIContainerDetailForm": {
+    "labels": {
+      "containerNo": "集装箱编号",
+      "containerOperator": "集装箱运营商",
+      "sealNo": "铅封号",
+      "weight": "重量",
+      "measure": "尺寸测量",
+      "vgm": "集装箱重量验证",
+      "package": "包装",
+      "quantity": "数量",
+      "type": "类型"
+    },
+    "buttons": {
+      "confirmDetails": "确认详细信息",
+      "saveDetails": "保存详细信息",
+      "clear": "清除",
+      "copy": "复制"
+    },
+    "errors": {
+      "vgmMethod": "请参阅PIL以获取VGM提交方法",
+      "validNo": "请输入有效的集装箱号",
+      "errLoad": "加载集装箱号时出错",
+      "emptyCont": "不能复制空箱",
+      "contNo": "集装箱不能有相同的集装箱号",
+      "contList": "获取集装箱类型列表时出错",
+      "required": "必要",
+      "positiveInt": "必须是正数。",
+      "integer": "必须是整数。",
+      "typeErr": "请输入有效数字",
+      "weightNos": "重量必须是有效的十进制数字",
+      "measureNos": "测量值必须是一个有效的十进制数",
+      "measureGreaterZero": "测量值必须大于零",
+      "contrOprtr": "最多允许3个字符",
+      "validateUnqieContainerNumber": "容器不能有相同的容器编号",
+      "validateCargoWeight": "重量应小于或等于容器容量",
+      "maxNos": "最多允许4个数字",
+      "validWeight": "重量必须大于零"
+    }
+  },
+  "SIContainerDetails": {
+    "labels": {
+      "containerNo": "集装箱编号",
+      "view": "浏览",
+      "allContainers": "所有集装箱",
+      "danger": "危险品箱",
+      "reefer": "冷藏箱",
+      "saved": "已储存",
+      "of": "of",
+      "containerDetails": "集装箱详情"
+    },
+    "buttons": {
+      "back": "返回",
+      "save": "储存",
+      "next": "下一步： 集装箱清单",
+      "upload": "上传",
+      "download": "下载"
+    },
+    "errors": {
+      "containerEmpty": "请填写所有集装箱的详细信息",
+      "reqFields": "请填写所需的详细信息",
+      "errorSavingContainerDetails": "保存集装箱详细信息数据时出错",
+      "firewallBlocking": "防火墙阻止",
+      "errSavingContainersData": "保存容器数据时发生错误",
+      "errData": "保存集装箱数据时出错",
+      "contSaved": "集装箱已保存",
+      "contDetails": "集装箱详细数据成功保存",
+      "dwnldFailed": "下载失败"
+    }
+  },
+  "SIContainerDetailsCopy": {
+    "labels": {
+      "copyContainer": "复制集装箱",
+      "container": "集装箱",
+      "select": "已选择",
+      "copyContainerDetails": "从集装箱编号复制集装箱详细信息。",
+      "toSelectedContainers": "到选定的集装箱。请选择你希望",
+      "copy": "复制的集装箱。",
+      "selectAll": "全选"
+    },
+    "buttons": {
+      "cancel": "取消",
+      "copy": "复制"
+    },
+    "errors": {
+      "selectAtLeastOneContainer": "请至少选择一个集装箱进行复制。"
+    }
+  },
+  "SIContainerDetailsExcel": {
+    "errors": {
+      "errorUploading": "上传时出错"
+    }
+  },
+  "SIManifest": {
+    "labels": {
+      "containerManifest": "集装箱载货清单",
+      "view": "浏览",
+      "containerSNo": "集装箱编码（S.NO.）",
+      "containerNo": "集装箱号",
+      "commoditySNo": "货物编码",
+      "nextShippingInformation": "下一步： 发货信息",
+      "duplicateCargo": "重复货物",
+      "copyCargo": "创建该货物的复本。"
+    },
+    "buttons": {
+      "copyContainer": "复制集装箱",
+      "addCommodity": "增加商品",
+      "back": "返回",
+      "save": "储存",
+      "duplicate": "重复",
+      "cancel": "取消"
+    },
+    "errors": {
+      "commoditiesEmpty": "有些商品是空的",
+      "fillCommodities": "请将所有商品装入相应的集装箱。",
+      "errSavingContManifest": "保存集装箱载货清单时出错",
+      "firewallBlocking": "防火墙拦截",
+      "commoditySave": "商品已保存",
+      "commoditySaveSuccess": "商品保存成功。",
+      "manifestSaved": "集装箱载货清单已保存",
+      "manifestSavedSuccess": "集装箱载货清单保存成功。"
+    }
+  },
+  "SIManifestCopyDialog": {
+    "labels": {
+      "copyContainer": "复制集装箱",
+      "containersOf": "之",
+      "containersSelected": "被选取集装箱",
+      "copyCommodities": "复制商品",
+      "to": "到",
+      "copyCommoditiesCont": "选定的集装箱。请选择你希望",
+      "copy": "复制的集装箱。",
+      "containerNo": "集装箱编号. ",
+      "selectAll": "全选",
+      "container": "集装箱"
+    },
+    "buttons": {
+      "cancel": "取消",
+      "copy": "复制"
+    },
+    "errors": {
+      "selectContainer": "请至少选择一个集装箱来复制商品。"
+    }
+  },
+  "SIManifestForm": {
+    "labels": {
+      "harmonizedTariffSchedule": "H.S.编码",
+      "harmonizedSystem": "协调制度",
+      "ncmCode": "NCM代码",
+      "wood": "木材",
+      "process": "处理",
+      "packageType": "封装形式",
+      "pkgQty": "包装数量",
+      "weight": "重量",
+      "measure": "尺寸测量",
+      "marks": "分数",
+      "descOfGoods": "货物描述",
+      "treated": "处理",
+      "otherTreatmentRemarks": "其他处理记载",
+      "goodsNom": "指定货物"
+    },
+    "buttons": {
+      "save": "保存",
+      "clear": "清除",
+      "delete": "删除",
+      "duplicate": "复制"
+    },
+    "errors": {
+      "harmonizedTariff": "未找到协调关税，请输入有效代码！",
+      "harmonizedSystem": "未找到协调制度，请输入有效代码！",
+      "ncmCode": "NCM 代码未找到，请输入有效代码！",
+      "fetchErr": "获取数据时出错"
+    }
+  },
+  "ContainerDetailsTable": {
+    "labels": {
+      "containerDetails": "集装箱详细信息"
+    }
+  },
+  "PartiesInformationTable": {
+    "headers": {
+      "customerCode": "客户代码",
+      "countryCode": "国家代码",
+      "name": "姓名",
+      "address": "地址",
+      "streetPOBox": "街道/邮政信箱",
+      "cityState": "城市/州",
+      "zipCode": "邮政编码",
+      "emailAddress": "邮箱地址",
+      "shipper": "发货人",
+      "consignee": "收货人",
+      "notifyParty": "通知人",
+      "alsoNotifyParty": "也是通知人"
+    },
+    "labels": {
+      "partiesInfo": "各方信息"
+    }
+  },
+  "SIReview": {
+    "headers": {
+      "marksAndDescription": "标记与说明",
+      "packageQty": "包装数量",
+      "packageType": "包装类型",
+      "weight": "重量",
+      "measure": "尺寸测量",
+      "marksAndNumbers": "标记&数字",
+      "goodDescription": "货物描述",
+      "shipmentInstRemarks": "装运说明备注",
+      "attachments": "附件",
+      "blType": "提单类型",
+      "freight": "运费"
+    },
+    "labels": {
+      "partiesInfo": "缔约方信息",
+      "shippingInfo": "货物运输信息",
+      "remarksAndAttachments": "备注和附件",
+      "blIssuanceInfo": "提单发布信息",
+      "freightSettlement": "运费结算",
+      "orgBill": "原始提单",
+      "seaBill": "海运提单",
+      "prpaid": "预付",
+      "collect": "到付"
+    }
+  },
+  "SIAmendStepper": {
+    "labels": {
+      "stepper": "预订汇总",
+      "stepperInst": "装运说明摘要",
+      "siStatus": "提单补料 已提交",
+      "siAcceptance": "提单补料 接受",
+      "blView": "提单浏览",
+      "blDeliveryMethod": "提单交付方式",
+      "selectBlDeliveryMethod": "选择提单运送方式",
+      "blDataCompleted": "BL 数据已完成。请接受以确认 提单补料。",
+      "notFound": "未找到",
+      "amendSI": "修改SI",
+      "amend": "您确定要修改",
+      "status": "的状态",
+      "siDraft": "SI将更改为SI草稿。",
+      "action": "此操作无法撤销。",
+      "revokeSI": "撤销装运指示",
+      "revoke": "您确定要撤销"
+    },
+    "buttons": {
+      "formViewBtn": "表单浏览",
+      "blViewBtn": "提单浏览",
+      "downloadBtn": "下载",
+      "amendBtn": "修正",
+      "revokeBtn": "撤销",
+      "cancelBtn": "取消",
+      "acceptBtn": "接受"
+    },
+    "errors": {
+      "siAmendment": "提单补料 修正失败",
+      "siRevoke": "提单补料 撤销失败",
+      "siAccept": "提单补料 接受失败"
+    },
+    "messages": {
+      "siamend": "SI修改成功",
+      "siFor": "SI为",
+      "siDraftAmend": "已更改为SI草稿以进行修改。",
+      "siRevoke": "SI撤销成功",
+      "si": "已更改为SI草稿。",
+      "siAccept": "SI成功接受",
+      "acceptSuccess": "已成功接受。",
+      "siAmendConfirmation": "我们确认我们已收到并在此接受条款和条件。 ",
+      "pilConditions": "太平船务（私人）有限公司的条款",
+      "billLanding": "(\"PIL\") 提单，详情可在太平船务网站查看",
+      "servantsAgents": "我们进一步同意赔偿并保护太平船务及其雇员和代理人",
+      "harmless": "对于任何责任、损失、损害或费用",
+      "naturePIL": "无论太平船务及其雇员或代理人可能承受的任何性质",
+      "arisingRelation": "因我们请求释放货物而产生或与此相关",
+      "consignee": "向指定的收货人交付，无需出示原始提单",
+      "lading": "在目的地"
+    }
+  },
+  "SISummaryBLView": {
+    "errors": {
+      "fetchPdfErr": "获取 PDF 时出现错误。"
+    }
+  },
+  "SISummaryPage": {
+    "labels": {
+      "shipmentInstSum": "装运说明摘要",
+      "shippingInfo": "运输信息",
+      "marksAndDesc": "标记与说明",
+      "pkgQty": "包装数量",
+      "pkgType": "包装类型",
+      "weight": "重量",
+      "measure": "尺寸测量",
+      "marksAndNos": "标记&数字",
+      "goodDesc": "货物描述",
+      "remarksAndAttachments": "备注和附件",
+      "shipmentInstRemarks": "装运说明备注",
+      "attachments": "附件",
+      "blIssuanceInfo": "提单签发信息",
+      "blType": "提单类型",
+      "freightSettlement": "运费结算",
+      "freight": "运费",
+      "orgBill": "原始提单",
+      "seaBill": "海运提单",
+      "prpaid": "预付",
+      "collect": "到付",
+      "poNumber": "PO 参考"
+    },
+    "buttons": {
+      "backToShipments": "返回货物运输",
+      "revoke": "撤销",
+      "amend": "修正",
+      "accept": "接受"
+    },
+    "errors": {
+      "fetchShipmentDataErr": "获取提单补料数据时出错"
+    }
+  },
+  "SISummaryPageFooter": {
+    "buttons": {
+      "backToShipments": "返回货运",
+      "revoke": "撤销",
+      "amend": "修正",
+      "accept": "接受"
+    }
+  },
+  "SIShippingInformation": {
+    "labels": {
+      "shippingInfo": "运输信息",
+      "marksAndDesc": "标记与说明",
+      "packageQty": "包装数量",
+      "packageType": "包装类型",
+      "weight": "重量",
+      "measure": "尺寸测量",
+      "marksAndNos": "标记&数字",
+      "descOfGoods": "货物描述",
+      "remarksAndAttachments": "1",
+      "shippingInstRemarks": "运输说明备注",
+      "blIssuanceInfo": "提单签发信息",
+      "blType": "提单类型",
+      "freightSettlement": "运费结算",
+      "charLeft": "剩余字符",
+      "poNumber": "PO 参考"
+    },
+    "buttons": {
+      "back": "返回",
+      "save": "储存",
+      "clearAll": "清除所有",
+      "nextReview": "下一步： 审查"
+    },
+    "errors": {
+      "errShip": "保存运输信息时出错",
+      "firewall": "防火墙拦截"
+    },
+    "messages": {
+      "shipInfo": "已保存的运输信息",
+      "shipInfoSaved": "运输信息保存成功。"
+    }
+  },
+  "SIStepper": {
+    "labels": {
+      "bkgSummary": "订舱汇总",
+      "parties": "缔约方",
+      "containerDetails": "集装箱详细信息",
+      "containerManifest": " 集装箱载货清单",
+      "shippingInfo": "运输信息",
+      "review": "审查",
+      "submitSI": "提交 提单补料",
+      "changesLost": "如果您决定继续，您有未保存的更改将会丢失",
+      "leavePage": "你确定要离开这个页面吗？",
+      "click": "点击",
+      "to": "到",
+      "navigate": "前往相应页面进行修改。",
+      "deleteData": "你确定要放弃吗？这将删除所有已填写的信息",
+      "action": "此操作无法撤销。",
+      "notFound": "未找到"
+    },
+    "buttons": {
+      "formView": "表单查看",
+      "blView": "BL查看",
+      "confirmDiscard": "确认放弃",
+      "cancel": "取消",
+      "stayPage": "停留在本页面",
+      "leavePage": "离开本页面",
+      "discard": "放弃更改",
+      "unsaved": "未保存的更改",
+      "siTemplate": "保存（SI）模板",
+      "copysi": "复制SI",
+      "loadsi": "加载（SI） 模板"
+    },
+    "errors": {
+      "fetchingContainerPkgNo": "获取集装箱包装编号时出错",
+      "fetchingSIData": "获取 提单补料（SI） 数据时出错"
+    }
+  },
+  "validate": {
+    "labels": {
+      "shipperName": "名称",
+      "shipperAdd": "地址",
+      "shipperStreet": "街道",
+      "shipperCity": "城市",
+      "shipperZipCode": "邮政编码",
+      "shipperEmail": "电子邮箱",
+      "consigneeName": "名称",
+      "consigneeAdd": "地址",
+      "consigneeStreet": "街道",
+      "consigneeCity": "城市",
+      "consigneeZipCode": "邮政编码",
+      "consigneeEmail": "电子邮箱",
+      "notifyPartyName": "名称",
+      "notifyPartyAdd": "电子邮箱",
+      "notifyPartyStreet": "街道",
+      "notifyPartyCity": "城市",
+      "notifyPartyZipCode": "邮政编码",
+      "notifyPartyEmail": "电子邮箱",
+      "containerNo": "集装箱编号",
+      "sealNo": "铅封号",
+      "weight": "重量",
+      "measure": "尺寸测量",
+      "quatity": "数量",
+      "typeCode": "代码",
+      "typeDesc": "描述",
+      "cntrMfDesc": "cntrMfDesc",
+      "process": "处理",
+      "wpmTrtCode": "wpmTrt码",
+      "wood": "木材",
+      "ncmNo": "ncm海关编码",
+      "descriptionOfGoods": "货物描述",
+      "blType": "提单种类"
+    },
+    "errors": {
+      "required": "必要",
+      "invalidEmail": "错误的邮箱",
+      "max50Chars": "最多50个字符。",
+      "max100Chars": "最多100个字符。",
+      "weightNos": "重量必须只包含数字。",
+      "measureNos": "尺寸必须只包含数字。",
+      "positiveInt": "必须是正数。",
+      "integer": "必须是整数。",
+      "typeErr": "请输入有效数字",
+      "validateCargoWeight": "货物重量应小于或等于皮重（TaraWeight）+最大货物重量",
+      "processReq": "选择木材时需要进行处理",
+      "treatedReq": "选择木材时需要经过处理",
+      "ncmNoReq": "根据巴西要求",
+      "maxNos": "最多允许4个数字"
+    }
+  },
+  "ReeferCopyContainerDialog": {
+    "labels": {
+      "dialogTitle": "复制集装箱",
+      "ContainersOf": "之",
+      "container": "集装箱",
+      "selected": "已选",
+      "copyContainerDetails": "从集装箱编号复制集装箱详细信息",
+      "copyContainerSelect": "到选定的集装箱。请选择您希望",
+      "copy": "复制的集装箱。",
+      "containerNo": "集装箱编号",
+      "selectAll": "全选"
+    },
+    "buttons": {
+      "cancel": "取消",
+      "copy": "复制"
+    },
+    "errors": {
+      "selectContainer": "请至少选择一个集装箱进行复制。"
+    }
+  },
+  "CreateBooking": {
+    "labels": {
+      "routeDetails": "航线详情",
+      "placeOfReceipt": "收件地点",
+      "portOfLoad": "装运港口",
+      "departure": "出发",
+      "portOfDischarge": "卸货港口",
+      "arrival": "抵达",
+      "placeOfDelivery": "交货地点",
+      "contractNo": "合同编号",
+      "exVesselName": "Ex. 船舶名称",
+      "exVoyageNo": "Ex. 航行编号.",
+      "cargoDetails": "货物详细信息",
+      "sailing": "航行日期",
+      "requiresTempControl": "需要温度控制",
+      "dangerousGoods": "危险物品",
+      "emptyContainer": "空的集装箱",
+      "container": "集装箱",
+      "quantity": "数量",
+      "cargo": "货物",
+      "estimatedWeight": "估计重量",
+      "enterWeight": "输入重量 *",
+      "enterContainerOperator": "Enter Container Operator",
+      "unit": "单位",
+      "totalCargoWeight": "货物总重量",
+      "enterPortOfLoad": "输入装货港",
+      "enterPortOfDischarge": "输入卸货港",
+      "enterContractNo": "输入合同号",
+      "selectTypeOfContainer": "选择集装箱类型",
+      "selectTypeOfCargo": "选择货物类型",
+      "enter": "输入",
+      "freight": "运费",
+      "freightSettlement": "运费结算",
+      "remarks": "备注和附件",
+      "bkgRemarks": "预订备注",
+      "charLeft": "剩余字符",
+      "prepaid": "预付",
+      "collect": "到付",
+      "poNumber": "PO 参考",
+      "containerOperator": "集装箱运营商"
+    },
+    "buttons": {
+      "addContainer": "添加集装箱",
+      "save": "储存",
+      "discard": "放弃",
+      "nextSelectSailing": "下一步：选择船舶班期"
+    },
+    "errors": {
+      "contractNo": "合同号码无效，请联系代理",
+      "weightGreat": "预计重量必须大于零",
+      "errContract": "获取合同详情时出错",
+      "validContractNo": "请输入有效的合同编号",
+      "errBkgDetails": "获取订舱信息时出错",
+      "errPortDetails": "获取港口信息时出错",
+      "errPortList": "获取港口列表时出错",
+      "errConList": "获取集装箱类型列表时出错",
+      "errCargo": "获取货物类型列表时出错",
+      "errData": "获取初始数据时出错",
+      "errBkgData": "保存预订数据时出错",
+      "firewall": "防火墙拦截",
+      "bkgSaved": "预订已保存",
+      "bkgSaveSucc": "预订数据已成功保存",
+      "alreadySelected": "已被选中"
+    }
+  },
+  "ShipmentTableRow": {
+    "labels": {
+      "cancelDialogText1": "您确定要取消订舱吗",
+      "cancelDialogText2": "请提供取消订舱的原因",
+      "reasonForCancellation": "取消订舱的原因",
+      "comments": "评论",
+      "charactersLeft": "剩余字符",
+      "discardChanges": "放弃更改",
+      "confirmDiscard": "确认放弃",
+      "cancel": "取消",
+      "discardPrompt": "您确定要丢弃吗？这将删除所有添加的数据",
+      "bkgNo": "预订请求号",
+      "pktPIL": "来自PocketPIL。",
+      "action": "此操作无法撤销。",
+      "amend": "修正",
+      "viewAmend": "查看修订",
+      "copy": "复制",
+      "reviewAccept": "审查与接受",
+      "downloadBLDraft": "下载提单补料草稿",
+      "deleteBooking": "删除订舱",
+      "printBL": "打印 BL",
+      "requestCancellation": "申请取消",
+      "select": "选择",
+      "portOfLoad": "装货港",
+      "departure": "出发",
+      "portDischarge": "卸货港",
+      "arrival": "到达",
+      "showLess": "显示较少",
+      "gateCutOff": "重箱进港截止时间",
+      "vgmCutOff": "货物重量验证（VGM）截止时间",
+      "docCutOff": "文件结关时间",
+      "cargo": "货物",
+      "updateSeq": "更新纸张序列",
+      "close": "关闭",
+      "cancelSubmit": "已提交取消",
+      "amendSubmit": "已提交修改",
+      "amendRqst": "修订请求编号是",
+      "updateBL": "更新提单文具并开始序列",
+      "dgSubmit": "DG 声明已提交",
+      "dgPending": "DG 声明待处理",
+      "cancelReq": "取消请求编号是",
+      "dgDeclare": "危险品声明"
+    },
+    "buttons": {
+      "no": "否",
+      "yes": "是"
+    },
+    "errors": {
+      "localAgency": "请联系当地代理机构申请修改",
+      "amendDanger": "您选择修改的订舱含有危险货物，请联系代理进行修改。",
+      "cancleRqst": "请求取消成功",
+      "bkgNo": "预订号码 ",
+      "cancel": "已被取消",
+      "delete": "已被删除",
+      "cancelErr": "请求取消时出错",
+      "blPrint": "提单打印错误",
+      "blPrintAllowed": "不允许打印提单。",
+      "admin": "请与管理员联系以获取更多信息。",
+      "fetchpdf": "获取pdf时出错。",
+      "deleteSucc": "删除成功",
+      "errDelete": "请求删除时出错",
+      "updateStat": "更新纸张"
+    }
+  },
+  "SIParties": {
+    "labels": {
+      "partiesInfo": "缔约方信息",
+      "shipper": "托运人",
+      "customerCode": "客户代码",
+      "countryCode": "国家代码",
+      "shipperName": "托运人名称",
+      "address": "地址",
+      "streetPOBox": "街道 / 邮政信箱",
+      "cityState": "城市/州",
+      "zipCode": "邮政编码",
+      "emailAdd": "电子邮箱",
+      "consignee": "收货人",
+      "consigneeName": "收货人姓名",
+      "notifyParty": "通知人",
+      "sameAsConsignee": "与收货人相同",
+      "notifyPartyName": "通知人名称",
+      "removeAlsoNotifyParty": "移除 : 被通知人一并",
+      "addAlsoNotifyParty": "添加 : 被通知人一并"
+    },
+    "buttons": {
+      "back": "返回",
+      "save": "保存",
+      "clearAll": "清除全部",
+      "nextContainerDetails": "下一个: 集装箱详情"
+    },
+    "errors": {
+      "InvalidCode": "客户代码无效，您可以留空继续",
+      "CodeNotFound": "客户代码未找到，您可以留空继续",
+      "errParties": "提交各方信息时出错",
+      "firewall": "防火墙阻挡",
+      "required": "Required",
+      "max50Chars": "最多50个字符。",
+      "max100Chars": "最多100个字符。",
+      "email": "无效的电子邮件"
+    },
+    "messages": {
+      "nominatedAgentMessage": "Nominated Agent's View",
+      "success": "提交成功",
+      "partiesInfo": "各方信息已成功提交"
+    }
+  },
+  "ContainerManifestTable": {
+    "labels": {
+      "contManifest": "集装箱载货清单",
+      "containerNo": "集装箱号",
+      "conManifestNo": "集装箱载货清单数量"
+    },
+    "buttons": {
+      "collapseContainer": "收起所有集装箱载货清单",
+      "expandContainer": "展开所有集装箱载货清单"
+    }
+  },
+  "CopySISearch": {
+    "labels": {
+      "copySI": "复制SI",
+      "findBooking": "使用以下搜索条件找到要复制SI的预订",
+      "bookingNo": "预订号",
+      "shipperName": "发货人名称",
+      "consigneeName": "收货人名称",
+      "npName": "通知方名称",
+      "searchBookingResults": "搜索预订结果",
+      "showing": "显示",
+      "of": "的",
+      "resultsSI": "结果。选择一个预订以复制其SI",
+      "details": "详细信息（发货人，收货人和通知方以及M&D）到",
+      "alsoNpName": "也通知方名称",
+      "loadMoreBkgs": "加载更多10个预订",
+      "noRecordsToShow": "没有要显示的记录...",
+      "circleUncheck": "圈选图标未被选择"
+    },
+    "buttons": {
+      "search": "搜索",
+      "clear": "清除",
+      "discard": "丢弃",
+      "copySI": "复制SI"
+    },
+    "errors": {
+      "error": "错误"
+    }
+  },
+  "CopySIView": {
+    "labels": {
+      "viewSI": "查看SI",
+      "siSummary": "装运说明汇总",
+      "siInfo": "装运信息",
+      "marksDesc": "标记和描述",
+      "pkgQty": "包裹数量",
+      "pkgType": "包裹类型",
+      "weight": "重量",
+      "measure": "测量",
+      "marksNos": "标记和编号",
+      "goodsDesc": "货物描述",
+      "remarksAttach": "备注和附件",
+      "siRemarks": "装运指示备注",
+      "attachments": "附件",
+      "blIssuanceInfo": "提单签发信息",
+      "blType": "提单类型",
+      "freightSettlement": "运费结算",
+      "freight": "运费",
+      "originalBL": "原始提单",
+      "seawayBill": "海运提单",
+      "prepaid": "预付",
+      "collect": "到付"
+    },
+    "buttons": {
+      "backToSearchResults": "返回搜索结果"
+    },
+    "errors": {
+      "errShipData": "获取运输信息时出错"
+    }
+  },
+  "CopySIBooking": {
+    "labels": {
+      "copySI": "复制SI",
+      "siSummary": "装运说明汇总",
+      "infoVerify": "请在继续之前验证信息。",
+      "copySIBkg": "您确定要从所选预订复制SI吗",
+      "toBkg": "到这个预订",
+      "dataOverwrite": "一些数据将被覆盖。",
+      "siPage": "信息页面",
+      "action": "此操作无法撤销。"
+    },
+    "buttons": {
+      "backToSearchResults": "返回搜索结果",
+      "discard": "丢弃",
+      "copySI": "复制SI",
+      "yesCopy": "是的，复制",
+      "cancel": "取消"
+    },
+    "errors": {
+      "errShipData": "获取运输信息时出错",
+      "siCopied": "提单补料（SI）复制成功",
+      "siBkgNo": "提单补料（SI）从订舱号  复制成功。",
+      "errSiData": "获取SI数据时发生错误",
+      "error": "错误"
+    }
+  },
+  "BLReprint": {
+    "labels": {
+      "blReprint": "BL 重印",
+      "reason": "原因",
+      "comments": "评论",
+      "select": "选择",
+      "bkgNo": "预订号",
+      "batchNo": "批次号",
+      "sqcNoStartEnd": "序列号起止",
+      "noOfPages": "页数",
+      "printedBy": "打印者及日期"
+    },
+    "buttons": {
+      "discard": "丢弃",
+      "submit": "提交"
+    },
+    "errors": {
+      "blHistoryData": "获取提单历史数据时出错",
+      "reqNo": "获取服务请求号时出错",
+      "blReprintReq": "提交提单重印请求时出错",
+      "successSubmit": "成功提交",
+      "reprintBkgNo": "请求重印提单的订舱号。",
+      "isSuccess": "已成功提交。",
+      "charLeft": "剩余字符",
+      "notFound": "找不到数据",
+      "blHistory": "找不到预订号的BL重印历史"
+    }
+  },
+  "BLReprintTable": {
+    "labels": {
+      "statSeq": "以下的提单打印纸张序列将被标记为无效"
+    }
+  },
+  "BLPrintControlReportFilter": {
+    "labels": {
+      "blReprint": "BL 打印控制报告",
+      "searchBatch": "搜索批次",
+      "requisitionFromDate": "申请开始日期",
+      "requisitionToDate": "申请结束日期",
+      "companyName": "公司名称",
+      "sequenceNo": "序列号"
+    },
+    "buttons": {
+      "search": "搜索",
+      "clear": "清除"
+    },
+    "errors": {
+      "errCompNames": "获取公司名称时出错",
+      "errGetResults": "获取结果时出错"
+    }
+  },
+  "CustomBookingSearch": {
+    "labels": {
+      "bkgNofind": "输入或查找此请求的预订号码",
+      "bookingNo": "预订号码",
+      "bkgNos": "预订号码",
+      "knowBookingNo": "我知道预订号码",
+      "knowBkgNos": "我知道预订号码",
+      "findBookings": "查找我的预订",
+      "findBkgs": "查找我的预订",
+      "notKnowBkg": "我不知道我的预订号码",
+      "info": "信息."
+    },
+    "errors": {
+      "errBkgNo": "验证预订号码时发生错误",
+      "splitSearch": "使用以下搜索查找您要拆分的预订。",
+      "bkgMerge": "只有位置和航程详情相同的预订才能合并。"
+    }
+  },
+  "CustomHeader": {
+    "labels": {
+      "reqField": "表示必填字段",
+      "oneReqField": "至少有一个字段是",
+      "required": "必需的"
+    }
+  },
+  "ControlReportSearchResults": {
+    "headers": {
+      "batchNo": "批次号",
+      "seqNo": "序列号 开始-结束",
+      "remainingCount": "剩余数量",
+      "statReqDate": "文具申请日期",
+      "companyName": "公司名称",
+      "seqDate": "序列结束日期",
+      "status": "状态"
+    },
+    "labels": {
+      "searchResults": "搜索结果",
+      "noRecords": "没有要显示的记录..."
+    },
+    "errors": {
+      "downloadFailed": "下载失败"
+    }
+  },
+  "ServiceRequestTable": {
+    "labels": {
+      "serviceReq": "服务请求",
+      "view": "查看",
+      "showing": "显示",
+      "of": "的",
+      "pilAction": "与我一起操作-打印，签名并提交给太平船务代理",
+      "blStationary": "办公室采购提单纸张",
+      "signedPDF": "代理上传的已签名PDF",
+      "loadMore": "加载更多",
+      "noRecords": "没有要显示的记录..."
+    },
+    "buttons": {
+      "filter": "过滤",
+      "download": "下载",
+      "newServiceReq": "新的服务请求"
+    },
+    "errors": {
+      "errfetchReq": "获取服务请求错误",
+      "downloadfailed": "下载失败"
+    }
+  },
+  "ShippingInformation": {
+    "labels": {
+      "siInfo": "航运信息",
+      "marksDesc": "标记和描述",
+      "pkgQty": "包裹数量",
+      "pkgType": "包裹类型",
+      "weight": "重量",
+      "measure": "测量",
+      "marksNos": "标记和编号",
+      "goodDesc": "货物描述"
+    }
+  },
+  "CheckOutQRCode": {
+    "labels": {
+      "scanQRCodeText": "扫描二维码以进行付款。",
+      "paymentReferences": " 账单/付款参考",
+      "totalSelectedInvoices": "5个选定发票的总金额",
+      "totalInLocalCurrency": "本地货币总额",
+      "totalAmount": "总计",
+      "QRValidSessionText": "此二维码仅对此会话有效。"
+    },
+    "errors": {
+      "errfetchReq": "进行结账时出错"
+    }
+  },
+  "sidebarConstants": {
+    "labels": {
+      "schedule": "时间表",
+      "shipments": "货物",
+      "trackTrace": "追踪和追溯",
+      "srvcRqst": "服务请求",
+      "contact": "联系我们",
+      "todoList": "待办事项列表",
+      "userList": "用户列表",
+      "appointment": "预约",
+      "blontrol": "BL打印控制",
+      "bulletinBoard": "公告板"
+    }
+  },
+  "shipmentConstants": {
+    "labels": {
+      "bkgRqstNo": "预订",
+      "rqstDepDate": "出发",
+      "rqstArrDate": "到达",
+      "vslName": "船舶和航次",
+      "createdDate": "预订日期",
+      "status": "状态",
+      "allCurrShip": "所有当前货物",
+      "pocketPilShip": "PocketPIL货物",
+      "action": "与我一起行动",
+      "inboundShip": "入境货物",
+      "outboundShip": "出境货物",
+      "dielectric": "电介质",
+      "bromide": "溴化物",
+      "others": "其他"
+    }
+  },
+  "taskList": {
+    "labels": {
+      "taskList": "任务列表",
+      "openRqst": "打开请求",
+      "history": "历史",
+      "allReq": "所有请求",
+      "reqType": "请求类型",
+      "officeCode": "办公室代码",
+      "pendingApprovals": "待批准",
+      "Requests": "要求"
+    }
+  },
+  "ServiceRequestConstants": {
+    "headers": {
+      "serviceReq": "服务请求",
+      "statorderHistory": "文具订单历史",
+      "blPrintHistory": "提单打印历史",
+      "reqNo": "请求编号",
+      "bkgNo": "预订编号",
+      "reqType": "请求类型",
+      "requestedBy": "请求者",
+      "reqDate": "请求日期",
+      "serviceReqStatus": "服务请求状态",
+      "reqByDate": "请求人和日期",
+      "batchNo": "批次号",
+      "statReqStatus": "文具请求状态",
+      "blReqAprove": "BL 申请已批准的表格",
+      "viewStationery": "查看文具确认收据和日期",
+      "seqNo": "序列号. 开始-结束",
+      "blSeriesNo": "提单系列号",
+      "noOfPages": "页数",
+      "printedBy": "打印者及日期",
+      "submit": "已提交",
+      "cancel": "已取消",
+      "approved": "已批准",
+      "rejected": "已拒绝"
+    }
+  },
+  "ServiceRequestTableRow": {
+    "labels": {
+      "cancelService": "取消服务请求",
+      "submit": "已提交"
+    },
+    "buttons": {
+      "cancelBtn": "取消",
+      "cancelRqst": "取消请求",
+      "confirm": "确认丢弃"
+    },
+    "errors": {
+      "errDeleteReq": "删除请求时发生错误"
+    },
+    "messages": {
+      "cancelSuccess": "取消成功",
+      "rqstNo": "请求编号",
+      "deleted": "已被删除",
+      "cancelRqst": "你确定要取消请求吗？这将取消",
+      "serviceRqst": "服务请求",
+      "action": "此操作无法撤销"
+    }
+  },
+  "reviewConstants": {
+    "headers": {
+      "sNo": "序号",
+      "unNoUnSeq": "联合国编号/联合国序列",
+      "properShippingName": "适当的运输名称",
+      "packingGroup": "包装组",
+      "technicalName": "技术名称",
+      "imdgClass": "IMDG类别",
+      "grossWeight": "毛重",
+      "netWeight": "净重",
+      "flashPoint": "闪点",
+      "cargoStatus": "货物状态",
+      "marinePollutant": "海洋污染物",
+      "limitedQuantity": "限量",
+      "outerPkgQty": "外包装数量",
+      "outerPkgDesc": "外包装描述",
+      "innerPkgQty": "内包装数量",
+      "innerPkgDesc": "内包装描述",
+      "contact": "联系人",
+      "emergencyContact": "紧急联系电话",
+      "containerNo": "集装箱号",
+      "typeContainer": "集装箱类型",
+      "commodity": "商品名称",
+      "temp": "温度",
+      "ventilation": "通风",
+      "nature": "性质",
+      "humidity": "湿度"
+    }
+  },
+  "ShipmentJourneyLeg": {
+    "labels": {
+      "days": "天数"
+    }
+  },
+  "siReviewConstants": {
+    "lables": {
+      "sNo": "序号",
+      "typeContainer": "集装箱类型",
+      "containerNo": "集装箱号",
+      "containerOp": "集装箱运营商",
+      "sealNo": "封条号",
+      "weight": "重量",
+      "measure": "测量",
+      "vgm": "VGM",
+      "pkgQty": "包装数量",
+      "pkgType": "包装类型",
+      "commodity": "商品编号",
+      "trafficSchedule": "协调的交通日程",
+      "system": "协调系统",
+      "ncmCode": "NCM代码",
+      "treated": "已处理"
+    }
+  },
+  "ServiceRequestFilter": {
+    "labels": {
+      "filters": "筛选",
+      "filterReq": "按日期筛选服务请求：",
+      "fromDate": "起始日期",
+      "toDate": "结束日期",
+      "status": "状态",
+      "bkgNos": "预订编号",
+      "rqstNo": "请求编号",
+      "bkgNo": "预订编号",
+      "batchNo": "批次号",
+      "requested": "已请求",
+      "rqstType": "请求类型",
+      "rqstedBy": "请求者",
+      "printedBy": "打印者",
+      "reqDate": "请求日期"
+    },
+    "buttons": {
+      "cancel": "取消",
+      "apply": "应用"
+    }
+  },
+  "ControlReportBatchDetails": {
+    "labels": {
+      "blReport": "BL打印控制报告",
+      "blBatch": "批次BL打印控制报告",
+      "sNo": "序号",
+      "bkgNo": "预订号",
+      "blSeries": "BL系列号",
+      "sqcNoStartEnd": "序列号起止",
+      "pageCount": "页数",
+      "status": "状态",
+      "printedBy": "打印者及日期"
+    },
+    "buttons": {
+      "download": "下载"
+    },
+    "errors": {
+      "errResults": "获取结果时出错",
+      "dwnldFailed": "下载失败"
+    }
+  },
+  "ViewBLReprint": {
+    "labels": {
+      "blReprint": "BL重印",
+      "selectedBkgs": "已选预订",
+      "reason": "原因",
+      "backToTasksList": "返回任务列表",
+      "backToServiceRequest": "返回服务请求"
+    },
+    "buttons": {
+      "reject": "拒绝",
+      "approve": "批准"
+    },
+    "errors": {
+      "errorFetchingData": "获取BL重印请求数据时出错",
+      "errorApproving": "批准BL重印请求时出错",
+      "successApproved": "成功批准",
+      "blBkgNo": "BL重印请求预订号",
+      "isSuccess": "成功"
+    }
+  },
+  "usersList": {
+    "labels": {
+      "userList": "用户列表",
+      "agency": "所有机构",
+      "active": "活跃",
+      "inactive": "不活跃"
+    }
+  },
+  "BLAccess": {
+    "labels": {
+      "blAccess": "BL 访问",
+      "blDetails": "BL 访问详情",
+      "blPrint": "BL 打印",
+      "blCapture": "BL 捕获系列",
+      "bkgAgent": "预订代理",
+      "userRole": "用户客户角色",
+      "userCustomer": "用户客户代码",
+      "customerRole": "客户角色",
+      "customerCode": "客户代码",
+      "managerApproval": "经理批准",
+      "type": "类型",
+      "cusDetails": "客户详情",
+      "name": "名称",
+      "role": "角色",
+      "email": "电子邮件",
+      "contactNo": "联系电话",
+      "companyDetails": "公司详情",
+      "companyName": "公司名称",
+      "companyReg": "公司注册号",
+      "address": "地址",
+      "status": "状态"
+    },
+    "errors": {
+      "errFetching": "获取角色时出错",
+      "errFetchOffice": "获取办公室列表时出错",
+      "errFetchUser": "获取用户数据时出错",
+      "validCusCode": "请输入有效的客户代码",
+      "blAccessType": "请选择 BL 访问类型",
+      "errBlCapture": "BL 打印或 BL 捕获系列必须选择一个",
+      "errBlDetails": "保存 BL 访问详情时出错",
+      "blAccessSaved": "BL 访问已保存",
+      "blSuccess": "BL 访问详情已成功保存"
+    },
+    "buttons": {
+      "cancel": "取消",
+      "save": "保存"
+    }
+  },
+  "constant": {
+    "labels": {
+      "cusDetails": "客户详情",
+      "companyDetails": "公司详情",
+      "admin": "管理员办公室",
+      "manager": "经理批准",
+      "name": "名称",
+      "role": "角色",
+      "email": "电子邮件",
+      "contact": "联系电话",
+      "companyName": "公司名称",
+      "companyRegNo": "公司注册号",
+      "address": "地址",
+      "type": "类型"
+    }
+  },
+  "booking": {
+    "labels": {
+      "required": "必需的",
+      "qtyNumber": "数量必须是数字",
+      "qtyGreat": "数量必须大于零",
+      "qtyReq": "需要数量",
+      "estWeight": "预计重量必须等于或大于零",
+      "estWeightError": "估计重量必须是数字",
+      "estWeightReq": "需要预计重量",
+      "estCargoWeight": "预计重量应小于或等于总货物重量",
+      "estDecimal": "预计重量的小数点前必须有18位或更少的数字，小数点后必须有3位或更少的数字",
+      "containerOperatorMin": "集装箱操作员必须至少有2个字符",
+      "containerOperatorMax": "集装箱操作员最多可以有3个字符",
+      "containerOperatorVal": "集装箱操作员必须只包含字母"
+    },
+    "buttons": {
+      "backTaskList": "返回任务列表"
+    }
+  },
+  "CancelBooking": {
+    "labels": {
+      "cancelBkg": "取消预订",
+      "cancelBkgPrompt": "您确定要取消预订编号#",
+      "discardBkg": "放弃预订",
+      "discardBkgPrompt": "您确定要放弃预订编号#",
+      "cancelReason": "请提供取消预订的原因？",
+      "placeholder": "选取",
+      "cancellationReason": "取消原因？",
+      "comments": "备注",
+      "charactersLeft": "剩余字符"
+    },
+    "buttons": {
+      "proceed": "是的, 开始执行",
+      "cancel": "否, 取消",
+      "submit": "提交",
+      "discard": "放弃"
+    },
+    "errors": {
+      "errCancel": "在获取取消数据时出现错误",
+      "errFetchService": "在获取服务请求号时发生错误",
+      "errCancelReason": "获取取消原因时发生错误"
+    },
+    "messages": {
+      "submitSuccess": "提交成功",
+      "cancelRqst": "取消请求提单",
+      "isSubmit": "已提交完成。"
+    }
+  },
+
+  "ViewCancelBooking": {
+    "labels": {
+      "cancelBkg": "取消预订",
+      "selectedBkg": " 选择的预订",
+      "rqstCancellation": " 请求取消",
+      "reason": "原因"
+    },
+    "buttons": {
+      "backToTasksList": "返回任务列表",
+      "backToServiceRequest": "返回服务请求",
+      "reject": "拒绝",
+      "approve": "批准"
+    },
+    "errors": {
+      "error": "错误"
+    },
+    "messages": {
+      "approveSuccess": "批准成功",
+      "cancelRqst": "取消预订号的请求",
+      "isSuccess": "已成功批准。",
+      "rejectSuccess": "拒绝成功",
+      "isRejected": "已被拒绝。",
+      "approved": "已批准",
+      "mergeBkgApprove": "合并预订请求已批准",
+      "mergeBkgReject": "合并预订请求被拒绝"
+    }
+  },
+  "MergeBooking": {
+    "labels": {
+      "mergeBkg": "合并预订",
+      "mergeSelect": "你正在提交合并选择的请求",
+      "bookings": "预订。",
+      "masterBkg": "选择主预订以合并选定的预订并继续。",
+      "poNumber": "PO 参考"
+    },
+    "buttons": {
+      "submit": "提交",
+      "discard": "废弃",
+      "proceed": "是，继续",
+      "cancel": "取消"
+    },
+    "errors": {
+      "errServiceRqst": "获取服务请求编号时出现错误",
+      "bkgListErr": "提交合并请求需要至少2 个预订号",
+      "error": "发生错误"
+    },
+    "messages": {
+      "mergeSubmit": "合并请求提交成功",
+      "merge": "合并请求",
+      "isSubmit": "已提交成功"
+    }
+  },
+  "ViewMergeBooking": {
+    "labels": {
+      "mergeBookingHeader": "合并预订",
+      "requestSubmitted": "提交的合并请求",
+      "bookings": "预订",
+      "masterBkg": "主预订",
+      "poNumber": "PO 参考"
+    },
+    "buttons": {
+      "backToTasksList": "返回任务列表",
+      "backToServiceRequest": "返回服务请求",
+      "reject": "拒绝",
+      "approve": "批准"
+    },
+    "errors": {
+      "errFetchRqst": "获取请求详情时发生错误",
+      "err": "错误"
+    },
+    "messages": {
+      "approved": "已批准",
+      "mergeApproved": "合并预订请求已批准",
+      "mergeReject": "合并预订请求被拒绝",
+      "successApproved": "批准成功",
+      "mergeBkgRqst": "合并预订请求编号",
+      "isSuccess": "已成功批准。",
+      "rejected": "拒绝成功",
+      "isRejected": "已被拒绝。"
+    }
+  },
+  "SplitBooking": {
+    "labels": {
+      "splitBkg": "分拆预订"
+    },
+    "buttons": {
+      "nextSplit": "下一步：分拆集装箱",
+      "discard": "废弃"
+    },
+    "errors": {
+      "errServiceRqst": "获取服务请求编号时发生错误",
+      "oneContainer": "该预订仅有一个集装箱",
+      "twoMoreContainers": "要继续，您需要至少有2个以上的集装箱",
+      "errSplitBkg": "获取分拆预订请求时发生错误",
+      "singleContainerError": "该预订仅有一个集装箱"
+    }
+  },
+  "SplitBookingContainer": {
+    "labels": {
+      "splitBkg": "分拆预订",
+      "booking": "预订",
+      "specifyBkgs": "指定要分拆的预订号数量",
+      "containerSplit": "集装箱分拆",
+      "selectCont": "选择集装箱并更新所有分拆预订的数量",
+      "bookings": "预订",
+      "beforeSplit": "分拆前",
+      "afterSplit": "分拆后",
+      "remaining": "剩余",
+      "splitQty": "分拆数量",
+      "placeholder": "输入",
+      "minimum": "至少2",
+      "splitInfo": "分割信息。",
+      "submitInfo": "提交信息。"
+    },
+    "buttons": {
+      "split": "分拆",
+      "discard": "废弃",
+      "submit": "提交",
+      "yesProceed": "是，继续",
+      "noCancel": "否，取消"
+    },
+    "errors": {
+      "deleteSplit": "删除分拆",
+      "removeBkgNo": "这将删除预订号",
+      "proceed": "您想继续吗？",
+      "splitRqstFor": "您正在为以下项目提交分拆请求",
+      "splitBkgInto": "这将把预订分拆成",
+      "separateBkg": "个单独的预订。",
+      "sureProceed": "您确定要继续吗？",
+      "booking": "预订 - ",
+      "zeroBkg": "数量为零。每个预订的集装箱数量应大于零。",
+      "splitRequested": "已请求分拆",
+      "splitRqst": "分拆请求",
+      "isSubmit": "已成功提交。",
+      "errSplitRqst": "提交分拆请求时发生错误"
+    }
+  },
+  "SplitBookingView": {
+    "labels": {
+      "splitBkg": "分拆预订",
+      "containerSplit": "集装箱分拆",
+      "beforeSplit": "分拆前",
+      "afterSplit": "分拆后",
+      "hidden": "隐藏",
+      "visible": "可视",
+      "backToTasksList": "返回任务列表",
+      "backToServiceRequest": "返回服务请求"
+    },
+    "buttons": {
+      "reject": "拒绝",
+      "approve": "批准"
+    },
+    "errors": {
+      "error": "错误",
+      "errFetchSplit": "获取分拆预订请求数据时发生错误"
+    },
+    "messages": {
+      "approved": "已批准",
+      "mergeApproved": "分拆预订请求已批准",
+      "mergeReject": "分拆预订请求被拒绝",
+      "successApproved": "批准成功",
+      "splitBkgRqstNo": "分拆预订请求编号",
+      "isSuccess": "已成功批准。",
+      "successRejected": "拒绝成功",
+      "isReject": "已被拒绝。"
+    }
+  },
+  "TelexRelease": {
+    "labels": {
+      "telexRelease": "电放",
+      "warning": "警告",
+      "telexRqstd": "你已请求电放"
+    },
+    "buttons": {
+      "yesSubmit": "确认, 提交",
+      "noCancel": "否, 取消",
+      "accept": "接受",
+      "cancel": "取消"
+    },
+    "errors": {
+      "error": "错误",
+      "errFetchService": "获取服务请求编号时发生错误"
+    },
+    "messages": {
+      "submitSuccess": "成功提交",
+      "telextRelease": "提单号的电放",
+      "isSubmit": "已被成功提交",
+      "telexReleaseConfirmation": "我们确认我们已收到并在此接受条款和条件。 ",
+      "pilConditions": "太平船务（私人）有限公司的条款",
+      "billLanding": "(\"PIL\") 提单，详情可在太平船务网站查看",
+      "servantsAgents": "我们进一步同意赔偿并保护太平船务及其雇员和代理人",
+      "harmless": "对于任何责任、损失、损害或费用",
+      "naturePIL": "无论太平船务及其雇员或代理人可能承受的任何性质",
+      "arisingRelation": "因我们请求释放货物而产生或与此相关",
+      "consignee": "向指定的收货人交付，无需出示原始提单",
+      "lading": "在目的地"
+    }
+  },
+  "ViewTelexRelease": {
+    "labels": {
+      "telexRelease": "电放",
+      "selectedBkgs": "已选预订",
+      "blStatus": "提单状态",
+      "backToTasksList": "返回任务列表",
+      "backToServiceRequest": "返回服务请求"
+    },
+    "buttons": {
+      "reject": "拒绝",
+      "approve": "批准"
+    },
+    "errors": {
+      "error": "错误",
+      "errRqstDetails": "获取请求详情时发生出错"
+    },
+    "messages": {
+      "approved": "已批准",
+      "mergeBkgApprove": "电放释放请求已批准",
+      "mergeBkgReject": "电放释放请求已拒绝",
+      "successApproved": "成功批准",
+      "telexRqst": "电放释放预订号请求",
+      "isSuccess": "已成功批准",
+      "successRejected": "成功拒绝",
+      "isReject": "已成功拒绝"
+    }
+  },
+  "StationaryOrderHistoryRow": {
+    "labels": {
+      "cancelServiceRqst": "取消服务请求",
+      "areYouSure": "您确定要取消请求吗？这将取消申请",
+      "serviceRqst": "服务请求。",
+      "action": "此操作无法撤销。",
+      "submit": "已提交"
+    },
+    "buttons": {
+      "confirmDiscard": "确认废弃",
+      "cancel": "取消",
+      "cancelRequest": "取消请求"
+    },
+    "errors": {
+      "errDeleteRqst": "删除请求时发生错误",
+      "errDownloadRqst": "下载请求时发生错误"
+    },
+    "messages": {
+      "cancelSuccess": "取消成功",
+      "rqstNo": "请求编号 ",
+      "hasDeleted": "已被删除"
+    }
+  },
+  "DGDeclaration": {
+    "labels": {
+      "dgDeclare": "危险品声明",
+      "shipDeclare": "装运声明",
+      "nameOfDeclarant": "声明人姓名",
+      "designation": "职位",
+      "dateOfDeclaration": "声明日期",
+      "country": "国家",
+      "placeOfDeclaration": "声明地点",
+      "pkgCertificate": "集装箱装箱证书声明",
+      "nameOfCompany": "公司名称",
+      "dangerCargo": "危险货物详情",
+      "containerDetails": "集装箱详情",
+      "containerNo": "集装箱号",
+      "cargoDetails": "货物详情（序号和UN号码）",
+      "declarationTextOne": "特此声明上述货物",
+      "packed": "已装入标识的集装箱中",
+      "accordance": "符合适用规定。",
+      "signed": "必须由负责装箱/装载的人完成并签名",
+      "personPkg": "由负责装箱/装载的人",
+      "declarationTextTwo": "我在此声明此托运内容的",
+      "consignment": "详细信息完整且准确",
+      "shippingName": "按正确的航运名称分类，",
+      "packedLabel": "并且打包、标记并标签/标牌，",
+      "transport": "并且在所有方面均适合运输，",
+      "applicable": "根据适用的国际和国家",
+      "gvtRegulations": "政府规定。"
+    },
+    "buttons": {
+      "backToShipments": "返回到装运",
+      "submit": "提交"
+    },
+    "errors": {
+      "errDangerCargo": "获取危险货物详情时发生错误",
+      "errGetcountryRqst": "获取国家请求时发生错误",
+      "errGetcityRqst": "获取城市请求时发生错误",
+      "dgSuccess": "危险品声明已成功提交",
+      "dgSuccessBkgNo": "危险品声明已成功提交 预订号",
+      "errDGDeclration": "提交危险品声明时发生错误"
+    }
+  },
+  "ShippingDeclaration": {
+    "labels": {
+      "nameOfCompany": "公司名称",
+      "nameOfDeclarant": "声明人姓名",
+      "designation": "职位",
+      "dateOfDeclaration": "声明日期",
+      "placeOfDeclaration": "声明地点",
+      "country": "国家"
+    }
+  },
+  "ViewDGDeclaration": {
+    "labels": {
+      "dgDeclaration": "危险品声明",
+      "shippingdeclare": "装运声明",
+      "ctfDeclare": "集装箱装箱证书声明",
+      "dangerCargo": "危险货物详情",
+      "containerDetails": "集装箱详情",
+      "containerNo": "集装箱号",
+      "cargoDetails": "货物详情（序号和UN号码）",
+      "declare": "特此声明上述货物",
+      "packed": "已装入标识的集装箱中",
+      "accordance": "符合适用规定。",
+      "complete": "必须由负责装箱/装载的人完成并签名",
+      "responsible": "由负责装箱/装载的人",
+      "declareContents": "我在此声明此托运内容的",
+      "accurate": "详细信息完整且准确",
+      "packedClass": "按正确的航运名称分类，",
+      "placard": "并已打包、标记并标签/标牌，",
+      "transport": "并且在所有方面均适合运输，根据",
+      "govtRegulations": "适用的国际和国家政府规定。"
+    },
+    "buttons": {
+      "backSrvcRqst": "返回服务请求"
+    },
+    "errors": {
+      "errdgDeclare": "获取危险品声明时发生错误",
+      "errDangerCargo": "获取危险货物详情时发生错误",
+      "errFetchGetcountry": "获取国家请求时发生错误",
+      "errFetchGetcity": "获取城市请求时发生错误"
+    }
+  },
+  "LoadSITemplate": {
+    "labels": {
+      "templateName": "模板名称",
+      "description": "描述",
+      "savedBy": "保存者",
+      "savedOn": "保存日期",
+      "deleteTemplate": "删除模板",
+      "alltemplates": "所有提单模板"
+    },
+    "buttons": {
+      "apply": "应用",
+      "backToParties": "返回参与方",
+      "yesProceed": "是，继续",
+      "noCancel": "否，取消"
+    },
+    "errors": {
+      "errSITemplate": "获取运输信息模板时发生错误",
+      "errDeleteTemplate": "删除运输信息模板时发生错误"
+    },
+    "messages": {
+      "delete": "已删除",
+      "hasDeleted": "已成功删除。",
+      "deleteTemplate": "删除模板",
+      "deleteConfirm": "您是否要删除运输信息模板："
+    }
+  },
+  "SaveSITemplate": {
+    "labels": {
+      "templateName": "模板名称",
+      "templateDesc": "模板描述",
+      "saveSITemplate": "保存运输信息模板",
+      "templateExistsWarning": "此模板名称已存在。保存此模板将",
+      "overwirte": "覆盖现有模板。",
+      "charLeft": "剩余字符数",
+      "saveBkgNo": "您确定要保存预订号吗？",
+      "action": "此操作无法撤销。"
+    },
+    "buttons": {
+      "yes": "是",
+      "no": "否",
+      "cancel": "取消",
+      "save": "保存"
+    },
+    "errors": {
+      "errSaveTemplate": "保存运输信息模板时发生错误",
+      "errCheckTemplate": "检查模板状态时发生错误"
+    },
+    "messages": {
+      "siSaved": "运输信息模板已成功保存",
+      "templateSaved": "运输信息模板已保存自"
+    }
+  },
+  "LoadSITemplateFilter": {
+    "labels": {
+      "filter": "筛选",
+      "filterTemplateDate": "按保存日期筛选模板：",
+      "fromDate": "起始日期",
+      "toDate": "结束日期",
+      "templateName": "模板名称",
+      "description": "描述",
+      "savedBy": "保存者"
+    },
+    "buttons": {
+      "cancel": "取消",
+      "apply": "应用"
+    }
+  },
+  "ViewSITemplate": {
+    "labels": {
+      "viewTemplate": "查看模版",
+      "shipInstSummary": "装运指示摘要",
+      "backToSITemplates": "返回到装运指示模版"
+    },
+    "buttons": {
+      "applyTemplate": "应用模版"
+    },
+    "errors": {
+      "errApplyTemplate": "应用模板时发生错误。"
+    }
+  },
+  "BLStationaryApproval": {
+    "labels": {
+      "blStatReq": "提单文具申请",
+      "approvalDetails": "审批详情",
+      "printCountry": "打印国家",
+      "collectionDate": "收集日期",
+      "printAgencyOffice": "打印代理处",
+      "approvedQuantity": "批准数量",
+      "acknowledgeBy": "确认者",
+      "acknowledgersEmail": "确认者邮箱",
+      "blStationerySequence": "提单文具序列",
+      "batchNo": "批号",
+      "collectionDetails": "收货详细资料",
+      "collectionCountry": "收货国家",
+      "collectionAgencyOffice": "收货机构办公室",
+      "quantity": "数量",
+      "sequenceNoFrom": "序列号起始",
+      "sequenceNoTo": "序列号终止",
+      "total": "总计"
+    },
+    "buttons": {
+      "addSqc": "添加其他序列",
+      "backToTasksList": "返回任务列表",
+      "discard": "放弃",
+      "reRoute": "重新经由其他代理",
+      "approve": "批准"
+    },
+    "errors": {
+      "required": "必填",
+      "qtyInteger": "数量必须为数字",
+      "qtyGreaterZero": "数量必须大于零",
+      "qtyRequired": "需要数量",
+      "qtytotal": "数量必须等于总计",
+      "validEmail": "请输入有效的邮箱",
+      "emailRequired": "需要邮箱",
+      "sqcNoPositive": "序列号起始必须为正数",
+      "sqcNoRequired": "需要序列号起始",
+      "sqcNoTo": "序列号终止必须大于或等于序列号起始",
+      "sqcNoToRequired": "需要序列号终止",
+      "error": "错误",
+      "errAgencyOffices": "获取代理处时发生错误",
+      "errAgencyCountries": "获取代理国家时发生错误",
+      "errFetchCollection": "获取收集详情时发生错误",
+      "seriesNoPositive": "seriesNumbTo 必须是正数"
+    },
+    "messages": {
+      "successApproved": "批准成功",
+      "blApproved": "提单文具申请表已成功批准",
+      "blReRouted": "提单文具申请请求已成功重新路由至其他代理"
+    }
+  },
+  "BLRequisitionFileUploadDialog": {
+    "labels": {
+      "uploadBlReqForm": "上传提单文具申请表",
+      "uploadSignedBl": "上传由客户提交的签名BL文具申请表",
+      "customer": "客户",
+      "attachment": "附件",
+      "removeFile": "移除此文件以添加不同文件。",
+      "fileSizeLimit": "限 1 个文件，每个文件最大为 2MB"
+    },
+    "buttons": {
+      "cancel": "取消",
+      "upload": "上传"
+    },
+    "errors": {
+      "maxFile": "允许的最大文件大小为2Mb",
+      "validFile": "请上传有效文件",
+      "oneFile": "只允许1个文件",
+      "errUploadFile": "上传文件时发生错误",
+      "errBlReqForm": "保存BL文具申请表时发生错误"
+    },
+    "messages": {
+      "uploadSuccessful": "上传成功",
+      "blUploadSuccess": "提单文具申请表上传成功",
+      "successUpload": "成功上传",
+      "signedBLStationary": "已成功上传签名提单文具申请表"
+    }
+  },
+  "SiTemplate": {
+    "labels": {
+      "loadSITemplates": "加载装运指示模板",
+      "allSITemplates": "所有装运指示模板",
+      "siTemplates": "装运指示模板",
+      "fromDate": "开始日期",
+      "toDate": "结束日期",
+      "templateName": "模板名称",
+      "description": "描述",
+      "savedBy": "保存者"
+    }
+  },
+  "PartiesInformation": {
+    "labels": {
+      "partiesInfo": "各方信息",
+      "bkgParty": "订舱方",
+      "cusCode": "客户代码",
+      "cusName": "客户名称",
+      "shipper": "发货人",
+      "partyType": "预定方类型",
+      "nominatedAgent": "订舱代理",
+      "consignee": "收货人"
+    },
+    "buttons": {
+      "addPartyType": "点击添加预定方类型",
+      "back": "返回",
+      "save": "保存",
+      "discard": "放弃",
+      "skip": "跳过",
+      "nextReview": "下一步：预览"
+    },
+    "errors": {
+      "cusInvalidCode": "客户代码无效，您可以留空继续",
+      "cusNotFound": "找不到客户代码，您可以留空继续",
+      "cusName": "需要客户名称",
+      "errPartiesInfo": "提交各方信息时出错",
+      "firewallBlock": "防火墙阻止",
+      "selectPartyType": "从下拉菜单中选择要添加的方类型"
+    },
+    "messages": {
+      "success": "成功提交",
+      "partiesSubmitSuccess": "各方信息成功提交"
+    }
+  },
+  "UpdateBLStationary": {
+    "labels": {
+      "updateBL": "更新BL文具",
+      "newSequence": "由于当前序列",
+      "stationeryLeft": "还有剩余的文具。只有在当前序列结束后",
+      "currSeqEnd": "才能开始新的序列。",
+      "warning": "警告",
+      "pages": "页面",
+      "to": "至",
+      "lost": "将会丢失。你确定",
+      "proceedSequence": "你要继续进行序列操作吗？",
+      "updateBLUsed": "更新已使用的BL文具",
+      "requisitionFromDate": "申请从日期",
+      "requisitionToDate": "申请至日期",
+      "batchNo": "批次号",
+      "runningSeries": "正在运行的系列",
+      "noOfStationery": "文具总数",
+      "startingNo": "起始号",
+      "closingNo": "结束号",
+      "noOfStationeryUsed": "已使用的文具总数"
+    },
+    "buttons": {
+      "close": "关闭",
+      "proceed": "继续",
+      "startSequence": "开始序列",
+      "back": "返回",
+      "cancel": "取消"
+    },
+    "errors": {
+      "required": "必需的",
+      "rangeSeries": "起始号必须在运行系列的范围内",
+      "reqToDateGreater": "申请至日期必须大于申请从日期",
+      "errFetchRequest": "获取请求详情时出错",
+      "errUpdateSequence": "更新序列时出错",
+      "error": "错误"
+    },
+    "messages": {
+      "success": "成功",
+      "blSequenceUpdated": "BL文具序列已成功更新"
+    }
+  },
+  "ViewBLStationaryRequest": {
+    "labels": {
+      "blStationaryRequisition": "BL文具申请",
+      "collectionDetails": "收集详情",
+      "collectionCountry": "收集国家",
+      "collectionAgencyOffice": "收集代理办公室",
+      "collectionDate": "收集日期",
+      "quantity": "数量",
+      "approvalDetails": "批准详情",
+      "batchNo": "批次号",
+      "sequenceStartNo": "序列开始号",
+      "sequenceEndNo": "序列结束号",
+      "attachment": "附件"
+    },
+    "buttons": {
+      "backToService": "返回服务请求"
+    },
+    "errors": {
+      "errFetchRequest": "获取请求详情时出错",
+      "errDownloadRqst": "下载请求时出错"
+    }
+  },
+  "SITemplates": {
+    "labels": {
+      "loadTemplate": "加载SI模板",
+      "siTemplates": "装运指示模板"
+    }
+  },
+  "ApplyTemplateDialog": {
+    "labels": {
+      "applyTemplate": "应用模板",
+      "templatePrompt": "你确定要应用选定的模板",
+      "toBkg": "到这个预订",
+      "dataOverwrite": "一些数据将被覆盖。",
+      "action": "此操作无法撤销。"
+    },
+    "buttons": {
+      "apply": "是的，应用",
+      "cancel": "不，取消"
+    },
+    "errors": {
+      "templateCode": "模板代码为空",
+      "errTemplate": "应用模板时出错"
+    },
+    "messages": {
+      "siTemplate": "SI模板成功应用",
+      "templateApplied": "SI模板已从中应用",
+      "templateCode": "模板代码为空",
+      "selectTemplate": "请选择另一个模板进行应用。"
+    }
+  },
+  "SIAmend": {
+    "labels": {
+      "prepaid": "预付",
+      "collect": "收集",
+      "original": "正本提单",
+      "seaway": "SWB提单"
+    }
+  },
+  "DragAndDrop": {
+    "labels": {
+      "dragDrop": "在此处拖放您的文件",
+      "browseFile": "浏览文件"
+    }
+  }
+}
